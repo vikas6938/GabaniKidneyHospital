@@ -1,0 +1,26 @@
+/* General Layout */
+body {
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  padding: 20px;
+  background: #f9fafb; /* Add light background if no image */
+}
+
+footer .icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #f1f5f9;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+footer .icon-wrapper:hover {
+  background-color: #e2e8f0;
+}
+
+.border-blue{color: #064681;}
