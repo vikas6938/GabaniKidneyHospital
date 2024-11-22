@@ -1,9 +1,10 @@
 /* General Layout */
 
+
 body {
   font-family: "font-lato";
 }
-
+.container{max-width: 1440px !important;  }
 footer {
   padding: 20px;
   background: #f9fafb; /* Add light background if no image */
