@@ -7,7 +7,31 @@
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Font Family LATO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind css script -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d', // Example color customization
+            },
+            fontFamily: {
+              lato: ['Lato', 'sans-serif'], // Include the Lato font
+            },
+          },
+        },
+      };
+    </script>
   </head>
+  <!-- Head End  ---------------------->
+
   <body class="font-sans">
     <!-- Navbar Start  -->
     <header class="bg-white shadow-md">
@@ -27,43 +51,45 @@
         <nav class="flex space-x-6 text-gray-700">
           <a
             href="index.html"
-            class="text-blue-700 font-semibold hover:text-blue-500"
+            class="f2-color font-semibold font-lato list-none"
           >
             Home
             <span
               class="block h-1 w-2 bg-blue-700 rounded-full mt-1 mx-auto"
             ></span>
           </a>
-          <a href="about.html" class="hover:text-blue-500">About</a>
-          <a href="specialty.html" class="hover:text-blue-500">Specialty</a>
-          <a href="facility.html" class="hover:text-blue-500">Facility</a>
-          <a href="gallery.html" class="hover:text-blue-500">Gallery</a>
-          <a href="cashless.html" class="hover:text-blue-500">Cashless</a>
-          <a href="blog.html" class="hover:text-blue-500">Blogs</a>
+          <a href="about.html" class="font-lato  font-lato">About</a>
+          <a href="specialty.html" class="font-lato ">Specialty</a>
+          <a href="facility.html" class="font-lato ">Facility</a>
+          <a href="gallery.html" class="font-lato ">Gallery</a>
+          <a href="cashless.html" class="font-lato ">Cashless</a>
+          <a href="blog.html" class="font-lato ">Blogs</a>
         </nav>
 
         <!-- Right Section: Contact Us Button -->
-        <div>
+        <div class="relative inline-block">
           <a
             href="contact.html"
-            class="bg-blue-700 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-800"
+            class="f2-bg text-white px-6 py-2 inline-flex items-center relative shadow-lg "
+            style="clip-path: polygon(85% 0, 100% 51%, 85% 100%, 0 100%, 12% 54%, 0 0);"
           >
             Contact Us
           </a>
         </div>
+        
       </div>
     </header>
     <!-- Navbar End  -->
 
-    <!-- Main Content -->
+    <!-- Main Content --------------------------------->
     <main class="container mx-auto p-4">
-      <h1 class="text-4xl font-bold text-center mb-8">
+      <h1 class="font-lato text-4xl text-gray-800 text-center mb-8">
         Welcome to the Home Page
       </h1>
-      <p class="text-center text-gray-700">Your main content goes here.</p>
+      <p class="text-center font-lato text-sm text-gray-600">Your main content goes here.</p>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer Start --------------------------------->
     <footer
       class="bg-blue-100 text-gray-700 py-8"
       style="
@@ -100,7 +126,7 @@
                   />
                 </svg>
               </span>
-              <span class="text-gray-700">+91 261 2537270, 2531174</span>
+              <span class="font-lato text-gray-700">+91 261 2537270, 2531174</span>
             </div>
           
             <!-- Email Icon with Circle -->
@@ -123,7 +149,7 @@
                   />
                 </svg>
               </span>
-              <span class="text-gray-700">+91 261 2537270, 2531174</span>
+              <span class="font-lato text-gray-700">+91 261 2537270, 2531174</span>
             </div>
           </div>
           
@@ -211,71 +237,81 @@
           </div>
         </div>
 
-        <!-- Column 2: Useful Links -->
-        <div>
-          <h4 class="font-bold mb-4">Useful Links</h4>
-          <ul class="space-y-2 text-sm">
-            <li><a href="index.html" class="hover:underline">Home</a></li>
-            <li><a href="about.html" class="hover:underline">About Us</a></li>
-            <li>
-              <a href="facility.html" class="hover:underline">Facility</a>
-            </li>
-            <li><a href="gallery.html" class="hover:underline">Gallery</a></li>
-            <li>
-              <a href="cashless.html" class="hover:underline">Cashless</a>
-            </li>
-            <li><a href="blog.html" class="hover:underline">Blogs</a></li>
-            <li>
-              <a href="contact.html" class="hover:underline">Contact Us</a>
-            </li>
-          </ul>
-        </div>
+     <!-- Column 1: Useful Links -->
+<div>
+  <h4 class="font-bold text-lg mb-4 text-blue-800 font-lato relative">
+    Useful Links
+    <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+  </h4>
+  <ul class="space-y-2 text-base list-disc pl-5">
+    <li><a href="index.html" class="hover:underline font-lato text-gray-700">Home</a></li>
+    <li><a href="about.html" class="hover:underline font-lato text-gray-700">About Us</a></li>
+    <li><a href="specialty.html" class="hover:underline font-lato text-gray-700">Specialty</a></li>
+    <li><a href="facility.html" class="hover:underline font-lato text-gray-700">Facility</a></li>
+    <li><a href="gallery.html" class="hover:underline font-lato text-gray-700">Gallery</a></li>
+    <li><a href="cashless.html" class="hover:underline font-lato text-gray-700">Cashless</a></li>
+    <li><a href="blog.html" class="hover:underline font-lato text-gray-700">Blogs</a></li>
+    <li><a href="contact.html" class="hover:underline font-lato text-gray-700">Contact Us</a></li>
+  </ul>
+</div>
 
-        <!-- Column 3: Speciality 1 -->
-        <div>
-          <h4 class="font-bold mb-4">Speciality</h4>
-          <ul class="space-y-2 text-sm">
-            <li>RIRS</li>
-            <li>HoLEP</li>
-            <li>PCNL</li>
-            <li>Ureteroscopy</li>
-            <li>TURP</li>
-            <li>Cystolithotripsy</li>
-            <li>Stricture Urethra</li>
-            <li>Infertility</li>
-          </ul>
-        </div>
+<!-- Column 2: Specialty 1 -->
+<div>
+  <h4 class="font-bold text-lg mb-4 text-blue-800 font-lato relative">
+    Specialty
+    <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+  </h4>
+  <ul class="space-y-2 text-base list-disc pl-5">
+    <li class="font-lato text-gray-700">RIRS</li>
+    <li class="font-lato text-gray-700">HoLEP</li>
+    <li class="font-lato text-gray-700">PCNL</li>
+    <li class="font-lato text-gray-700">Ureteroscopy</li>
+    <li class="font-lato text-gray-700">TURP</li>
+    <li class="font-lato text-gray-700">Cystolithotripsy</li>
+    <li class="font-lato text-gray-700">Stricture Urethra</li>
+    <li class="font-lato text-gray-700">Infertility</li>
+  </ul>
+</div>
 
-        <!-- Column 4: Speciality 2 -->
-        <div>
-          <h4 class="font-bold mb-4">Speciality</h4>
-          <ul class="space-y-2 text-sm">
-            <li>Female Urogynecology</li>
-            <li>Erectile Dysfunction</li>
-            <li>Stones</li>
-            <li>Prostate BPH</li>
-            <li>Prostate Cancer</li>
-            <li>Urolithiasis</li>
-            <li>Laparoscopy</li>
-            <li>Cancer Treatment</li>
-          </ul>
-        </div>
+<!-- Column 3: Specialty 2 -->
+<div>
+  <h4 class="font-bold text-lg mb-4 text-blue-800 font-lato relative">
+    Specialty
+    <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+  </h4>
+  <ul class="space-y-2 text-base list-disc pl-5">
+    <li class="font-lato text-gray-700">Female Urogynecology</li>
+    <li class="font-lato text-gray-700">Erectile Dysfunction</li>
+    <li class="font-lato text-gray-700">Stones</li>
+    <li class="font-lato text-gray-700">Prostate BPH</li>
+    <li class="font-lato text-gray-700">Prostate Cancer</li>
+    <li class="font-lato text-gray-700">Lithotripsy</li>
+    <li class="font-lato text-gray-700">Laparoscopy</li>
+    <li class="font-lato text-gray-700">Cancer Treatment</li>
+  </ul>
+</div>
 
-        <!-- Column 5: Address -->
-        <div>
-          <h4 class="font-bold mb-4">Address</h4>
-          <p class="text-sm">
-            Dhan-Laxmi Complex, Nr. Ayurved College, Station Ln Railway Road,
-            Surat-395 003. Gujarat (India)
-          </p>
+  <!-- Column 4: Address -->
+  <div>
+    <h4 class="font-bold text-lg mb-4 text-blue-800 font-lato relative">
+      Address
+      <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+    </h4>
+    
+    <p class="text-base font-lato text-gray-700">
+      Dhan-Laxmi Complex, Nr. Ayurved College, Station Ln Railway Road, Surat-395 003.
+      Gujarat (India)
+    </p>
+  </div>
         </div>
+        
       </div>
 
       <!-- Bottom Footer -->
       <div class="border text-gray-600 text-sm py-4 mt-8">
         <div class="container mx-auto flex justify-between items-center px-4">
-          <p>&copy; 2022 Gabani Kidney Hospital. All rights reserved.</p>
-          <p>Designed by: Devotion Hub</p>
+          <p class="f3-color font-lato text-gray-700">&copy; 2022 Gabani Kidney Hospital. All rights reserved.</p>
+          <p class="f3-color font-lato text-gray-700">Designed by: Devotion Hub</p>
         </div>
       </div>
     </footer>

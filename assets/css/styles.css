@@ -1,6 +1,7 @@
 /* General Layout */
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "font-lato";
 }
 
 footer {
@@ -24,3 +25,18 @@ footer .icon-wrapper:hover {
 }
 
 .border-blue{color: #064681;}
+.f1-color{color: #274760;}
+.f2-color{color:#064681}
+.f2-hover{color: #064681;}
+.f2-bg{background-color: #064681;}
+
+.f3-color{color:#333333}
+.font-lato{
+  font-family: Lato;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
