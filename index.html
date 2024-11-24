@@ -1,133 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <!-- Font Family LATO -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <!-- Font Family LATO -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 
-    <!-- Tailwind css script -->
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: '#da373d', // Example color customization
-            },
-            fontFamily: {
-              lato: ['Lato', 'sans-serif'], // Include the Lato font
-            },
-            primary: '#064681',
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind css script -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d', // Example color customization
           },
+          fontFamily: {
+            lato: ['Lato', 'sans-serif'], // Include the Lato font
+          },
+          primary: '#064681',
         },
-      };
-    </script>
-  </head>
-  <!-- Head End  ---------------------->
+      },
+    };
+  </script>
+</head>
+<!-- Head End  ---------------------->
 
-  <body class="font-sans">
-    <!-- Navbar Start  -->
-    <header class="bg-white shadow-md py-2 px-3">
-      <div
-        class="container mx-auto flex items-center justify-between  py-2"
-      >
-        <!-- Left Section: Logos -->
-        <div class="flex items-center space-x-4">
-          <img
-            src="./assets/images/logo.png"
-            alt="Hospital Logo"
-            class="h-16"
-          />
-        </div>
-
-        <!-- Middle Section: Navigation Links -->
-        <nav class="flex space-x-6 f1-color">
-          <a
-            href="index.html"
-            class="f2-color font-semibold  list-none text-xl"
-          >
-            Home
-            <span
-              class="block h-1 w-2 f2-bg rounded-full mt-1 mx-auto"
-            ></span>
-          </a>
-          <a href="about.html" class="  text-xl">About</a>
-          <a href="specialty.html" class=" text-xl ">Specialty</a>
-          <a href="facility.html" class=" text-xl">Facility</a>
-          <a href="gallery.html" class=" text-xl">Gallery</a>
-          <a href="cashless.html" class=" text-xl">Cashless</a>
-          <a href="blog.html" class=" text-xl">Blogs</a>
-        </nav>
-
-        <!-- Right Section: Contact Us Button -->
-        <div class="relative inline-block">
-          <a
-            href="contact.html"
-            class="f2-bg text-white text-xl px-10 py-3 inline-flex items-center relative shadow-lg "
-            style="clip-path: polygon(86.98% 0%, 98.29% 48.23%, 87.21% 96.99%, 0.37% 96.99%, 7.24% 48.23%, 0% 0%);"
-          >
-            Contact Us
-          </a>
-        </div>
+<body class="font-sans">
+  <!-- Navbar Start  -->
+  <header class="bg-white shadow-md py-2 px-3">
+    <div class="container mx-auto flex items-center justify-between  py-2">
+      <!-- Left Section: Logos -->
+      <div class="flex items-center space-x-4">
+        <img src="./assets/images/logo.png" alt="Hospital Logo" class="h-16" />
       </div>
-    </header>
-    <!-- Navbar End  -->
+
+      <!-- Middle Section: Navigation Links -->
+      <nav class="flex space-x-6 f1-color">
+        <a href="index.html" class="f2-color font-semibold  list-none text-xl">
+          Home
+          <span class="block h-1 w-2 f2-bg rounded-full mt-1 mx-auto"></span>
+        </a>
+        <a href="about.html" class="  text-xl">About</a>
+        <a href="specialty.html" class=" text-xl ">Specialty</a>
+        <a href="facility.html" class=" text-xl">Facility</a>
+        <a href="gallery.html" class=" text-xl">Gallery</a>
+        <a href="cashless.html" class=" text-xl">Cashless</a>
+        <a href="blog.html" class=" text-xl">Blogs</a>
+      </nav>
+
+      <!-- Right Section: Contact Us Button -->
+      <div class="relative inline-block">
+        <a href="contact.html" class="f2-bg text-white text-xl px-10 py-3 inline-flex items-center relative shadow-lg "
+          style="clip-path: polygon(86.98% 0%, 98.29% 48.23%, 87.21% 96.99%, 0.37% 96.99%, 7.24% 48.23%, 0% 0%);">
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- Navbar End  -->
 
 
-    <!-- Main Content --------------------------------->
-    <!-- Hero Section -->
-    <section class="relative bg-blue-50" style="background-image: url('./assets/images/banner.jpg'); background-size: cover; background-position: center;">
-      <div class="container mx-auto   flex flex-col lg:flex-row items-center py-56  relative">
-       <!-- Text Content Section -->
-       <div class="lg:w-1/2 text-center lg:text-left space-y-6 ">
-        <!-- Heading -->
-        <h1 class=" lg:text-7xl font-bold f2-color ">
-          Complete Urology Gabani <br /> Hospital Surat
-        </h1>
+  <!-- Main Content --------------------------------->
+  <!-- Hero Section -->
+  <section class="relative bg-blue-50"
+    style="background-image: url('./assets/images/banner.jpg'); background-size: cover; background-position: center;">
+    <!-- Heading -->
+    <div class="absolute left-72 top-48">
+      <h1 class=" lg:text-7xl font-bold f2-color mb-8">
+        Complete Urology Gabani
+      </h1>
+      <span class=" lg:text-7xl font-bold f2-color">Hospital Surat</span>
+    </div>
+    <div class="container mx-auto   flex flex-col lg:flex-row items-center py-96 relative">
+      <!-- Text Content Section -->
+      <div class="lg:w-1/2 text-center lg:text-left space-y-16 ">
+
         <!-- Description -->
-        <p class="text-lg lg:text-xl f1-color leading-relaxed">
+        <p class="text-lg lg:text-xl f1-color leading-relaxed mt-10 font-semibold">
           We are committed to providing you with the best medical and healthcare
           services to help you live healthier and happier.
         </p>
         <!-- Call-to-Action Buttons -->
-        <div class="flex justify-center lg:justify-start items-center space-x-6">
+        <div class="flex justify-center lg:justify-start items-center space-x-6 ">
           <!-- Button: Book Appointment -->
-          <a
-            href="contact.html"
-            class="f2-bg text-white text-lg font-semibold px-6 py-3 rounded-md shadow-md"
-            style="clip-path: polygon(88% 0, 100% 51%, 87% 100%, 0% 100%, 9% 51%, 0% 0%)"
-          >
+          <a href="contact.html" class="f2-bg text-white text-lg font-semibold px-6 py-3 rounded-md shadow-md"
+            style="clip-path: polygon(88% 0, 100% 51%, 87% 100%, 0% 100%, 9% 51%, 0% 0%)">
             Book Appointment
           </a>
           <!-- Link: See How We Work -->
-          <a
-            href="#"
-            class="flex items-center f2-color text-lg font-medium hover:underline space-x-2"
-          >
-            <svg
-              width="40"
-              height="40"
-              viewBox="0 0 40 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+          <a href="#" class="flex items-center f2-color text-lg font-medium hover:underline space-x-2">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_11_785)">
                 <path
                   d="M34.1912 5.80871C26.315 -1.99037 13.6078 -1.92795 5.8087 5.94821C-1.93623 13.7697 -1.93623 26.3698 5.8087 34.1914C13.6849 41.9904 26.3922 41.928 34.1912 34.0518C41.9361 26.2304 41.9361 13.6302 34.1912 5.80871ZM20 38.457C9.82264 38.457 1.54294 30.1774 1.54294 20C1.54294 9.82256 9.82256 1.54304 20 1.54304C30.1774 1.54304 38.457 9.82272 38.457 20.0001C38.457 30.1774 30.1773 38.457 20 38.457Z"
-                  fill="#274760"
-                />
+                  fill="#274760" />
                 <path
                   d="M30.8797 19.3011V19.3021L14.5846 9.89429C14.199 9.67165 13.7058 9.80373 13.4831 10.1895C13.4124 10.312 13.3751 10.4509 13.3751 10.5923V29.4077C13.3753 29.853 13.7366 30.214 14.1818 30.2137C14.3233 30.2136 14.4622 30.1764 14.5847 30.1056L30.8798 20.6979C31.2655 20.4753 31.3977 19.9821 31.1751 19.5964C31.1042 19.4737 31.0024 19.3719 30.8797 19.3011Z"
-                  fill="#274760"
-                />
+                  fill="#274760" />
               </g>
               <defs>
                 <clipPath id="clip0_11_785">
@@ -139,102 +119,72 @@
           </a>
         </div>
       </div>
-      
 
-        <!-- Image Section -->
+
+      <!-- Image Section -->
       <div class="lg:w-1/2 mt-8 lg:mt-0 flex justify-center relative">
-  <!-- Doctor Image -->
-  <img
-    src="./assets/images/gallery/doctor.png"
-    alt="Doctors"
-    class="absolute -top-72 -right-20"
-  />
+        <!-- Doctor Image -->
+        <img src="./assets/images/gallery/doctor.png" alt="Doctors" class="absolute -top-72 -right-20" />
 
-  <!-- Doctor Count Section -->
-  <div
-  class="absolute -right-28 backdrop-blur-sm from-blue-100 to-white shadow-xl rounded-lg flex flex-col items-center justify-center p-6"
-  style="
+        <!-- Doctor Count Section -->
+        <div
+          class="absolute -right-28 backdrop-blur-sm from-blue-100 to-white shadow-xl rounded-lg flex flex-col items-center justify-center p-6"
+          style="
     width: 200px;
     height: 225px;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.034), rgba(255, 255, 255, 0.4));
-  "
->
-  <!-- Profile Images -->
-  <div class="flex -space-x-3 mb-4 ">
-    <img
-      src="./assets/images/gallery/Ellipse 12.png"
-      alt="Doctor 1"
-      class="w-10 h-10 rounded-full border-2 border-white"
-    />
-    <img
-      src="./assets/images/gallery/Ellipse 11.png"
-      alt="Doctor 2"
-      class="w-10 h-10 rounded-full border-2 border-white"
-    />
-    
-    <img
-      src="./assets/images/gallery/Ellipse 8.png"
-      alt="Doctor 3"
-      class="w-14 h-14 z-10 rounded-full border-2 border-white"
-    />
+  ">
+          <!-- Profile Images -->
+          <div class="flex -space-x-3 mb-4 ">
+            <img src="./assets/images/gallery/Ellipse 12.png" alt="Doctor 1"
+              class="w-10 h-10 rounded-full border-2 border-white" />
+            <img src="./assets/images/gallery/Ellipse 11.png" alt="Doctor 2"
+              class="w-10 h-10 rounded-full border-2 border-white" />
 
-    <img
-      src="./assets/images/gallery/Ellipse 9.png"
-      alt="Doctor 4"
-      class="w-10 h-10 rounded-full border-2 border-white"
-    />
-    <img
-      src="./assets/images/gallery/Ellipse 10.png"
-      alt="Doctor 5"
-      class="w-10 h-10 rounded-full border-2 border-white"
-    />
-  </div>
+            <img src="./assets/images/gallery/Ellipse 8.png" alt="Doctor 3"
+              class="w-14 h-14 z-10 rounded-full border-2 border-white" />
 
-  <!-- Doctor Count -->
-  <span class="block text-3xl font-bold f1-color">877+</span>
-  <span class="text-sm f1-color">Doctors</span>
-</div>
+            <img src="./assets/images/gallery/Ellipse 9.png" alt="Doctor 4"
+              class="w-10 h-10 rounded-full border-2 border-white" />
+            <img src="./assets/images/gallery/Ellipse 10.png" alt="Doctor 5"
+              class="w-10 h-10 rounded-full border-2 border-white" />
+          </div>
+
+          <!-- Doctor Count -->
+          <span class="block text-3xl font-bold f1-color">877+</span>
+          <span class="text-sm f1-color">Doctors</span>
+        </div>
 
 
-  <!-- Patient Recover Section -->
-  <div
-  class="absolute top-28 left-0 backdrop-blur-sm flex items-center shadow-lg rounded-full py-3 px-6 space-x-4 border-t border-s"
-  style="min-width: 260px; background: linear-gradient(90deg, rgba(255, 255, 255, 0.034), rgba(255, 255, 255, 0.4));"
->
-  <!-- Profile Images -->
-  <div class="flex -space-x-7">
-    <img
-      src="./assets/images/gallery/Ellipse 14.png"
-      alt="Profile 1"
-      class="w-16 h-16 rounded-full border-1 border-white"
-    />
-    <img
-      src="./assets/images/gallery/Ellipse 15.png"
-      alt="Profile 2"
-      class="w-16 h-16 rounded-full border-1 border-white"
-    />
-    <img
-      src="./assets/images/gallery/Ellipse 16.png"
-      alt="Profile 3"
-      class="w-16 h-16 rounded-full border-1 border-white"
-    />
-  </div>
+        <!-- Patient Recover Section -->
+        <div
+          class="absolute top-28 left-0 backdrop-blur-sm flex items-center shadow-lg rounded-full py-3 px-6 space-x-4 border-t border-s"
+          style="min-width: 260px; background: linear-gradient(90deg, rgba(255, 255, 255, 0.034), rgba(255, 255, 255, 0.4));">
+          <!-- Profile Images -->
+          <div class="flex -space-x-7">
+            <img src="./assets/images/gallery/Ellipse 14.png" alt="Profile 1"
+              class="w-16 h-16 rounded-full border-1 border-white" />
+            <img src="./assets/images/gallery/Ellipse 15.png" alt="Profile 2"
+              class="w-16 h-16 rounded-full border-1 border-white" />
+            <img src="./assets/images/gallery/Ellipse 16.png" alt="Profile 3"
+              class="w-16 h-16 rounded-full border-1 border-white" />
+          </div>
 
-  <!-- Text Section -->
-  <div class="flex flex-col text-left">
-    <span class="text-2xl font-semibold text-white py-2">150k +</span>
-    <span class="text-sm  text-white">Patient Recover</span>
-  </div>
+          <!-- Text Section -->
+          <div class="flex flex-col text-left">
+            <span class="text-2xl font-semibold text-white py-2">150k +</span>
+            <span class="text-sm  text-white">Patient Recover</span>
+          </div>
 
-  <!-- Verified Checkmark -->
- 
-</div>
+          <!-- Verified Checkmark -->
 
-</div>
-</section>
-<!-- ------------------------------Main Banner End -------------------------------------------- -->
-    
+        </div>
+
+      </div>
+  </section>
+  <!-- ------------------------------Main Banner End -------------------------------------------- -->
+
 
   <!-- Stats Section -->
   <section class="bg-white py-4 shadow-md rounded-xl -mt-20 container mx-auto relative z-10">
@@ -275,7 +225,7 @@
   </section>
 
   <!-- ----------------------------About Section Start ------------------ -->
-  <section class="py-16 bg-gray-50">
+  <section class="py-28 ">
     <div class="container mx-auto flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 relative">
       <!-- Image Section -->
       <div class="lg:w-1/2 flex justify-center relative">
@@ -283,281 +233,224 @@
         <!-- <img src="./assets/images/gallery/patient-care.jpg" alt="Patient Care" class="rounded-lg shadow-md border-4 border-white"> -->
         <!-- Small Image Overlay -->
         <!-- <img src="./assets/images/gallery/smile-doctor.jpg" alt="Doctor Smiling" -->
-          <!-- class="absolute bottom-0 right-0 w-40 h-40 rounded-lg shadow-lg border-4 border-white"> -->
+        <!-- class="absolute bottom-0 right-0 w-40 h-40 rounded-lg shadow-lg border-4 border-white"> -->
         <!-- Circular Badge -->
-        <div
-          class="absolute -top-8 left-10  shadow-lg flex items-center justify-center p-4 text-center"
-          >
+        <div class="absolute -top-8 left-10  shadow-lg flex items-center justify-center p-4 text-center">
           <img src="./assets/images/high-quality.png" alt="High Quality" class="w-35 h-35">
         </div>
       </div>
-  
+
       <!-- Text Section -->
-      <div class="xl:w-2/2 f5-bg rounded-3xl shadow-md py-32 ps-48  relative z-10">
-        <h2 class=" font-bold text-5xl f2-color mb-4">About US</h2>
-        <h3 class="position-absolute top-28 left-0  font-bold text-6xl f1-color">About US</h3>
-        <p class="text-xl f2-color font-semibold">
+      <div class="xl:w-2/2 f5-bg rounded-3xl shadow-md  pb-28 ps-40 pt-10 pe-10 relative z-10">
+        <div class="position-absolute top-10 left-0 text-end opacity-5 mb-8">
+          <h3 class="  font-bold text-9xl f1-color">About US</h3>
+        </div>
+        <h2 class=" font-bold text-6xl f2-color mb-5">About US</h2>
+
+        <p class="text-2xl f2-color font-semibold">
           Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. Ashvin Gabani.
         </p>
-        <ul class="mt-6 space-y-4 f1-color">
-          <li class="flex items-start text-xl">
-            <svg class="mr-2 " width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ul class="mt-6 space-y-5 f1-color">
+          <li class="flex items-start text-lg font-semibold">
+            <svg class="mr-2 text-xl mt-1" width="18" height="18" viewBox="0 0 18 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
+                fill="#274760" />
+            </svg>Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. Ashvin Gabani.
+
+          </li>
+          <li class="flex items-start text-lg font-semibold">
+            <svg class="mr-2 text-xl mt-1" width="18" height="18" viewBox="0 0 18 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
                 fill="#274760" />
             </svg>
-            We are pioneers in ESWL at private setup in South Gujarat.
+            We are pioneers in ESWL at private setup in South Gujarat. We are the first in flexible <br> endoscopy &
+            Holmium laser setup in South Gujarat. We have first & only mobile <br> Lithotripsy center in south Gujarat.
           </li>
-          <li class="flex items-start f1-color text-xl ">
-            <svg class="mr-2" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
-                fill="#274760" />
-            </svg>
-            We are the first in flexible endoscopy & Holmium laser setup in South Gujarat.
-          </li>
+
         </ul>
-        <div class="relative inline-block mt-5">
-          <a
-            href="contact.html"
+        <div class="relative inline-block mt-8">
+          <a href="contact.html"
             class="f2-bg text-white text-xl px-10 py-3 inline-flex items-center relative shadow-lg "
-            style="clip-path: polygon(86.98% 0%, 98.29% 48.23%, 87.21% 96.99%, 0.37% 96.99%, 7.24% 48.23%, 0% 0%);"
-          >
+            style="clip-path: polygon(86.98% 0%, 98.29% 48.23%, 87.21% 96.99%, 0.37% 96.99%, 7.24% 48.23%, 0% 0%);">
             Read More
           </a>
         </div>
+
       </div>
     </div>
   </section>
-  
-  
 
-    
-    <!-- Footer Start --------------------------------->
-    <footer
-      class="bg-blue-100 text-gray-700 py-8"
-      style="
+
+
+
+  <!-- Footer Start --------------------------------->
+  <footer class="bg-blue-100 text-gray-700 py-8" style="
         background-image: url('./assets/images/banner.jpg');
         background-size: cover;
         background-position: center;
-      "
-    >
-      <div class="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 px-4">
-        <div class="space-y-6">
+      ">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 px-4">
+      <div class="space-y-6">
+        <div class="flex items-center space-x-4">
+          <img src="./assets/images/logo.png" alt="Gabani Kidney Hospital Logo" class="h-16" />
+        </div>
+        <div class="text-sm space-y-4">
+          <!-- Phone Icon with Circle -->
           <div class="flex items-center space-x-4">
-            <img
-              src="./assets/images/logo.png"
-              alt="Gabani Kidney Hospital Logo"
-              class="h-16"
-            />
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full border-2 border-[#064681]">
+              <svg width="20" height="20" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path
+                  d="M15.5645 11.7424L13.3317 9.50954C12.5342 8.71209 11.1786 9.0311 10.8596 10.0677C10.6204 10.7855 9.82291 11.1842 9.10521 11.0247C7.51032 10.626 5.35722 8.5526 4.95849 6.87797C4.71926 6.16024 5.19773 5.36279 5.91543 5.12359C6.95211 4.80461 7.27109 3.44895 6.47364 2.65151L4.24079 0.418659C3.60284 -0.139553 2.6459 -0.139553 2.08769 0.418659L0.572542 1.93381C-0.942605 3.5287 0.732031 7.75516 4.48003 11.5032C8.22802 15.2511 12.4545 17.0056 14.0494 15.4106L15.5645 13.8955C16.1228 13.2575 16.1228 12.3006 15.5645 11.7424Z"
+                  fill="#064681" />
+              </svg>
+            </span>
+            <span class="font-lato text-gray-700">+91 261 2537270, 2531174</span>
           </div>
-          <div class="text-sm space-y-4">
-            <!-- Phone Icon with Circle -->
-            <div class="flex items-center space-x-4">
-              <span
-                class="inline-flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full border-2 border-[#064681]"
-              >
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 16 16"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                >
-                  <path
-                    d="M15.5645 11.7424L13.3317 9.50954C12.5342 8.71209 11.1786 9.0311 10.8596 10.0677C10.6204 10.7855 9.82291 11.1842 9.10521 11.0247C7.51032 10.626 5.35722 8.5526 4.95849 6.87797C4.71926 6.16024 5.19773 5.36279 5.91543 5.12359C6.95211 4.80461 7.27109 3.44895 6.47364 2.65151L4.24079 0.418659C3.60284 -0.139553 2.6459 -0.139553 2.08769 0.418659L0.572542 1.93381C-0.942605 3.5287 0.732031 7.75516 4.48003 11.5032C8.22802 15.2511 12.4545 17.0056 14.0494 15.4106L15.5645 13.8955C16.1228 13.2575 16.1228 12.3006 15.5645 11.7424Z"
-                    fill="#064681"
-                  />
-                </svg>
-              </span>
-              <span class="font-lato text-gray-700">+91 261 2537270, 2531174</span>
-            </div>
-          
-            <!-- Email Icon with Circle -->
-            <div class="flex items-center space-x-4">
-              <span
-                class="inline-flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full border-2 border-[#064681]"
-              >
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 16 12"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M1.96282 1.0728L6.28532 5.39718C7.22807 6.33812 8.76913 6.33893 9.71266 5.39718L14.0352 1.0728C14.0454 1.06264 14.0532 1.05036 14.0582 1.03682C14.0631 1.02328 14.065 1.00882 14.0638 0.994466C14.0625 0.98011 14.0581 0.966209 14.0508 0.953749C14.0436 0.941289 14.0337 0.930575 14.0218 0.922367C13.581 0.614899 13.0446 0.432617 12.4668 0.432617H3.53126C2.95341 0.432617 2.41701 0.61493 1.97613 0.922367C1.96429 0.930575 1.95439 0.941289 1.94715 0.953749C1.9399 0.966209 1.93549 0.98011 1.93422 0.994466C1.93295 1.00882 1.93485 1.02328 1.9398 1.03682C1.94474 1.05036 1.9526 1.06264 1.96282 1.0728ZM0.807694 3.15615C0.807342 2.71677 0.914124 2.28392 1.11879 1.89512C1.12593 1.88141 1.13621 1.86958 1.14879 1.86059C1.16136 1.85161 1.17588 1.84571 1.19116 1.84339C1.20645 1.84107 1.22206 1.84239 1.23674 1.84724C1.25142 1.85209 1.26474 1.86034 1.27563 1.8713L5.54341 6.13909C6.89488 7.49252 9.10232 7.4933 10.4546 6.13909L14.7224 1.8713C14.7333 1.86034 14.7466 1.85209 14.7613 1.84724C14.776 1.84239 14.7916 1.84107 14.8068 1.84339C14.8221 1.84571 14.8366 1.85161 14.8492 1.86059C14.8618 1.86958 14.8721 1.88141 14.8792 1.89512C15.0839 2.28393 15.1907 2.71677 15.1903 3.15615V8.84168C15.1903 10.3446 13.9678 11.5652 12.4668 11.5652H3.53126C2.03026 11.5652 0.807694 10.3446 0.807694 8.84168V3.15615Z"
-                    fill="#064681"
-                  />
-                </svg>
-              </span>
-              <span class="font-lato text-gray-700">+91 261 2537270, 2531174</span>
-            </div>
-          </div>
-          
-          <div>
-            <h4 class="font-semibold text-lg mb-6 relative inline-block text-blue-700 ">
-              Followers
-              <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-blue-400"></span>
-            </h4>
-            
-            <div class="flex space-x-4">
-              <!-- Facebook Icon -->
-              <a
-                href="https://www.facebook.com/"
-                class="inline-flex items-center justify-center w-10 h-10 border-2 border-[#064681] rounded-full"
-              >
-                <svg
-                  width="12"
-                  height="20"
-                  viewBox="0 0 10 18"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                >
-                  <path
-                    d="M2.888 10.1442H0.709999C0.357999 10.1442 0.247999 10.0122 0.247999 9.68217V7.02017C0.247999 6.66817 0.379999 6.55817 0.709999 6.55817H2.888V4.62217C2.888 3.74217 3.042 2.90617 3.482 2.13617C3.944 1.34417 4.604 0.816168 5.44 0.508168C5.99 0.310168 6.54 0.222168 7.134 0.222168H9.29C9.598 0.222168 9.73 0.354168 9.73 0.662168V3.17017C9.73 3.47817 9.598 3.61017 9.29 3.61017C8.696 3.61017 8.102 3.61017 7.508 3.63217C6.914 3.63217 6.606 3.91817 6.606 4.53417C6.584 5.19417 6.606 5.83217 6.606 6.51417H9.158C9.51 6.51417 9.642 6.64617 9.642 6.99817V9.66017C9.642 10.0122 9.532 10.1222 9.158 10.1222H6.606V17.2942C6.606 17.6682 6.496 17.8002 6.1 17.8002H3.35C3.02 17.8002 2.888 17.6682 2.888 17.3382V10.1442Z"
-                    fill="#064681"
-                  />
-                </svg>
-              </a>
-              <!-- WhatsApp Icon -->
-              <a
-                href="https://www.whatsapp.com/"
-                class="inline-flex items-center justify-center w-10 h-10 border-2 border-[#064681] rounded-full "
-              >
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 18 18"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                >
-                  <path
-                    d="M9 0.129883C4.138 0.129883 0.200001 4.06788 0.200001 8.92988C0.200001 10.8659 0.816001 12.6479 1.872 14.0999L0.662001 17.2899L4.16 16.2779C5.546 17.2019 7.218 17.7299 9 17.7299C13.862 17.7299 17.8 13.7919 17.8 8.92988C17.8 4.06788 13.862 0.129883 9 0.129883ZM13.686 12.5819L12.74 13.5059C11.75 14.4959 9.132 13.4179 6.822 11.0859C4.512 8.77588 3.478 6.15788 4.402 5.18988L5.348 4.24388C5.7 3.89188 6.294 3.89188 6.668 4.24388L8.054 5.62988C8.538 6.11388 8.34 6.94988 7.702 7.14788C7.262 7.30188 6.954 7.78588 7.108 8.22588C7.35 9.25988 8.692 10.5359 9.682 10.7779C10.122 10.8879 10.628 10.6239 10.76 10.1839C10.958 9.54588 11.794 9.34788 12.278 9.83188L13.664 11.2179C14.016 11.5919 14.016 12.1859 13.686 12.5819Z"
-                    fill="#064681"
-                  />
-                </svg>
-              </a>
-              <!-- LinkedIn Icon -->
-              <a
-                href="https://www.linkedin.com/"
-                class="inline-flex items-center justify-center w-10 h-10 border-2 border-[#064681] rounded-full "
-              >
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 18 18"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                >
-                  <path
-                    d="M17.7956 17.8002V17.7995H17.8V11.3447C17.8 8.18708 17.1202 5.75454 13.4286 5.75454C11.6539 5.75454 10.463 6.72847 9.9768 7.65159H9.92554V6.04934H6.42534V17.7995H10.0701V11.9812C10.0701 10.4493 10.3605 8.96785 12.2575 8.96785C14.1269 8.96785 14.1546 10.7162 14.1546 12.0793V17.8002H17.7956ZM0.490397 6.04999H4.13954V17.8002H0.490397V6.04999ZM2.31354 0.200195C1.14666 0.200195 0.199997 1.14686 0.199997 2.31374C0.199997 3.48062 1.14666 4.44708 2.31354 4.44708C3.48042 4.44708 4.42708 3.48062 4.42708 2.31374C4.4262 1.14686 3.47954 0.200195 2.31354 0.200195Z"
-                    fill="#064681"
-                  />
-                </svg>
-              </a>
-              <!-- Twitter Icon -->
-              <a
-                href="https://twitter.com/"
-                class="inline-flex items-center justify-center w-10 h-10 border-2 border-[#064681] rounded-full "
-              >
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 18 18"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                >
-                  <path
-                    d="M0 0 C1.0725 0.2475 2.145 0.495 3.25 0.75 C2.33232796 5.33836019 0.59726259 9.72910611 -2 13.625 C-4.82549284 15.44138825 -7.44164838 15.57587623 -10.75 15.75 C-13.1875 14.8125 -13.1875 14.8125 -14.75 13.75 C-13.76 13.09 -12.77 12.43 -11.75 11.75 C-12.265625 10.863125 -12.78125 9.97625 -13.3125 9.0625 C-14.8368937 5.54976669 -14.89947895 4.30293493 -13.75 0.75 C-11.77 1.74 -9.79 2.73 -7.75 3.75 C-7.234375 3.069375 -6.71875 2.38875 -6.1875 1.6875 C-3.75 -0.25 -3.75 -0.25 0 0 Z"
-                    fill="#064681"
-                    transform="translate(14.75,0.25)"
-                  />
-                </svg>
-              </a>
-            </div>
+
+          <!-- Email Icon with Circle -->
+          <div class="flex items-center space-x-4">
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full border-2 border-[#064681]">
+              <svg width="20" height="20" viewBox="0 0 16 12" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M1.96282 1.0728L6.28532 5.39718C7.22807 6.33812 8.76913 6.33893 9.71266 5.39718L14.0352 1.0728C14.0454 1.06264 14.0532 1.05036 14.0582 1.03682C14.0631 1.02328 14.065 1.00882 14.0638 0.994466C14.0625 0.98011 14.0581 0.966209 14.0508 0.953749C14.0436 0.941289 14.0337 0.930575 14.0218 0.922367C13.581 0.614899 13.0446 0.432617 12.4668 0.432617H3.53126C2.95341 0.432617 2.41701 0.61493 1.97613 0.922367C1.96429 0.930575 1.95439 0.941289 1.94715 0.953749C1.9399 0.966209 1.93549 0.98011 1.93422 0.994466C1.93295 1.00882 1.93485 1.02328 1.9398 1.03682C1.94474 1.05036 1.9526 1.06264 1.96282 1.0728ZM0.807694 3.15615C0.807342 2.71677 0.914124 2.28392 1.11879 1.89512C1.12593 1.88141 1.13621 1.86958 1.14879 1.86059C1.16136 1.85161 1.17588 1.84571 1.19116 1.84339C1.20645 1.84107 1.22206 1.84239 1.23674 1.84724C1.25142 1.85209 1.26474 1.86034 1.27563 1.8713L5.54341 6.13909C6.89488 7.49252 9.10232 7.4933 10.4546 6.13909L14.7224 1.8713C14.7333 1.86034 14.7466 1.85209 14.7613 1.84724C14.776 1.84239 14.7916 1.84107 14.8068 1.84339C14.8221 1.84571 14.8366 1.85161 14.8492 1.86059C14.8618 1.86958 14.8721 1.88141 14.8792 1.89512C15.0839 2.28393 15.1907 2.71677 15.1903 3.15615V8.84168C15.1903 10.3446 13.9678 11.5652 12.4668 11.5652H3.53126C2.03026 11.5652 0.807694 10.3446 0.807694 8.84168V3.15615Z"
+                  fill="#064681" />
+              </svg>
+            </span>
+            <span class="font-lato text-gray-700">+91 261 2537270, 2531174</span>
           </div>
         </div>
 
-     <!-- Column 1: Useful Links -->
-<div>
-  <h4 class="font-bold text-lg mb-4 text-blue-800 font-lato relative">
-    Useful Links
-    <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
-  </h4>
-  <ul class="space-y-2 text-base list-disc pl-5">
-    <li><a href="index.html" class="hover:underline font-lato text-gray-700">Home</a></li>
-    <li><a href="about.html" class="hover:underline font-lato text-gray-700">About Us</a></li>
-    <li><a href="specialty.html" class="hover:underline font-lato text-gray-700">Specialty</a></li>
-    <li><a href="facility.html" class="hover:underline font-lato text-gray-700">Facility</a></li>
-    <li><a href="gallery.html" class="hover:underline font-lato text-gray-700">Gallery</a></li>
-    <li><a href="cashless.html" class="hover:underline font-lato text-gray-700">Cashless</a></li>
-    <li><a href="blog.html" class="hover:underline font-lato text-gray-700">Blogs</a></li>
-    <li><a href="contact.html" class="hover:underline font-lato text-gray-700">Contact Us</a></li>
-  </ul>
-</div>
+        <div>
+          <h4 class="font-semibold text-lg mb-6 relative inline-block text-blue-700 ">
+            Followers
+            <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-blue-400"></span>
+          </h4>
 
-<!-- Column 2: Specialty 1 -->
-<div>
-  <h4 class="font-bold text-lg mb-4 text-blue-800 font-lato relative">
-    Specialty
-    <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
-  </h4>
-  <ul class="space-y-2 text-base list-disc pl-5">
-    <li class="font-lato text-gray-700">RIRS</li>
-    <li class="font-lato text-gray-700">HoLEP</li>
-    <li class="font-lato text-gray-700">PCNL</li>
-    <li class="font-lato text-gray-700">Ureteroscopy</li>
-    <li class="font-lato text-gray-700">TURP</li>
-    <li class="font-lato text-gray-700">Cystolithotripsy</li>
-    <li class="font-lato text-gray-700">Stricture Urethra</li>
-    <li class="font-lato text-gray-700">Infertility</li>
-  </ul>
-</div>
-
-<!-- Column 3: Specialty 2 -->
-<div>
-  <h4 class="font-bold text-lg mb-4 text-blue-800 font-lato relative">
-    Specialty
-    <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
-  </h4>
-  <ul class="space-y-2 text-base list-disc pl-5">
-    <li class="font-lato text-gray-700">Female Urogynecology</li>
-    <li class="font-lato text-gray-700">Erectile Dysfunction</li>
-    <li class="font-lato text-gray-700">Stones</li>
-    <li class="font-lato text-gray-700">Prostate BPH</li>
-    <li class="font-lato text-gray-700">Prostate Cancer</li>
-    <li class="font-lato text-gray-700">Lithotripsy</li>
-    <li class="font-lato text-gray-700">Laparoscopy</li>
-    <li class="font-lato text-gray-700">Cancer Treatment</li>
-  </ul>
-</div>
-
-  <!-- Column 4: Address -->
-  <div>
-    <h4 class="font-bold text-lg mb-4 text-blue-800 font-lato relative">
-      Address
-      <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
-    </h4>
-    
-    <p class="text-base font-lato text-gray-700">
-      Dhan-Laxmi Complex, Nr. Ayurved College, Station Ln Railway Road, Surat-395 003.
-      Gujarat (India)
-    </p>
-  </div>
+          <div class="flex space-x-4">
+            <!-- Facebook Icon -->
+            <a href="https://www.facebook.com/"
+              class="inline-flex items-center justify-center w-10 h-10 border-2 border-[#064681] rounded-full">
+              <svg width="12" height="20" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path
+                  d="M2.888 10.1442H0.709999C0.357999 10.1442 0.247999 10.0122 0.247999 9.68217V7.02017C0.247999 6.66817 0.379999 6.55817 0.709999 6.55817H2.888V4.62217C2.888 3.74217 3.042 2.90617 3.482 2.13617C3.944 1.34417 4.604 0.816168 5.44 0.508168C5.99 0.310168 6.54 0.222168 7.134 0.222168H9.29C9.598 0.222168 9.73 0.354168 9.73 0.662168V3.17017C9.73 3.47817 9.598 3.61017 9.29 3.61017C8.696 3.61017 8.102 3.61017 7.508 3.63217C6.914 3.63217 6.606 3.91817 6.606 4.53417C6.584 5.19417 6.606 5.83217 6.606 6.51417H9.158C9.51 6.51417 9.642 6.64617 9.642 6.99817V9.66017C9.642 10.0122 9.532 10.1222 9.158 10.1222H6.606V17.2942C6.606 17.6682 6.496 17.8002 6.1 17.8002H3.35C3.02 17.8002 2.888 17.6682 2.888 17.3382V10.1442Z"
+                  fill="#064681" />
+              </svg>
+            </a>
+            <!-- WhatsApp Icon -->
+            <a href="https://www.whatsapp.com/"
+              class="inline-flex items-center justify-center w-10 h-10 border-2 border-[#064681] rounded-full ">
+              <svg width="20" height="20" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path
+                  d="M9 0.129883C4.138 0.129883 0.200001 4.06788 0.200001 8.92988C0.200001 10.8659 0.816001 12.6479 1.872 14.0999L0.662001 17.2899L4.16 16.2779C5.546 17.2019 7.218 17.7299 9 17.7299C13.862 17.7299 17.8 13.7919 17.8 8.92988C17.8 4.06788 13.862 0.129883 9 0.129883ZM13.686 12.5819L12.74 13.5059C11.75 14.4959 9.132 13.4179 6.822 11.0859C4.512 8.77588 3.478 6.15788 4.402 5.18988L5.348 4.24388C5.7 3.89188 6.294 3.89188 6.668 4.24388L8.054 5.62988C8.538 6.11388 8.34 6.94988 7.702 7.14788C7.262 7.30188 6.954 7.78588 7.108 8.22588C7.35 9.25988 8.692 10.5359 9.682 10.7779C10.122 10.8879 10.628 10.6239 10.76 10.1839C10.958 9.54588 11.794 9.34788 12.278 9.83188L13.664 11.2179C14.016 11.5919 14.016 12.1859 13.686 12.5819Z"
+                  fill="#064681" />
+              </svg>
+            </a>
+            <!-- LinkedIn Icon -->
+            <a href="https://www.linkedin.com/"
+              class="inline-flex items-center justify-center w-10 h-10 border-2 border-[#064681] rounded-full ">
+              <svg width="20" height="20" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path
+                  d="M17.7956 17.8002V17.7995H17.8V11.3447C17.8 8.18708 17.1202 5.75454 13.4286 5.75454C11.6539 5.75454 10.463 6.72847 9.9768 7.65159H9.92554V6.04934H6.42534V17.7995H10.0701V11.9812C10.0701 10.4493 10.3605 8.96785 12.2575 8.96785C14.1269 8.96785 14.1546 10.7162 14.1546 12.0793V17.8002H17.7956ZM0.490397 6.04999H4.13954V17.8002H0.490397V6.04999ZM2.31354 0.200195C1.14666 0.200195 0.199997 1.14686 0.199997 2.31374C0.199997 3.48062 1.14666 4.44708 2.31354 4.44708C3.48042 4.44708 4.42708 3.48062 4.42708 2.31374C4.4262 1.14686 3.47954 0.200195 2.31354 0.200195Z"
+                  fill="#064681" />
+              </svg>
+            </a>
+            <!-- Twitter Icon -->
+            <a href="https://twitter.com/"
+              class="inline-flex items-center justify-center w-10 h-10 border-2 border-[#064681] rounded-full ">
+              <svg width="20" height="20" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path
+                  d="M0 0 C1.0725 0.2475 2.145 0.495 3.25 0.75 C2.33232796 5.33836019 0.59726259 9.72910611 -2 13.625 C-4.82549284 15.44138825 -7.44164838 15.57587623 -10.75 15.75 C-13.1875 14.8125 -13.1875 14.8125 -14.75 13.75 C-13.76 13.09 -12.77 12.43 -11.75 11.75 C-12.265625 10.863125 -12.78125 9.97625 -13.3125 9.0625 C-14.8368937 5.54976669 -14.89947895 4.30293493 -13.75 0.75 C-11.77 1.74 -9.79 2.73 -7.75 3.75 C-7.234375 3.069375 -6.71875 2.38875 -6.1875 1.6875 C-3.75 -0.25 -3.75 -0.25 0 0 Z"
+                  fill="#064681" transform="translate(14.75,0.25)" />
+              </svg>
+            </a>
+          </div>
         </div>
-        
       </div>
 
-      <!-- Bottom Footer -->
-      <div class="border text-gray-600 text-sm py-4 mt-8">
-        <div class="container mx-auto flex justify-between items-center px-4">
-          <p class="f3-color font-lato text-gray-700">&copy; 2022 Gabani Kidney Hospital. All rights reserved.</p>
-          <p class="f3-color font-lato text-gray-700">Designed by: Devotion Hub</p>
-        </div>
+      <!-- Column 1: Useful Links -->
+      <div>
+        <h4 class="font-bold text-lg mb-4 text-blue-800 font-lato relative">
+          Useful Links
+          <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+        </h4>
+        <ul class="space-y-2 text-base list-disc pl-5">
+          <li><a href="index.html" class="hover:underline font-lato text-gray-700">Home</a></li>
+          <li><a href="about.html" class="hover:underline font-lato text-gray-700">About Us</a></li>
+          <li><a href="specialty.html" class="hover:underline font-lato text-gray-700">Specialty</a></li>
+          <li><a href="facility.html" class="hover:underline font-lato text-gray-700">Facility</a></li>
+          <li><a href="gallery.html" class="hover:underline font-lato text-gray-700">Gallery</a></li>
+          <li><a href="cashless.html" class="hover:underline font-lato text-gray-700">Cashless</a></li>
+          <li><a href="blog.html" class="hover:underline font-lato text-gray-700">Blogs</a></li>
+          <li><a href="contact.html" class="hover:underline font-lato text-gray-700">Contact Us</a></li>
+        </ul>
       </div>
-    </footer>
-  </body>
+
+      <!-- Column 2: Specialty 1 -->
+      <div>
+        <h4 class="font-bold text-lg mb-4 text-blue-800 font-lato relative">
+          Specialty
+          <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+        </h4>
+        <ul class="space-y-2 text-base list-disc pl-5">
+          <li class="font-lato text-gray-700">RIRS</li>
+          <li class="font-lato text-gray-700">HoLEP</li>
+          <li class="font-lato text-gray-700">PCNL</li>
+          <li class="font-lato text-gray-700">Ureteroscopy</li>
+          <li class="font-lato text-gray-700">TURP</li>
+          <li class="font-lato text-gray-700">Cystolithotripsy</li>
+          <li class="font-lato text-gray-700">Stricture Urethra</li>
+          <li class="font-lato text-gray-700">Infertility</li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Specialty 2 -->
+      <div>
+        <h4 class="font-bold text-lg mb-4 text-blue-800 font-lato relative">
+          Specialty
+          <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+        </h4>
+        <ul class="space-y-2 text-base list-disc pl-5">
+          <li class="font-lato text-gray-700">Female Urogynecology</li>
+          <li class="font-lato text-gray-700">Erectile Dysfunction</li>
+          <li class="font-lato text-gray-700">Stones</li>
+          <li class="font-lato text-gray-700">Prostate BPH</li>
+          <li class="font-lato text-gray-700">Prostate Cancer</li>
+          <li class="font-lato text-gray-700">Lithotripsy</li>
+          <li class="font-lato text-gray-700">Laparoscopy</li>
+          <li class="font-lato text-gray-700">Cancer Treatment</li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Address -->
+      <div>
+        <h4 class="font-bold text-lg mb-4 text-blue-800 font-lato relative">
+          Address
+          <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+        </h4>
+
+        <p class="text-base font-lato text-gray-700">
+          Dhan-Laxmi Complex, Nr. Ayurved College, Station Ln Railway Road, Surat-395 003.
+          Gujarat (India)
+        </p>
+      </div>
+    </div>
+
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="border text-gray-600 text-sm py-4 mt-8">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <p class="f3-color font-lato text-gray-700">&copy; 2022 Gabani Kidney Hospital. All rights reserved.</p>
+        <p class="f3-color font-lato text-gray-700">Designed by: Devotion Hub</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
