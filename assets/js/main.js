@@ -1,10 +1,19 @@
-// Example: Add functionality for a mobile menu toggle
 document.addEventListener("DOMContentLoaded", () => {
-    const menuButton = document.querySelector("#menu-button");
-    const menu = document.querySelector("#menu");
-  
-    menuButton?.addEventListener("click", () => {
-      menu.classList.toggle("hidden");
-    });
+  const swiper = new Swiper('.mySwiper', {
+    direction: 'vertical',
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      type: 'bullets',
+    },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
   });
-  
+});

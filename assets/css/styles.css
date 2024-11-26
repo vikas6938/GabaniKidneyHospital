@@ -9,6 +9,7 @@ footer {
   padding: 20px;
   background: #f9fafb; /* Add light background if no image */
 }
+.container-1{max-width: 1640px !important;}
 
 footer .icon-wrapper {
   display: flex;
@@ -33,6 +34,7 @@ footer .icon-wrapper:hover {
 .f4-color{color: #969696;}
 .f5-bg{background-color: #edf0f3;}
 .card-bg{background-color: #acddf35f;}
+.section-bg{background-color: #edf0f3;}
 
 .f3-color{color:#333333}
 .font-lato{
@@ -44,3 +46,8 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 }
+
+/* .swiper-slide {
+  border: 1px solid red;
+  height: 100%;
+} */
