@@ -1150,7 +1150,8 @@ fill="#274760" />
     <!-- Content Wrapper -->
     <div class="grid lg:grid-cols-2 gap-12 items-center">
       <!-- Left Section: Form -->
-      <div class="bg-white shadow-lg rounded-xl p-8 lg:p-12">
+      <div class="bg-white shadow-lg rounded-xl p-8 lg:p-12 relative">
+        <!-- Header -->
         <h2 class="text-3xl font-bold text-blue-900 mb-6 flex items-center">
           Book A Free Consultation
           <span class="ml-4">
@@ -1161,55 +1162,92 @@ fill="#274760" />
             </svg>
           </span>
         </h2>
+
+        <!-- Form -->
         <form action="#" method="POST" class="space-y-6">
           <!-- Row 1 -->
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <input
-              type="text"
-              name="first_name"
-              placeholder="First Name"
-              class="w-full rounded-lg border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500"
-            />
-            <input
-              type="text"
-              name="last_name"
-              placeholder="Last Name"
-              class="w-full rounded-lg border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500"
-            />
+            <div class="relative">
+              <input
+                type="text"
+                name="first_name"
+                id="first_name"
+                placeholder="Enter First Name"
+                class="w-full rounded-full border border-gray-300 bg-gray-100 p-4 text-gray-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              />
+              <label
+                for="first_name"
+                class="absolute left-4 top-4 text-gray-500 text-sm transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-base peer-focus:top-2 peer-focus:text-blue-500 peer-focus:text-sm"
+              >
+                
+              </label>
+            </div>
+            
+            <div class="relative">
+              <input
+                type="text"
+                name="last_name"
+                id="last_name"
+                placeholder="Enter Last Name"
+                class="w-full rounded-full border border-gray-300 bg-gray-100 p-4 text-gray-900 focus:ring-2 focus:ring-blue-500 focus:outline-none peer"
+              />
+              <label
+                for="last_name"
+                class="absolute left-4 top-4 text-gray-500 text-sm transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-base peer-focus:top-2 peer-focus:text-blue-500 peer-focus:text-sm"
+              >
+              </label>
+            </div>
+            
           </div>
+
           <!-- Row 2 -->
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <input
+            
+            <div class="relative">
+              <input
               type="email"
               name="email"
-              placeholder="Email ID"
-              class="w-full rounded-lg border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500"
-            />
-            <input
+              id="email"
+              placeholder="Enter your email"
+                class="w-full rounded-full border border-gray-300 bg-gray-100 p-4 text-gray-900 focus:ring-2 focus:ring-blue-500 focus:outline-none peer"
+              />
+            </div>
+            <div class="relative">
+              <input
               type="tel"
-              name="mobile_number"
-              placeholder="Mobile Number"
-              class="w-full rounded-lg border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500"
-            />
+                name="mobile_number"
+                id="mobile_number"
+                placeholder="Enter your mobile number"
+                class="w-full rounded-full border border-gray-300 bg-gray-100 p-4 text-gray-900 focus:ring-2 focus:ring-blue-500 focus:outline-none peer"
+              />
+            </div>
+            
           </div>
+
           <!-- Row 3 -->
           <div>
+            <label for="country" class="block text-sm font-medium text-gray-700 mb-2"></label>
             <input
               type="text"
               name="country"
-              placeholder="Country"
-              class="w-full rounded-lg border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500"
+              id="country"
+              placeholder="Enter your country"
+              class="w-full rounded-full border border-gray-300 bg-gray-100 p-4 text-gray-900 focus:ring-2 focus:ring-blue-500 focus:outline-none peer"
             />
           </div>
+
           <!-- Row 4 -->
           <div>
+            <label for="message" class="block text-sm font-medium text-gray-700 mb-2"></label>
             <textarea
               name="message"
+              id="message"
               rows="4"
-              placeholder="Message"
-              class="w-full rounded-lg border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500"
+              placeholder="Write your message"
+              class="w-full rounded-full border border-gray-300 bg-gray-100 p-4 text-gray-900 focus:ring-2 focus:ring-blue-500 focus:outline-none peer"
             ></textarea>
           </div>
+
           <!-- Submit Button -->
           <div>
             <button
@@ -1225,7 +1263,7 @@ fill="#274760" />
       <!-- Right Section: Image -->
       <div class="flex justify-center lg:justify-end">
         <img
-          src="./assets/images/doctor-pointing.png"
+          src="./assets/images/gallery/contact-dr.png"
           alt="Doctor pointing"
           class="max-w-full h-auto rounded-lg"
         />
@@ -1233,6 +1271,7 @@ fill="#274760" />
     </div>
   </div>
 </section>
+
 
 
 
