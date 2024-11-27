@@ -5,26 +5,9 @@ body {
   font-family: "font-lato";
 }
 .container{max-width: 1440px !important;  }
-footer {
-  padding: 20px;
-  background: #f9fafb; /* Add light background if no image */
-}
+
 .container-1{max-width: 1640px !important;}
-
-footer .icon-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background-color: #f1f5f9;
-  border-radius: 50%;
-  transition: background-color 0.3s;
-}
-
-footer .icon-wrapper:hover {
-  background-color: #e2e8f0;
-}
+.container-2{max-width: 1667px !important;}
 
 .border-blue{color: #064681;}
 .f1-color{color: #274760;}
@@ -32,6 +15,7 @@ footer .icon-wrapper:hover {
 .f2-hover{color: #064681;}
 .f2-bg{background-color: #064681;}
 .f4-color{color: #969696;}
+.contact-bg{background-color: #EEEEEC;}
 .f5-bg{background-color: #edf0f3;}
 .card-bg{background-color: #acddf35f;}
 .section-bg{background-color: #edf0f3;}
