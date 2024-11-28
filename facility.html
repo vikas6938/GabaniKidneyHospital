@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <!-- Font Family LATO -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+  <!-- Tailwind css script -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d', // Example color customization
+          },
+          fontFamily: {
+            lato: ['Lato', 'sans-serif'], // Include the Lato font
+          },
+          primary: '#064681',
+        },
+      },
+    };
+  </script>
+</head>
+<!-- Head End  ---------------------->
+
+<body class="font-sans">
+  <!-- Navbar Start  -->
+  <header class="bg-white shadow-md py-2 px-3">
+    <div class="container mx-auto flex items-center justify-between  py-2">
+      <!-- Left Section: Logos -->
+      <div class="flex items-center space-x-4">
+        <img src="./assets/images/logo.png" alt="Hospital Logo" class="h-16" />
+      </div>
+
+      <!-- Middle Section: Navigation Links -->
+      <nav class="flex space-x-6 f1-color">
+        <a href="index.html" class="text-xl">
+          Home
+        </a>
+        <a href="about.html" class=" f2-color font-semibold  list-none text-xl">
+          About
+          <span class="block h-1 w-2 f2-bg rounded-full mt-1 mx-auto"></span>
+        </a>
+        <a href="specialty.html" class=" text-xl ">Specialty</a>
+        <a href="facility.html" class=" text-xl">Facility</a>
+        <a href="gallery.html" class=" text-xl">Gallery</a>
+        <a href="cashless.html" class=" text-xl">Cashless</a>
+        <a href="blog.html" class=" text-xl">Blogs</a>
+      </nav>
+
+      <!-- Right Section: Contact Us Button -->
+      <div class="relative inline-block">
+        <a href="#" class="flex items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg "
+        style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
+">
+        Contact Us
+      </a>
+      </div>
+    </div>
+  </header>
+  <!-- Navbar End  -->
+
+
+  <!-- Main Content --------------------------------->
+  <!-- Hero Section -->
+  <section class="relative bg-blue-50 "
+    style="background-image: url('./assets/images/banner.jpg'); background-size: cover; background-position: center;">
+    <div class="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-b from-blue-200 to-transparent opacity-20">
+      <h1 class="text-9xl text-white font-bold -rotate-90 absolute -left-[45%] top-[55%] transform translate-y-1/2">
+         GABANI GABANI
+      </h1>
+    </div>
+    <!-- Heading -->
+    
+    <div class="container mx-auto flex flex-col lg:flex-row items-center py-48 relative">
+      <!-- Text Content Section -->
+      <div class="lg:w-1/2 text-center lg:text-left space-y-10 ">
+        <div class="flex items-center space-x-4 lg:text-7xl font-bold f2-color mb-5">
+            <span class="font-lato f2-color text-7xl font-extrabold ">About US</span>
+            <span
+              class="inline-flex items-center justify-center  f2-color text-5xl font-extrabold ">
+              <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z" fill="#064681"/>
+                </svg>              
+            </span>
+          </div>
+        <!-- Description -->
+        <p class="text-lg lg:text-xl f1-color leading-relaxed font-semibold">
+          It seems like you're interested in learning more about the "About Us" section commonly 
+          found on websites, particularly about what kind of information is typically included in this
+          section.
+        </p>
+        <!-- Call-to-Action Buttons -->
+      </div>
+      <!-- Image Section -->
+      <div class="lg:w-1/2 mt-8 lg:mt-0 flex justify-center relative">
+        <!-- Doctor Image -->
+        <img src="./assets/images/gallery/about-dr.png" alt="Doctors" class="absolute top-[-211px] -right-20" />
+      </div>
+  </section>
+  <!-- ------------------------------Main Banner End -------------------------------------------- -->
+
+
+
+  <!-- ----------------------------About Section Start ------------------ -->
+ <section class="py-36 bg-white">
+  <div class="container mx-auto flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 relative">
+    <!-- Left Image Section -->
+    <div class="lg:w-1/2 flex justify-center relative">
+      <!-- Main Image -->
+       <div class="absolute bottom-[-300px] right-[-300px] z-20">
+      <img src="./assets/images/gallery/about-dr1.png" alt="about-dr1"
+        ></div>
+        <!-- Badge -->
+      <div
+        class="absolute top-[150px] right-[-130px]  z-30">
+        <img src="./assets/images/gallery/quality.png" alt="High Quality" >
+      </div>
+    </div>
+
+    <!-- Right Text Section -->
+    <div class="lg:w-3/3 f5-bg rounded-3xl shadow-md pb-10 pt-10 pl-80 pr-10 relative z-10 ">
+
+      <!-- Background Title -->
+      <div class="absolute right-10 top-10 opacity-5">
+        <h3 class="font-bold text-9xl f1-color">About US</h3>
+      </div>
+
+      <!-- Main Content -->
+      <div class="relative z-20 ">
+        <!-- Section Title -->
+        <div class="flex items-center space-x-4 mt-44">
+          <span class="font-lato f2-color text-5xl font-extrabold ">About US</span>
+          <span
+            class="inline-flex items-center justify-center  f2-color text-5xl font-extrabold ">
+            <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z" fill="#064681"/>
+              </svg>              
+          </span>
+        </div>
+        <!-- Description -->
+        <p class="text-2xl f2-color font-semibold mt-10">
+          Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. Ashvin Gabani.
+        </p>
+
+        <!-- Bullet Points -->
+        <ul class="mt-6 space-y-5 f1-color">
+          <li class="flex items-start text-lg font-semibold">
+            <svg class="mr-2 mt-1" width="18" height="18" viewBox="0 0 18 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
+                fill="#274760" />
+            </svg>
+            Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. Ashvin Gabani.
+          </li>
+          <li class="flex items-start text-lg font-semibold">
+            <svg class="mr-2 mt-1" width="40" height="18" viewBox="0 0 18 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
+                fill="#274760" />
+            </svg>
+            We are pioneers in ESWL at private setup in South Gujarat. We are the first in flexible endoscopy & Holmium laser setup in South Gujarat. We have first & only mobile Lithotripsy center in south Gujarat.
+          </li>
+          <li class="flex items-start text-lg font-semibold">
+            <svg class="mr-2 mt-1" width="40" height="18" viewBox="0 0 18 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
+                fill="#274760" />
+            </svg>
+            We are pioneers in ESWL at private setup in South Gujarat. We are the first in flexible endoscopy & Holmium laser setup in South Gujarat. We have first & only mobile Lithotripsy center in south Gujarat.
+          </li>
+          <li class="flex items-start text-lg font-semibold">
+            <svg class="mr-2 mt-1" width="18" height="18" viewBox="0 0 18 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
+                fill="#274760" />
+            </svg>
+            Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. Ashvin Gabani.
+          </li>
+          <li class="flex items-start text-lg font-semibold">
+            <svg class="mr-2 mt-1" width="40" height="18" viewBox="0 0 18 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
+                fill="#274760" />
+            </svg>
+            We are pioneers in ESWL at private setup in South Gujarat. We are the first in flexible endoscopy & Holmium laser setup in South Gujarat. We have first & only mobile Lithotripsy center in south Gujarat.
+          </li>
+          <li class="flex items-start text-lg font-semibold">
+            <svg class="mr-2 mt-1" width="40" height="18" viewBox="0 0 18 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
+                fill="#274760" />
+            </svg>
+            We are pioneers in ESWL at private setup in South Gujarat. We are the first in flexible endoscopy & Holmium laser setup in South Gujarat. We have first & only mobile Lithotripsy center in south Gujarat.
+          </li>
+          <li class="flex items-start text-lg font-semibold">
+            <svg class="mr-2 mt-1" width="18" height="18" viewBox="0 0 18 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
+                fill="#274760" />
+            </svg>
+            Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. Ashvin Gabani.
+          </li>
+          <li class="flex items-start text-lg font-semibold">
+            <svg class="mr-2 mt-1" width="40" height="18" viewBox="0 0 18 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
+                fill="#274760" />
+            </svg>
+            We are pioneers in ESWL at private setup in South Gujarat. We are the first in flexible endoscopy & Holmium laser setup in South Gujarat. We have first & only mobile Lithotripsy center in south Gujarat.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ---------------------About Page complete------------- -->
+
+<!-- ----------------------------- Our Mission Page Start ----------------->
+<section class="pb-28" >
+  <div class="container mx-auto relative z-10">
+    <div class="flex justify-between items-center">
+      <div>
+        <div class="flex ">
+          <h2 class="text-5xl font-bold f2-color me-5 mb-5" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);">Our Mission & Vision Statement</h2>
+          <span
+        class="inline-flex items-center justify-center text-5xl font-extrabold ">
+        <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z" fill="#064681"/>
+          </svg>              
+      </span>
+    </div>
+      </div>
+    </div>
+
+    <!-- Our mission card -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+
+      <!-- Image Card 1 -->
+      <div class="">
+        <div class=" rounded-e-full flex flex-col justify-center items-center f2-bg p-10 mb-8 text-center" >
+          <div class="w-24 h-24 rounded-full  flex items-center justify-center" style="background: #8DBFEF;
+;">
+            <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_91_1709)">
+              <path d="M22.6418 26.2863L27.2978 21.6303C26.2508 20.9619 25.0092 20.5728 23.6775 20.5728C19.956 20.5728 16.9282 23.6005 16.9282 27.3221C16.9282 31.0437 19.956 34.0714 23.6775 34.0714C27.3991 34.0714 30.4269 31.0437 30.4269 27.3221C30.4269 25.9905 30.0377 24.7488 29.3693 23.7018L24.7133 28.3578L22.6418 26.2863Z" fill="#FAFAFA"/>
+              <path d="M46.8557 27.3221C46.8557 23.3415 45.8388 19.4487 43.9081 16.0037L38.1368 16.7945C40.2951 19.7506 41.5711 23.3899 41.5711 27.3221C41.5711 37.1885 33.5442 45.2155 23.6777 45.2155C13.8112 45.2155 5.78447 37.1885 5.78447 27.3221C5.78447 17.4557 13.8114 9.42886 23.6778 9.42886C27.6101 9.42886 31.2493 10.7048 34.2055 12.8631L34.9963 7.09185C31.5513 5.16118 27.6585 4.14429 23.6778 4.14429C17.4868 4.14429 11.6663 6.55522 7.28867 10.933C2.91094 15.3106 0.5 21.1311 0.5 27.3221C0.5 33.5131 2.91094 39.3336 7.28867 43.7113C11.6663 48.0891 17.4867 50.5 23.6778 50.5C29.8689 50.5 35.6894 48.089 40.067 43.7113C44.4447 39.3336 46.8557 33.5132 46.8557 27.3221Z" fill="#FAFAFA"/>
+              <path d="M23.678 12.3586C15.4271 12.3586 8.71436 19.0712 8.71436 27.3223C8.71436 35.5733 15.427 42.2859 23.678 42.2859C31.9291 42.2859 38.6417 35.5733 38.6417 27.3223C38.6417 23.7231 37.3642 20.417 35.2392 17.8327L31.4762 21.5957C32.6578 23.2004 33.3571 25.1811 33.3571 27.3223C33.3571 32.6593 29.0151 37.0013 23.6781 37.0013C18.3411 37.0013 13.9991 32.6593 13.9991 27.3223C13.9991 21.9853 18.3411 17.6433 23.6781 17.6433C25.8193 17.6433 27.7999 18.3426 29.4047 19.5242L33.1677 15.7612C30.5833 13.636 27.2771 12.3586 23.678 12.3586ZM44.4755 0.5L37.9646 7.01084L37.0079 13.9923L43.9894 13.0355L50.5002 6.52471L46.1055 4.89473L44.4755 0.5Z" fill="#FAFAFA"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_91_1709">
+              <rect width="50" height="50" fill="white" transform="translate(0.5 0.5)"/>
+              </clipPath>
+              </defs>
+              </svg>
+          </div>
+        <h3 class="text-2xl font-semibold text-white">Our Mission</h3>
+        <p class="f1-color mt-2 text-lg text-white">
+          Mission Statement:To provide high-quality, accessible healthcare services, promote health education, and deliver patient-centered care with utmost compassion.
+        </p>
+      </div>
+      </div>
+ 
+      <!-- Image Card 3 -->
+      <div class="flex flex-col items-center justify-center">
+        <img src="./assets/images/gallery/about-dr2.png" alt="Prostate Cancer" class="w-45 h-45 object-cover mb-8">
+      </div>
+
+      <!-- Image Card 4 -->
+      <div class="flex flex-col justify-end items-end">
+        <div class=" rounded-s-full flex flex-col justify-center items-center f2-bg p-10 mb-8 text-center" >
+          <div class="w-24 h-24 rounded-full  flex items-center justify-center" style="background: #8DBFEF;
+;">
+           <svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_91_1746)">
+            <path d="M42.9761 18.1892C41.9787 17.3661 40.9769 16.6055 39.9743 15.9082C41.6478 18.6022 42.6159 21.778 42.6159 25.176C42.6159 28.5741 41.6478 31.7498 39.9743 34.4438C40.9769 33.7465 41.9787 32.9858 42.9761 32.1628C46.3498 29.3792 48.8462 26.5622 50 25.176C48.8464 23.7902 46.3499 20.9731 42.9761 18.1892ZM7.02387 18.1892C3.65025 20.9728 1.15383 23.7898 0 25.176C1.15383 26.5622 3.65025 29.3792 7.02387 32.1628C8.0213 32.9859 9.02313 33.7465 10.0257 34.4438C8.35218 31.7497 7.38407 28.5741 7.38407 25.176C7.38407 21.778 8.35218 18.6023 10.0257 15.9082C9.02313 16.6055 8.0213 17.3661 7.02387 18.1892ZM28.0983 5.88911L28.5598 2.99309C27.3824 2.80581 26.1922 2.71155 25 2.71118C23.8079 2.71154 22.6177 2.8058 21.4403 2.99309L21.9018 5.88911C23.9545 5.56341 26.0456 5.56341 28.0983 5.88911ZM15.2338 8.2605C16.1327 7.74201 17.0709 7.29508 18.0399 6.92388L16.9914 4.18514C15.8781 4.61168 14.8002 5.12518 13.7676 5.72088C12.7354 6.31725 11.7517 6.99401 10.8258 7.74488L12.6734 10.0221C13.4793 9.36861 14.3354 8.77957 15.2338 8.2605ZM12.6734 40.3298L10.8258 42.607C11.7518 43.3579 12.7354 44.0347 13.7677 44.631C14.8003 45.2267 15.8782 45.7402 16.9914 46.1668L18.0399 43.428C17.071 43.0568 16.1327 42.6099 15.2339 42.0914C14.3355 41.5724 13.4793 40.9833 12.6734 40.3298ZM21.9016 44.4628L21.4404 47.3588C22.6177 47.5461 23.8079 47.6403 25 47.6407C26.188 47.6407 27.3856 47.5458 28.5598 47.3588L28.0983 44.4628C26.0456 44.7884 23.9543 44.7884 21.9016 44.4628ZM34.7662 42.0914C33.8674 42.6099 32.9291 43.0569 31.9601 43.428L33.0086 46.1668C34.1218 45.7403 35.1997 45.2268 36.2323 44.631C37.2646 44.0347 38.2482 43.3579 39.1742 42.607L37.3267 40.3298C36.5208 40.9833 35.6646 41.5723 34.7662 42.0914ZM37.3267 10.0221L39.1742 7.74488C38.2482 6.99395 37.2645 6.31719 36.2322 5.72088C35.1996 5.12512 34.1218 4.61162 33.0085 4.18514L31.9601 6.92388C32.9291 7.29504 33.8673 7.74197 34.7661 8.2605C35.6646 8.77956 36.5208 9.3686 37.3267 10.0221ZM41.6489 36.8511L40.4116 37.7119L42.4311 39.3502C43.182 38.4243 43.8588 37.4406 44.4551 36.4083C44.9785 35.5009 45.4386 34.5584 45.832 33.5875C45.5056 33.8706 45.1757 34.1497 44.8425 34.4246C43.7925 35.291 42.7181 36.1073 41.6489 36.8511ZM44.8425 15.9273C45.1757 16.2023 45.5055 16.4814 45.832 16.7645C45.4386 15.7936 44.9786 14.851 44.4551 13.9436C43.8587 12.9114 43.1819 11.9277 42.4311 11.0018L40.4116 12.6402L41.6489 13.5009C42.7181 14.2446 43.7925 15.0609 44.8425 15.9273ZM5.15754 34.4246C4.82434 34.1496 4.49448 33.8705 4.16803 33.5875C4.56138 34.5584 5.02144 35.5009 5.54492 36.4083C6.14128 37.4406 6.81804 38.4243 7.56892 39.3502L9.58842 37.7119L8.35111 36.8511C7.28193 36.1073 6.20747 35.291 5.15754 34.4246ZM8.35101 13.5008L9.58832 12.6401L7.56882 11.0017C6.81792 11.9276 6.14116 12.9113 5.54482 13.9435C5.02138 14.851 4.56132 15.7935 4.16793 16.7644C4.49436 16.4813 4.82422 16.2022 5.15744 15.9272C6.20747 15.0609 7.28193 14.2446 8.35101 13.5008ZM25 10.4939C16.8913 10.4939 10.3179 17.0672 10.3179 25.1759C10.3179 33.2846 16.8913 39.8579 25 39.8579C33.1086 39.8579 39.682 33.2846 39.682 25.1759C39.682 17.0672 33.1086 10.4939 25 10.4939ZM33.4066 27.5639H30.4741V23.9879L24.8245 29.6375L22.5015 27.3144L18.4031 31.4128L16.3295 29.3392L22.5015 23.1673L24.8245 25.4904L28.4006 21.9143H24.8245V18.9818H33.4066V27.5639Z" fill="white"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_91_1746">
+            <rect width="50" height="50" fill="white" transform="translate(0 0.176025)"/>
+            </clipPath>
+            </defs>
+            </svg>
+          </div>
+        <h3 class="text-2xl font-semibold text-white">Our Mission</h3>
+        <p class="f1-color mt-2 text-lg text-white">
+          Mission Statement:To provide high-quality, accessible healthcare services, promote health education, and deliver patient-centered care with utmost compassion.
+        </p>
+      </div>
+      </div>  
+    </div>
+  </div>
+</section>
+
+<!-- ----------------------------- Video section -------------->
+<section class="relative py-20  " style="background: linear-gradient(to top, white, #e8eef3, #6c96c1);">
+  
+  <div class="container mx-auto relative z-10 " >
+    <!-- Header Section Specialty-->
+    <div class="flex justify-between items-center">
+      <div>
+        <div class="flex ">
+          <h2 class="text-5xl font-bold text-white me-5 mb-5">Our Team Helps You Get Your Life Back On Track.</h2>
+          <span
+        class="inline-flex items-center justify-center  text-white text-5xl font-extrabold ">
+        <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z" fill="#ffffff"/>
+          </svg>              
+      </span>
+    </div>
+        <p class="text-lg text-white mt-2">
+          Our team of highly trained professionals uses the latest healing technologies to restore you to pain-free health quickly and easily. We <br> thoroughly evaluate & treat all of the contributing root factors related to your issue. Includes, but is not limit, your work and home stressors.
+        </p>
+        <div class="py-12 relative">
+          <img src="./assets/images/gallery/video.jpg" alt="High Quality" class="rounded-xl">
+          <div class="absolute top-[40%] left-[45%] rounded-full w-36 h-36 flex flex-col justify-center items-center text-center" style="background-color: #ffffff23;">
+          <div class=" rounded-full w-28 h-28 flex flex-col justify-center items-center text-center" style="background-color: #ffffff52;">
+            <div class="w-20 h-20 rounded-full  flex items-center justify-center bg-white">
+             <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.51889 17.3905L11.1304 10.1189C11.2692 10.0017 11.3805 9.85626 11.4569 9.69265C11.5332 9.52905 11.5727 9.3511 11.5727 9.17103C11.5727 8.99095 11.5332 8.813 11.4569 8.6494C11.3805 8.48579 11.2692 8.3404 11.1304 8.22318L2.51889 0.951554C1.69691 0.257581 0.427246 0.832944 0.427246 1.89939L0.427246 16.4447C0.427246 17.5112 1.69691 18.0865 2.51889 17.3905Z" fill="#3B3A5D"/>
+              </svg>
+            </div>
+          </div>
+          </p>
+        </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 py-5">
+          <div class="space-y-2 ">
+            <h1 class="text-lg font-medium space f5-color" style=" letter-spacing:8px;">OUR STORY</h1>
+            <div class="text-3xl font-semibold f2-color">Our mission is to help patients live better.</div>
+            <p class="text-xl f1-color mb-5">Collaboratively administrate empowered markets via plug-and-play networks. users after installed base benefits. Dramatically visualize customer.</p>
+            <ul class="space-y-2 text-base list-disc pl-5 py-5 ">
+              <li class="font-lato text-xl f1-color">Over 400 leading hospitals and clinics
+              </li>
+              <li class="font-lato f1-color text-xl">Trusted doctors across 20+ specialties
+              </li>
+              <li class="font-lato f1-color text-xl">Award-winning practice management</li>
+            </ul>
+          </div>
+          <div class="space-y-2 ">
+            <h1 class="text-lg font-medium space f5-color" style="letter-spacing:8px;">THE LEADERS</h1>
+            <div class="text-3xl font-semibold f2-color ">We have the best Pharma & Medical.</div>
+            <p class="text-base f5-color  " >Collaboratively administrate empowered markets via plug-and-play networks. users after installed base benefits. Dramatically visualize customer.</p>
+            <div class="py-3">
+            <span class="text-base f5-color ">Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ---------------------Online Consuiltation page -------------->
+<section class="bg-testimonial relative py-28 f5-bg overflow-hidden " style="background: #4777ab;
+">
+  <div
+  class="absolute bottom-[0] left-[0]  z-0">
+  <img src="./assets/images/gallery/consult-texture1.png" alt="High Quality" >
+</div>
+<div
+class="absolute top-[0] right-[0]  z-0">
+<img src="./assets/images/gallery/consult-texture.png" alt="High Quality" >
+</div>
+  <div class="container mx-auto relative z-10  ">
+    <div class=" items-center space-y-12 mb-16">
+      <h2 class="text-5xl text-white font-bold f2-color items-center text-center ">
+        Online consultations with   
+      </h2>
+      <h1 class="text-5xl text-white font-bold f2-color items-center text-center "> Certified doctors</h1>
+    </div>
+    
+     <!-- Call-to-Action Buttons -->
+     <div class="flex justify-center  items-center space-x-6  ">
+      <!-- Button: Book Appointment -->
+      <a href="#" class="flex items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg "
+      style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
+">
+      Contact Us
+    </a>  
+        <span class=" items-center text-white text-xl font-medium hover:underline space-x-2">(OR)</span>
+        <a href="#" class="flex items-center bg-white f2-color px-12 py-3 font-semibold rounded-md shadow-lg "
+        style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
+  ">
+       +91 261 2537270, 2531174
+      </a>  
+    </div>
+   
+  </div>
+</section>
+
+
+  <!-- Footer Start --------------------------------->
+  <footer class="bg-blue-100 text-gray-700 pt-14 mt-36" style="
+        background-image: url('./assets/images/gallery/footer-bg.png');
+        background-size: cover;
+        background-position: center;
+      ">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 mb-16">
+      <div class="space-y-6 ">
+        <div class="flex items-center space-x-4">
+          <img src="./assets/images/logo.png" alt="Gabani Kidney Hospital Logo" class="h-16"/>
+        </div>
+        <div class="text-sm space-y-4">
+          <!-- Phone Icon with Circle -->
+          <div class="flex items-center space-x-4">
+            <span
+              class="inline-flex items-center justify-center w-9 h-9  rounded-full border border-[#064681]">
+              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none" >
+                <path
+                  d="M15.5645 11.7424L13.3317 9.50954C12.5342 8.71209 11.1786 9.0311 10.8596 10.0677C10.6204 10.7855 9.82291 11.1842 9.10521 11.0247C7.51032 10.626 5.35722 8.5526 4.95849 6.87797C4.71926 6.16024 5.19773 5.36279 5.91543 5.12359C6.95211 4.80461 7.27109 3.44895 6.47364 2.65151L4.24079 0.418659C3.60284 -0.139553 2.6459 -0.139553 2.08769 0.418659L0.572542 1.93381C-0.942605 3.5287 0.732031 7.75516 4.48003 11.5032C8.22802 15.2511 12.4545 17.0056 14.0494 15.4106L15.5645 13.8955C16.1228 13.2575 16.1228 12.3006 15.5645 11.7424Z"
+                  fill="#064681" />
+              </svg>
+            </span>
+            <span class="font-lato f1-color">+91 261 2537270, 2531174</span>
+          </div>
+
+          <!-- Email Icon with Circle -->
+          <div class="flex items-center space-x-4">
+            <span
+              class="inline-flex items-center justify-center w-9 h-9  rounded-full border border-[#064681]">
+              <svg width="15" height="15" viewBox="0 0 16 12" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M1.96282 1.0728L6.28532 5.39718C7.22807 6.33812 8.76913 6.33893 9.71266 5.39718L14.0352 1.0728C14.0454 1.06264 14.0532 1.05036 14.0582 1.03682C14.0631 1.02328 14.065 1.00882 14.0638 0.994466C14.0625 0.98011 14.0581 0.966209 14.0508 0.953749C14.0436 0.941289 14.0337 0.930575 14.0218 0.922367C13.581 0.614899 13.0446 0.432617 12.4668 0.432617H3.53126C2.95341 0.432617 2.41701 0.61493 1.97613 0.922367C1.96429 0.930575 1.95439 0.941289 1.94715 0.953749C1.9399 0.966209 1.93549 0.98011 1.93422 0.994466C1.93295 1.00882 1.93485 1.02328 1.9398 1.03682C1.94474 1.05036 1.9526 1.06264 1.96282 1.0728ZM0.807694 3.15615C0.807342 2.71677 0.914124 2.28392 1.11879 1.89512C1.12593 1.88141 1.13621 1.86958 1.14879 1.86059C1.16136 1.85161 1.17588 1.84571 1.19116 1.84339C1.20645 1.84107 1.22206 1.84239 1.23674 1.84724C1.25142 1.85209 1.26474 1.86034 1.27563 1.8713L5.54341 6.13909C6.89488 7.49252 9.10232 7.4933 10.4546 6.13909L14.7224 1.8713C14.7333 1.86034 14.7466 1.85209 14.7613 1.84724C14.776 1.84239 14.7916 1.84107 14.8068 1.84339C14.8221 1.84571 14.8366 1.85161 14.8492 1.86059C14.8618 1.86958 14.8721 1.88141 14.8792 1.89512C15.0839 2.28393 15.1907 2.71677 15.1903 3.15615V8.84168C15.1903 10.3446 13.9678 11.5652 12.4668 11.5652H3.53126C2.03026 11.5652 0.807694 10.3446 0.807694 8.84168V3.15615Z"
+                  fill="#064681" />
+              </svg>
+            </span>
+            <span class="font-lato f1-color">+91 261 2537270, 2531174</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-semibold text-2xl mb-6 relative inline-block f2-color ">
+            Followers
+            <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-blue-400"></span>
+          </h4>
+
+          <div class="flex space-x-4">
+            <!-- Facebook Icon -->
+            <a href="https://www.facebook.com/"
+              class="inline-flex items-center justify-center w-9 h-9   border border-[#064681] rounded-full">
+              <svg width="18" height="18" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path
+                  d="M2.888 10.1442H0.709999C0.357999 10.1442 0.247999 10.0122 0.247999 9.68217V7.02017C0.247999 6.66817 0.379999 6.55817 0.709999 6.55817H2.888V4.62217C2.888 3.74217 3.042 2.90617 3.482 2.13617C3.944 1.34417 4.604 0.816168 5.44 0.508168C5.99 0.310168 6.54 0.222168 7.134 0.222168H9.29C9.598 0.222168 9.73 0.354168 9.73 0.662168V3.17017C9.73 3.47817 9.598 3.61017 9.29 3.61017C8.696 3.61017 8.102 3.61017 7.508 3.63217C6.914 3.63217 6.606 3.91817 6.606 4.53417C6.584 5.19417 6.606 5.83217 6.606 6.51417H9.158C9.51 6.51417 9.642 6.64617 9.642 6.99817V9.66017C9.642 10.0122 9.532 10.1222 9.158 10.1222H6.606V17.2942C6.606 17.6682 6.496 17.8002 6.1 17.8002H3.35C3.02 17.8002 2.888 17.6682 2.888 17.3382V10.1442Z"
+                  fill="#064681" />
+              </svg>
+            </a>
+            <!-- WhatsApp Icon -->
+            <a href="https://www.whatsapp.com/"
+              class="inline-flex items-center justify-center w-9 h-9   border border-[#064681] rounded-full ">
+              <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path
+                  d="M9 0.129883C4.138 0.129883 0.200001 4.06788 0.200001 8.92988C0.200001 10.8659 0.816001 12.6479 1.872 14.0999L0.662001 17.2899L4.16 16.2779C5.546 17.2019 7.218 17.7299 9 17.7299C13.862 17.7299 17.8 13.7919 17.8 8.92988C17.8 4.06788 13.862 0.129883 9 0.129883ZM13.686 12.5819L12.74 13.5059C11.75 14.4959 9.132 13.4179 6.822 11.0859C4.512 8.77588 3.478 6.15788 4.402 5.18988L5.348 4.24388C5.7 3.89188 6.294 3.89188 6.668 4.24388L8.054 5.62988C8.538 6.11388 8.34 6.94988 7.702 7.14788C7.262 7.30188 6.954 7.78588 7.108 8.22588C7.35 9.25988 8.692 10.5359 9.682 10.7779C10.122 10.8879 10.628 10.6239 10.76 10.1839C10.958 9.54588 11.794 9.34788 12.278 9.83188L13.664 11.2179C14.016 11.5919 14.016 12.1859 13.686 12.5819Z"
+                  fill="#064681" />
+              </svg>
+            </a>
+            <!-- LinkedIn Icon -->
+            <a href="https://www.linkedin.com/"
+              class="inline-flex items-center justify-center w-9 h-9   border border-[#064681] rounded-full ">
+              <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path
+                  d="M17.7956 17.8002V17.7995H17.8V11.3447C17.8 8.18708 17.1202 5.75454 13.4286 5.75454C11.6539 5.75454 10.463 6.72847 9.9768 7.65159H9.92554V6.04934H6.42534V17.7995H10.0701V11.9812C10.0701 10.4493 10.3605 8.96785 12.2575 8.96785C14.1269 8.96785 14.1546 10.7162 14.1546 12.0793V17.8002H17.7956ZM0.490397 6.04999H4.13954V17.8002H0.490397V6.04999ZM2.31354 0.200195C1.14666 0.200195 0.199997 1.14686 0.199997 2.31374C0.199997 3.48062 1.14666 4.44708 2.31354 4.44708C3.48042 4.44708 4.42708 3.48062 4.42708 2.31374C4.4262 1.14686 3.47954 0.200195 2.31354 0.200195Z"
+                  fill="#064681" />
+              </svg>
+            </a>
+            <!-- Twitter Icon -->
+            <a href="https://twitter.com/"
+              class="inline-flex items-center justify-center w-9 h-9    border border-[#064681] rounded-full ">
+              <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path
+                  d="M0 0 C1.0725 0.2475 2.145 0.495 3.25 0.75 C2.33232796 5.33836019 0.59726259 9.72910611 -2 13.625 C-4.82549284 15.44138825 -7.44164838 15.57587623 -10.75 15.75 C-13.1875 14.8125 -13.1875 14.8125 -14.75 13.75 C-13.76 13.09 -12.77 12.43 -11.75 11.75 C-12.265625 10.863125 -12.78125 9.97625 -13.3125 9.0625 C-14.8368937 5.54976669 -14.89947895 4.30293493 -13.75 0.75 C-11.77 1.74 -9.79 2.73 -7.75 3.75 C-7.234375 3.069375 -6.71875 2.38875 -6.1875 1.6875 C-3.75 -0.25 -3.75 -0.25 0 0 Z"
+                  fill="#064681" transform="translate(14.75,0.25)" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Column 1: Useful Links -->
+      <div class="">
+        <h4 class="relative font-bold text-2xl f2-color font-lato mb-4">
+          Useful Links
+          <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+        </h4>
+        <ul class="space-y-2 text-base list-disc pl-5">
+          <li><a href="index.html" class="hover:underline font-lato f1-color text-base ">Home</a></li>
+          <li><a href="about.html" class="hover:underline font-lato f1-color text-base ">About Us</a></li>
+          <li><a href="specialty.html" class="hover:underline font-lato f1-color text-base ">Specialty</a></li>
+          <li><a href="facility.html" class="hover:underline font-lato f1-color text-base ">Facility</a></li>
+          <li><a href="gallery.html" class="hover:underline font-lato f1-color text-base ">Gallery</a></li>
+          <li><a href="cashless.html" class="hover:underline font-lato f1-color text-base ">Cashless</a></li>
+          <li><a href="blog.html" class="hover:underline font-lato f1-color text-base ">Blogs</a></li>
+          <li><a href="contact.html" class="hover:underline font-lato f1-color text-base ">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 2: Specialty 1 -->
+      <div>
+        <h4 class="relative font-bold text-2xl f2-color font-lato mb-4">
+          Specialty
+          <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+        </h4>
+        <ul class="space-y-2 text-base list-disc pl-5">
+          <li class="font-lato f1-color text-base">RIRS</li>
+          <li class="font-lato f1-color text-base">HoLEP</li>
+          <li class="font-lato f1-color text-base">PCNL</li>
+          <li class="font-lato f1-color text-base">Ureteroscopy</li>
+          <li class="font-lato f1-color text-base">TURP</li>
+          <li class="font-lato f1-color text-base">Cystolithotripsy</li>
+          <li class="font-lato f1-color text-base">Stricture Urethra</li>
+          <li class="font-lato f1-color text-base">Infertility</li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Specialty 2 -->
+      <div>
+        <h4 class="relative font-bold text-2xl f2-color font-lato mb-4">
+          Specialty
+          <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+        </h4>
+        <ul class="space-y-2 text-base list-disc pl-5">
+          <li class="font-lato f1-color text-base">Female Urogynecology</li>
+          <li class="font-lato f1-color text-base">Erectile Dysfunction</li>
+          <li class="font-lato f1-color text-base">Stones</li>
+          <li class="font-lato f1-color text-base">Prostate BPH</li>
+          <li class="font-lato f1-color text-base">Prostate Cancer</li>
+          <li class="font-lato f1-color text-base">Lithotripsy</li>
+          <li class="font-lato f1-color text-base">Laparoscopy</li>
+          <li class="font-lato f1-color text-base">Cancer Treatment</li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Address -->
+      <div>
+        <h4 class="relative font-bold text-2xl f2-color font-lato mb-4">
+          Address
+          <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+        </h4>
+
+        <p class=" font-lato f1-color text-base">
+          Dhan-Laxmi Complex, Nr. Ayurved College, Station Ln Railway Road, Surat-395 003.
+          Gujarat (India)
+        </p>
+      </div>
+    </div>
+    <!-- Bottom Footer -->
+    <div class="border-t border-white p-5 ">
+      <div class="container mx-auto flex justify-between items-center ">
+        <p class="f3-color font-lato f1-color text-base">&copy; 2022 Gabani Kidney Hospital. All rights reserved.</p>
+        <p class="f3-color font-lato f1-color text-base">Designed by: Devotion Hub</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
