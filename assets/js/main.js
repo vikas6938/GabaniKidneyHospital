@@ -18,6 +18,28 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
+// ----Blog Card Swiper-------------->
+document.addEventListener("DOMContentLoaded", () => {
+  const swiper = new Swiper('.mySwiper1', {
+    direction: 'horizontal',
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      type: 'bullets',
+    },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+  });
+});
+
 // Get the hamburger button, off-canvas menu, and close button
 const hamburgerBtn = document.getElementById('hamburger-btn');
 const offCanvasMenu = document.getElementById('off-canvas-menu');
