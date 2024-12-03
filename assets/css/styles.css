@@ -55,15 +55,6 @@ text-decoration-skip-ink: none;
   z-index: 10;
 }
 
-.swiper-button-prev.custom-swiper-button {
-  left: 50%; /* Place button on the left */
-  top: 36%;
-}
-
-.swiper-button-next.custom-swiper-button {
-  right: 46.5%; /* Place button on the right */
-  top: 53%;
-}
 
 .swiper-button-next, .swiper-button-prev {
   display: none; /* Hide default buttons */
