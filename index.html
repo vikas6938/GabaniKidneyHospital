@@ -88,19 +88,19 @@
     </div>
   
     <!-- Off-Canvas Menu (Hidden by default) -->
-    <div id="off-canvas-menu" class="fixed inset-0 bg-white z-50 transform translate-x-full md:hidden transition-transform duration-300">
+    <div id="off-canvas-menu" class="fixed inset-0 backdrop-blur-sm from-blue-300 to-white shadow-9xl z-50 transform translate-x-full md:hidden transition-transform duration-300">
       <div class="flex justify-end p-4">
         <button class=" text-2xl" id="close-menu">&times;</button>
       </div>
       <nav class="flex flex-col items-center space-y-6 mt-10">
-        <a href="index.html" class="text-xl">Home</a>
-        <a href="about.html" class="text-xl">About</a>
-        <a href="specialty.html" class="text-xl">Specialty</a>
-        <a href="facility.html" class="text-xl">Facility</a>
-        <a href="gallery.html" class="text-xl">Gallery</a>
-        <a href="cashless.html" class="text-xl">Cashless</a>
-        <a href="blog.html" class="text-xl">Blogs</a>
-        <a href="contact.html" class="text-xl">Contact Us</a>
+        <a href="index.html" class="text-xl f2-color">Home</a>
+        <a href="about.html" class="text-xl f2-color">About</a>
+        <a href="specialty.html" class="text-xl f2-color">Specialty</a>
+        <a href="facility.html" class="text-xl f2-color">Facility</a>
+        <a href="gallery.html" class="text-xl f2-color">Gallery</a>
+        <a href="cashless.html" class="text-xl f2-color">Cashless</a>
+        <a href="blog.html" class="text-xl f2-color">Blogs</a>
+        <a href="contact.html" class="text-xl f2-color">Contact Us</a>
       </nav>
     </div>
   </header>
@@ -1614,7 +1614,7 @@ xmlns="http://www.w3.org/2000/svg">
         background-size: cover;
         background-position: center;
       ">
-    <div class="container md:mx-auto mx-6 grid grid-cols-1 md:grid-cols-5 gap-8 mb-16">
+    <div class="container mx-auto md:p-a grid grid-cols-1 md:grid-cols-5 gap-8 px-5">
       <div class="space-y-6 ">
         <div class="flex items-center space-x-4">
           <img src="./assets/images/logo.png" alt="Gabani Kidney Hospital Logo" class="h-16"/>
@@ -1630,7 +1630,7 @@ xmlns="http://www.w3.org/2000/svg">
                   fill="#064681" />
               </svg>
             </span>
-            <span class="font-lato f1-color">+91 261 2537270, 2531174</span>
+            <span class="font-lato f1-color font-semibold">+91 261 2537270, 2531174</span>
           </div>
 
           <!-- Email Icon with Circle -->
@@ -1643,14 +1643,14 @@ xmlns="http://www.w3.org/2000/svg">
                   fill="#064681" />
               </svg>
             </span>
-            <span class="font-lato f1-color">+91 261 2537270, 2531174</span>
+            <span class="font-lato f1-color font-semibold">+91 261 2537270, 2531174</span>
           </div>
         </div>
 
         <div>
           <h4 class="font-semibold text-2xl mb-6 relative inline-block f2-color ">
             Followers
-            <span class="absolute left-0 -bottom-1 w-full h-0.5 bg-blue-400"></span>
+            <span class="absolute left-0 -bottom-1 w-full h-0.5 f2-bg"></span>
           </h4>
 
           <div class="flex space-x-4">
@@ -1694,58 +1694,60 @@ xmlns="http://www.w3.org/2000/svg">
         </div>
       </div>
 
-<div>
+<div class="flex space-x-10">
       <!-- Column 1: Useful Links -->
       <div class="">
         <h4 class="relative font-bold text-2xl f2-color font-lato mb-4">
           Useful Links
-          <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+          <span class="absolute left-0 bottom-0 w-16 h-0.5 f2-bg mt-1"></span>
         </h4>
         <ul class="space-y-2 text-base list-disc pl-5">
-          <li><a href="index.html" class="hover:underline font-lato f1-color text-base ">Home</a></li>
-          <li><a href="about.html" class="hover:underline font-lato f1-color text-base ">About Us</a></li>
-          <li><a href="specialty.html" class="hover:underline font-lato f1-color text-base ">Specialty</a></li>
-          <li><a href="facility.html" class="hover:underline font-lato f1-color text-base ">Facility</a></li>
-          <li><a href="gallery.html" class="hover:underline font-lato f1-color text-base ">Gallery</a></li>
-          <li><a href="cashless.html" class="hover:underline font-lato f1-color text-base ">Cashless</a></li>
-          <li><a href="blog.html" class="hover:underline font-lato f1-color text-base ">Blogs</a></li>
-          <li><a href="contact.html" class="hover:underline font-lato f1-color text-base ">Contact Us</a></li>
+          <li><a href="index.html" class="hover:underline font-lato f1-color text-base font-semibold">Home</a></li>
+          <li><a href="about.html" class="hover:underline font-lato f1-color text-base font-semibold">About Us</a></li>
+          <li><a href="specialty.html" class="hover:underline font-lato f1-color text-base font-semibold">Specialty</a></li>
+          <li><a href="facility.html" class="hover:underline font-lato f1-color text-base font-semibold">Facility</a></li>
+          <li><a href="gallery.html" class="hover:underline font-lato f1-color text-base font-semibold">Gallery</a></li>
+          <li><a href="cashless.html" class="hover:underline font-lato f1-color text-base font-semibold">Cashless</a></li>
+          <li><a href="blog.html" class="hover:underline font-lato f1-color text-base font-semibold">Blogs</a></li>
+          <li><a href="contact.html" class="hover:underline font-lato f1-color text-base font-semibold">Contact Us</a></li>
         </ul>
       </div>
-
+      <div></div>
       <!-- Column 2: Specialty 1 -->
       <div>
         <h4 class="relative font-bold text-2xl f2-color font-lato mb-4">
           Specialty
-          <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+          <span class="absolute left-0 bottom-0 w-12 h-0.5 f2-bg mt-1"></span>
         </h4>
         <ul class="space-y-2 text-base list-disc pl-5">
-          <li class="font-lato f1-color text-base">RIRS</li>
-          <li class="font-lato f1-color text-base">HoLEP</li>
-          <li class="font-lato f1-color text-base">PCNL</li>
-          <li class="font-lato f1-color text-base">Ureteroscopy</li>
-          <li class="font-lato f1-color text-base">TURP</li>
-          <li class="font-lato f1-color text-base">Cystolithotripsy</li>
-          <li class="font-lato f1-color text-base">Stricture Urethra</li>
-          <li class="font-lato f1-color text-base">Infertility</li>
+          <li class="font-lato f1-color text-base font-semibold">RIRS</li>
+          <li class="font-lato f1-color text-base font-semibold">HoLEP</li>
+          <li class="font-lato f1-color text-base font-semibold">PCNL</li>
+          <li class="font-lato f1-color text-base font-semibold">Ureteroscopy</li>
+          <li class="font-lato f1-color text-base font-semibold">TURP</li>
+          <li class="font-lato f1-color text-base font-semibold">Cystolithotripsy</li>
+          <li class="font-lato f1-color text-base font-semibold">Stricture Urethra</li>
+          <li class="font-lato f1-color text-base font-semibold">Infertility</li>
         </ul>
       </div>
     </div>
+
+    <div class="flex space-x-10">
       <!-- Column 3: Specialty 2 -->
       <div>
         <h4 class="relative font-bold text-2xl f2-color font-lato mb-4">
           Specialty
-          <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+          <span class="absolute left-0 bottom-0 w-12 h-0.5 f2-bg mt-1"></span>
         </h4>
         <ul class="space-y-2 text-base list-disc pl-5">
-          <li class="font-lato f1-color text-base">Female Urogynecology</li>
-          <li class="font-lato f1-color text-base">Erectile Dysfunction</li>
-          <li class="font-lato f1-color text-base">Stones</li>
-          <li class="font-lato f1-color text-base">Prostate BPH</li>
-          <li class="font-lato f1-color text-base">Prostate Cancer</li>
-          <li class="font-lato f1-color text-base">Lithotripsy</li>
-          <li class="font-lato f1-color text-base">Laparoscopy</li>
-          <li class="font-lato f1-color text-base">Cancer Treatment</li>
+          <li class="font-lato f1-color text-base font-semibold">Female Urogynecology</li>
+          <li class="font-lato f1-color text-base font-semibold">Erectile Dysfunction</li>
+          <li class="font-lato f1-color text-base font-semibold">Stones</li>
+          <li class="font-lato f1-color text-base font-semibold">Prostate BPH</li>
+          <li class="font-lato f1-color text-base font-semibold">Prostate Cancer</li>
+          <li class="font-lato f1-color text-base font-semibold">Lithotripsy</li>
+          <li class="font-lato f1-color text-base font-semibold">Laparoscopy</li>
+          <li class="font-lato f1-color text-base font-semibold">Cancer Treatment</li>
         </ul>
       </div>
 
@@ -1753,20 +1755,21 @@ xmlns="http://www.w3.org/2000/svg">
       <div>
         <h4 class="relative font-bold text-2xl f2-color font-lato mb-4">
           Address
-          <span class="absolute left-0 bottom-0 w-12 h-0.5 bg-blue-500 mt-1"></span>
+          <span class="absolute left-0 bottom-0 w-12 h-0.5 f2-bg mt-1"></span>
         </h4>
 
-        <p class="text-base font-lato f1-color ">
-          Dhan-Laxmi Complex, Nr. Ayurved College, Station Ln Railway Road, Surat-395 003.
+        <p class="text-base font-lato f1-color font-semibold">
+          Dhan-Laxmi Complex, <br> Nr. Ayurved College, <br> Station-Lal Darwaja <br> Road, Surat-395 003. <br>
           Gujarat (India)
         </p>
       </div>
     </div>
+    
     <!-- Bottom Footer -->
     <div class="border-t border-white p-5 ">
       <div class="container mx-auto flex justify-between items-center ">
-        <p class="f3-color font-lato f1-color text-base">&copy; 2022 Gabani Kidney Hospital. All rights reserved.</p>
-        <p class="f3-color font-lato f1-color text-base">Designed by: Devotion Hub</p>
+        <p class="f3-color font-lato f1-color text-base font-semibold">&copy; 2022 Gabani Kidney Hospital. All rights reserved.</p>
+        <p class="f3-color font-lato f1-color text-base font-semibold">Designed by: Devotion Hub</p>
       </div>
     </div>
   </footer>

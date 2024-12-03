@@ -53,17 +53,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-// Get the hamburger button, off-canvas menu, and close button
-const hamburgerBtn = document.getElementById('hamburger-btn');
-const offCanvasMenu = document.getElementById('off-canvas-menu');
-const closeMenuBtn = document.getElementById('close-menu');
-
-// Open the off-canvas menu when hamburger button is clicked
-hamburgerBtn.addEventListener('click', () => {
-  offCanvasMenu.classList.remove('translate-x-full'); // slide in
-  offCanvasMenu.classList.add('translate-x-0'); // make visible
-});
-
 // Close the off-canvas menu when close button is clicked
 closeMenuBtn.addEventListener('click', () => {
   offCanvasMenu.classList.remove('translate-x-0'); // slide out
