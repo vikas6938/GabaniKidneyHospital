@@ -49,7 +49,7 @@
       </div>
   
       <!-- Middle Section: Navigation Links -->
-      <nav class="flex space-x-6 f1-color hidden md:flex">
+      <nav class=" space-x-6 f1-color hidden md:flex">
         <a href="index.html" class="f2-color font-semibold list-none text-xl">
           Home
           <span class="block h-1 w-2 f2-bg rounded-full mt-1 mx-auto"></span>
@@ -88,7 +88,7 @@
     </div>
   
     <!-- Off-Canvas Menu (Hidden by default) -->
-    <div id="off-canvas-menu" class="fixed inset-0 bg-white  z-50 transform translate-x-full md:hidden transition-transform duration-300">
+    <div id="off-canvas-menu" class="fixed inset-0 bg-white z-50 transform translate-x-full md:hidden transition-transform duration-300">
       <div class="flex justify-end p-4">
         <button class=" text-2xl" id="close-menu">&times;</button>
       </div>
@@ -469,7 +469,7 @@
     
   </div>
   <div class="mt-8">
-  <a href="#" class=" md:hidden items-center f2-bg border-white text-white md:px-12 px-6 md:py-3 py-2 font-semibold rounded-md shadow-lg "
+  <a href="#" class=" md:hidden items-center f2-bg border-white text-white md:px-12 px-5 md:py-2 py-2 font-normal rounded-md shadow-lg "
   style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
 ">
   Read More
@@ -675,7 +675,7 @@
   </section>
 
   <!-- ----------------Our Blogs Start --------------- -->
-  <section class="md:py-28 py-8 bg-white relative">    
+  <section class="md:py-28 py-5 bg-white relative">    
     <section class="container-2 md:ms-auto ms-5 relative bg-gray-100 md:py-16 py-5 rounded-s-3xl ">
       <!-- Background Text -->
       <div class="absolute inset-y-0 right-0 opacity-5 flex justify-end items-center md:mb-32 mb-16 md:pr-72 pr-10">
@@ -683,7 +683,7 @@
       </div>
     
       <!-- Main Content -->
-      <div class="container mx-auto  relative z-10 ">
+      <div class="container mx-auto  relative z-0 ">
         <div class="flex justify-between items-center md:mt-28 mt-10 m-0 md:me-52 me-10">
           <!-- Left Section -->
           <div>
@@ -701,7 +701,7 @@
     
           <!-- Right Section -->
           <a href="#"
-            class="md:flex hidden items-center f2-bg text-white md:px-8 px-3 md:py-3 py-2 md:font-semibold font-normal md:text-xl text-sm rounded-md "
+            class="md:flex hidden items-center f2-bg text-white md:px-8 px-3 md:py-3 py-2 md:font-semibold font-normal md:text-xl text-base rounded-md "
             style="clip-path: polygon(86.98% 0%, 98.29% 48.23%, 87.21% 96.99%, 0.37% 96.99%, 7.24% 48.23%, 0% 0%);">
             View All
           </a>
@@ -712,7 +712,7 @@
     </section>
     
   <!-- Header Section Our Facilities-->
-  <div class="container mx-auto relative z-10 md:p-auto ">
+  <div class="container mx-auto relative z-0 md:p-auto ">
       <!-- Facilities Cards -->
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 md:mt-12 mt-2">
         
@@ -1098,10 +1098,10 @@ fill="#274760" />
     </div>
 
     <!-------------------------------------------------------- Small Screen size in slider -->
-    <div class="md:hidden swiper mySwiper1 p-4 mb-2" >
+    <div class="md:hidden swiper mySwiper1 p-4 mb-2 relative z-20" >
       <div class="swiper-wrapper">
           <!--- Card -1 --> 
-        <div class="swiper-slide me-10">
+        <div class="swiper-slide me-10 px-2">
       <div class="">
         <div class=" bg-white rounded-3xl shadow-lg">
           <!-- Image Section -->
@@ -1165,7 +1165,7 @@ xmlns="http://www.w3.org/2000/svg">
       </div>
         </div>
         <!--- Card -2 --> 
-        <div class="swiper-slide me-10">
+        <div class="swiper-slide me-10 px-2">
           <div class="">         
         <div class=" bg-white rounded-3xl shadow-lg">
           <!-- Image Section -->
@@ -1231,7 +1231,7 @@ xmlns="http://www.w3.org/2000/svg">
           </div>
         </div>
           <!-- Card 3 -->
-         <div class="swiper-slide me-10">
+         <div class="swiper-slide me-10 px-2">
           <div class="">
         <div class=" bg-white rounded-3xl shadow-lg">
           <!-- Image Section -->
@@ -1297,6 +1297,9 @@ xmlns="http://www.w3.org/2000/svg">
           </div>
         </div>
       </div>  
+      <div class="swiper-button-next absolute -top-[10px] right-10 "> </div>
+      <div class="swiper-button-prev absolute -top-[10px] left-72"></div>
+      <!-- Add pagination -->
       <div class="swiper-pagination swiper-pagination-vertical"></div>
     </div>
     <a href="#"
@@ -1307,6 +1310,151 @@ xmlns="http://www.w3.org/2000/svg">
     <div>
 </div>
   </section>
+
+<!-- ---------------------------------------Testimonials Start ------------------------------------->
+<section class="bg-testimonial relative pt-28 f5-bg overflow-hidden" >
+  <div
+  class="absolute top-[0] left-[0]  z-0 md:hidden">
+  <img src="./assets/images/gallery/texture.png" alt="High Quality" >
+</div>
+  <div class="container mx-auto relative z-10  ">
+    <div class="flex justify-between items-center mb-12">
+      <h2 class="md:text-5xl text-2xl font-bold f2-color flex items-center">
+        Our Testimonials
+        <span class="inline-flex items-center justify-center f2-color text-xl font-bold ">
+          <svg width="36" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
+              fill="#064681" />
+          </svg>
+        </span>
+      </h2>
+      <h1 class="absolute md:right-[-15%] right-[8%] md:top-[-15%] top-[-10%] md:text-9xl text-3xl font-bold f4-color opacity-10">Testimonials</h1>
+    </div>
+     <!-- Testimonial Section -->
+    <div class=" grid lg:grid-cols-2 gap-12 ">
+    <div class="swiper mySwiper relative" style="height: 500px;">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide ">
+     <!-- Testimonial Content-1 -->
+      <div class="">
+        <div class="bg-white rounded-xl shadow-lg p-10">
+          <div class="f1-color text-3xl mb-4">
+            <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.5" d="M25.1419 12.5965C26.5507 12.5965 27.7428 13.7885 27.7428 15.1973V22.133C27.7428 23.596 26.5507 24.7339 25.1419 24.7339H18.2062C16.7432 24.7339 15.6053 23.596 15.6053 22.133V9.12862C15.6053 4.36033 19.4524 0.459005 24.2749 0.459005H24.7084C25.4128 0.459005 26.0088 1.05504 26.0088 1.75945V4.36033C26.0088 5.11892 25.4128 5.66077 24.7084 5.66077H24.2749C22.3243 5.66077 20.8071 7.23214 20.8071 9.12862V12.5965H25.1419ZM9.53657 12.5965C10.9454 12.5965 12.1375 13.7885 12.1375 15.1973V22.133C12.1375 23.596 10.9454 24.7339 9.53657 24.7339H2.60088C1.13789 24.7339 0 23.596 0 22.133V9.12862C0 4.36033 3.84714 0.459005 8.66961 0.459005H9.10309C9.8075 0.459005 10.4035 1.05504 10.4035 1.75945V4.36033C10.4035 5.11892 9.8075 5.66077 9.10309 5.66077H8.66961C6.71895 5.66077 5.20177 7.23214 5.20177 9.12862V12.5965H9.53657Z" fill="#307BC4"/>
+              </svg>
+          </div>
+          <p class="f1-color text-lg font-semibold ">
+            It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+            letters, as opposed to using 'Content here, content here', making it look like readable English.
+          </p>
+          <div class="flex items-center mt-6">
+            <img src="./assets/images/gallery/mitchel.png" alt="User" class="w-70 h-70 rounded-full mr-4">
+            <div>
+              <h4 class="f1-color font-semibold text-2xl">Michel Clark</h4>
+              <p class="text-yellow-500 text-2xl flex">
+                ★★★★★
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        <!-- Testimonial Content-2 -->
+        <div class="swiper-slide ">
+          <div class="">
+            <div class="bg-white rounded-xl shadow-lg p-10">
+              <div class="f1-color text-3xl mb-4">
+                <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.5" d="M25.1419 12.5965C26.5507 12.5965 27.7428 13.7885 27.7428 15.1973V22.133C27.7428 23.596 26.5507 24.7339 25.1419 24.7339H18.2062C16.7432 24.7339 15.6053 23.596 15.6053 22.133V9.12862C15.6053 4.36033 19.4524 0.459005 24.2749 0.459005H24.7084C25.4128 0.459005 26.0088 1.05504 26.0088 1.75945V4.36033C26.0088 5.11892 25.4128 5.66077 24.7084 5.66077H24.2749C22.3243 5.66077 20.8071 7.23214 20.8071 9.12862V12.5965H25.1419ZM9.53657 12.5965C10.9454 12.5965 12.1375 13.7885 12.1375 15.1973V22.133C12.1375 23.596 10.9454 24.7339 9.53657 24.7339H2.60088C1.13789 24.7339 0 23.596 0 22.133V9.12862C0 4.36033 3.84714 0.459005 8.66961 0.459005H9.10309C9.8075 0.459005 10.4035 1.05504 10.4035 1.75945V4.36033C10.4035 5.11892 9.8075 5.66077 9.10309 5.66077H8.66961C6.71895 5.66077 5.20177 7.23214 5.20177 9.12862V12.5965H9.53657Z" fill="#307BC4"/>
+                  </svg>
+              </div>
+              <p class="f1-color text-lg font-semibold ">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                letters, as opposed to using 'Content here, content here', making it look like readable English.
+              </p>
+              <div class="flex items-center mt-6">
+                <img src="./assets/images/gallery/mitchel.png" alt="User" class="w-70 h-70 rounded-full mr-4">
+                <div>
+                  <h4 class="f1-color font-semibold text-2xl">Michel Clark</h4>
+                  <p class="text-yellow-500 text-2xl flex">
+                    ★★★★★
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Testimonial Content-3 -->
+         <div class="swiper-slide ">
+          <div class="">
+            <div class="bg-white rounded-xl shadow-lg p-10">
+              <div class="f1-color text-3xl mb-4">
+                <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.5" d="M25.1419 12.5965C26.5507 12.5965 27.7428 13.7885 27.7428 15.1973V22.133C27.7428 23.596 26.5507 24.7339 25.1419 24.7339H18.2062C16.7432 24.7339 15.6053 23.596 15.6053 22.133V9.12862C15.6053 4.36033 19.4524 0.459005 24.2749 0.459005H24.7084C25.4128 0.459005 26.0088 1.05504 26.0088 1.75945V4.36033C26.0088 5.11892 25.4128 5.66077 24.7084 5.66077H24.2749C22.3243 5.66077 20.8071 7.23214 20.8071 9.12862V12.5965H25.1419ZM9.53657 12.5965C10.9454 12.5965 12.1375 13.7885 12.1375 15.1973V22.133C12.1375 23.596 10.9454 24.7339 9.53657 24.7339H2.60088C1.13789 24.7339 0 23.596 0 22.133V9.12862C0 4.36033 3.84714 0.459005 8.66961 0.459005H9.10309C9.8075 0.459005 10.4035 1.05504 10.4035 1.75945V4.36033C10.4035 5.11892 9.8075 5.66077 9.10309 5.66077H8.66961C6.71895 5.66077 5.20177 7.23214 5.20177 9.12862V12.5965H9.53657Z" fill="#307BC4"/>
+                  </svg>
+              </div>
+              <p class="f1-color text-lg font-semibold ">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                letters, as opposed to using 'Content here, content here', making it look like readable English.
+              </p>
+              <div class="flex items-center mt-6">
+                <img src="./assets/images/gallery/mitchel.png" alt="User" class="w-70 h-70 rounded-full mr-4">
+                <div>
+                  <h4 class="f1-color font-semibold text-2xl">Michel Clark</h4>
+                  <p class="text-yellow-500 text-2xl flex">
+                    ★★★★★
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+      <div class="swiper-pagination swiper-pagination-vertical"></div>
+
+  <!-- Next and Previous Buttons -->
+</div>
+<div class="swiper-button-prev custom-swiper-button"></div>
+<svg width="2" height="80" viewBox="0 0 2 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1.99988" width="80" height="2" transform="rotate(90 1.99988 0)" fill="url(#paint0_linear_29_445)"/>
+  <defs>
+  <linearGradient id="paint0_linear_29_445" x1="81.9999" y1="1" x2="1.99988" y2="1" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#307BC4"/>
+  <stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+  </linearGradient>
+  </defs>
+  </svg>
+
+ 
+<div class="swiper-button-next custom-swiper-button "></div>
+
+
+<div class="absolute top-[55%] right-[48%]">
+<svg width="2" height="80" viewBox="0 0 2 80" fill="none" xmlns="http://www.w3.org/2000/svg" >
+  <rect width="85" height="2" transform="matrix(0 -1 -1 0 2 80)" fill="url(#paint0_linear_29_446)"/>
+  <defs>
+  <linearGradient id="paint0_linear_29_446" x1="80" y1="1" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#307BC4"/>
+  <stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+  </linearGradient>
+  </defs>
+  </svg>
+</div>
+
+      <!-- Right Section -->
+      <div class="lg:col-span-1 flex justify-center items-center ">
+        <img src="./assets/images/gallery/doctor-2.png" alt="Doctors" class="absolute  right-[0%] top-6 z-10" />
+      </div>
+      <div class="absolute top-40 right-[-5%]  z-0">
+      <img src="./assets/images/gallery/shape-3.png" alt="High Quality" >
+    </div>
+    </div>
+  </div>
+</section>
 
 
  <script>

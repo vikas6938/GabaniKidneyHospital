@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
-      type: 'bullets',
+      type: 'true',
     },
     autoplay: {
       delay: 3000,
@@ -21,24 +21,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // ----Blog Card Swiper-------------->
 document.addEventListener("DOMContentLoaded", () => {
-  const swiper = new Swiper('.mySwiper1', {
-    direction: 'horizontal',
+  const swiper = new Swiper(".mySwiper1", {
+    direction: "horizontal",
     loop: true,
+    slidesPerView: 1, // Default for small screens
+    spaceBetween: 12, // Space between slides
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: ".swiper-button-next1",
+      prevEl: ".swiper-button-prev1",
     },
     pagination: {
-      el: '.swiper-pagination',
+      el: ".swiper-pagination",
       clickable: true,
-      type: 'bullets',
+      type: "",
     },
     autoplay: {
       delay: 3000,
       disableOnInteraction: false,
     },
+    breakpoints: {
+      768: {
+        slidesPerView: 2, // 2 slides per view for medium screens
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 3, // 3 slides per view for larger screens
+        spaceBetween: 30,
+      },
+    },
   });
 });
+
 
 // Get the hamburger button, off-canvas menu, and close button
 const hamburgerBtn = document.getElementById('hamburger-btn');
@@ -47,12 +60,12 @@ const closeMenuBtn = document.getElementById('close-menu');
 
 // Open the off-canvas menu when hamburger button is clicked
 hamburgerBtn.addEventListener('click', () => {
-  offCanvasMenu.classList.remove('translate-x-full'); // remove class to slide in
-  offCanvasMenu.classList.add('translate-x-0'); // add class to bring it in
+  offCanvasMenu.classList.remove('translate-x-full'); // slide in
+  offCanvasMenu.classList.add('translate-x-0'); // make visible
 });
 
 // Close the off-canvas menu when close button is clicked
 closeMenuBtn.addEventListener('click', () => {
-  offCanvasMenu.classList.remove('translate-x-0'); // remove class to slide out
-  offCanvasMenu.classList.add('translate-x-full'); // add class to bring it off-screen
+  offCanvasMenu.classList.remove('translate-x-0'); // slide out
+  offCanvasMenu.classList.add('translate-x-full'); // hide off-screen
 });
