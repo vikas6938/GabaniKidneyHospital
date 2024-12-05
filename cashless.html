@@ -41,100 +41,102 @@
 <!-- Head End  ---------------------->
 
 <body class="font-sans">
- <!-- Navbar Start  -->
- <header class="bg-white shadow-md py-2 px-3">
-  <div class="container mx-auto flex items-center justify-between py-2">
-    <!-- Left Section: Logo -->
-    <div class="flex items-center space-x-4">
-      <img src="./assets/images/logo.png" alt="Hospital Logo" class="md:h-16 h-10" />
-    </div>
-
-    <!-- Middle Section: Navigation Links -->
-    <nav class=" space-x-6 f1-color hidden md:flex">
-      <a href="index.html" class="f2-color font-semibold list-none text-xl">
-        Home
-        <span class="block h-1 w-2 f2-bg rounded-full mt-1 mx-auto"></span>
-      </a>
-      <a href="about.html" class="text-xl">About</a>
-      <a href="specialty.html" class="text-xl">Specialty</a>
-      <a href="facility.html" class="text-xl">Facility</a>
-      <a href="gallery.html" class="text-xl">Gallery</a>
-      <a href="cashless.html" class="text-xl">Cashless</a>
-      <a href="blog.html" class="text-xl">Blogs</a>
-    </nav>
-
-    <!-- Right Section: Contact Us Button -->
-    <div class="relative md:inline-block hidden">
-      <a href="contact.html" class="flex items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg"
-        style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);">
-        Contact Us
-      </a>
-    </div>
-
-    <!-- Hamburger Menu Button (Visible on small screens) -->
-    <button class="md:hidden flex items-center space-x-2" id="hamburger-btn">
-      <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g clip-path="url(#clip0_138_1296)">
-          <path
-            d="M0 1.05C0.0711123 1.01111 0.0601719 0.933333 0.0820526 0.872222C0.273509 0.366667 0.743944 0.0222222 1.28002 0.0111111C1.34566 0.0111111 1.41678 0.0111111 1.48242 0.0111111C7.47773 0.00555556 13.4785 0.0166667 19.4738 0C20.2123 0 20.8085 0.35 20.9781 1.08333C20.9781 1.08889 20.9891 1.08889 20.9945 1.08889C20.9945 1.26667 20.9945 1.45 20.9945 1.62778C20.9289 1.66111 20.9344 1.73333 20.9179 1.78333C20.7265 2.31111 20.2561 2.65556 19.6981 2.66667C19.6325 2.66667 19.5613 2.66667 19.4957 2.66667C13.5059 2.66667 7.51602 2.66667 1.52618 2.66667C0.694712 2.66667 0.355561 2.43333 0.032821 1.64444C0.0273509 1.63333 0.0109403 1.63333 0 1.62222C0 1.43889 0 1.24444 0 1.05Z"
-            fill="#333333" />
-          <path
-            d="M21.0004 14.9615C20.9347 14.9948 20.9402 15.067 20.9238 15.117C20.7324 15.6448 20.2619 15.9892 19.704 16.0003C19.6383 16.0003 19.5672 16.0003 19.5016 16.0003C13.5117 16.0003 7.52188 16.0003 1.53204 16.0003C0.700572 16.0003 0.361421 15.767 0.0386804 14.9781C0.0332102 14.967 0.0167997 14.967 0.00585938 14.9559C0.00585938 14.7615 0.00585938 14.567 0.00585938 14.3726C0.0769716 14.3337 0.0660313 14.2559 0.087912 14.1948C0.279368 13.6892 0.749803 13.3448 1.28041 13.3337C1.34605 13.3337 1.41716 13.3337 1.48281 13.3337C7.47812 13.3337 13.4789 13.3392 19.4742 13.3281C20.2127 13.3281 20.8089 13.6781 20.9785 14.4115C20.9785 14.417 20.9894 14.417 20.9949 14.417C21.0004 14.6003 21.0004 14.7837 21.0004 14.9615Z"
-            fill="#333333" />
-          <path
-            d="M21.0004 8.29349C20.9347 8.32682 20.9402 8.39905 20.9238 8.44905C20.7324 8.97682 20.2619 9.32127 19.704 9.33238C19.6383 9.33238 19.5672 9.33238 19.5016 9.33238C13.5117 9.33238 7.52188 9.33238 1.53204 9.33238C0.700572 9.33238 0.361421 9.09905 0.0386804 8.31016C0.0332102 8.29905 0.0167997 8.29904 0.00585938 8.28793C0.00585938 8.09349 0.00585938 7.89904 0.00585938 7.7046C0.0769716 7.66571 0.0660313 7.58793 0.087912 7.52682C0.279368 7.02127 0.749803 6.67682 1.28041 6.66571C1.34605 6.66571 1.41716 6.66571 1.48281 6.66571C7.47812 6.66571 13.4789 6.67127 19.4742 6.66016C20.2127 6.66016 20.8089 7.01016 20.9785 7.74349C20.9785 7.74904 20.9894 7.74905 20.9949 7.74905C21.0004 7.93238 21.0004 8.11571 21.0004 8.29349Z"
-            fill="#333333" />
-        </g>
-        <defs>
-          <clipPath id="clip0_138_1296">
-            <rect width="21" height="16" fill="white" />
-          </clipPath>
-        </defs>
-      </svg>
-    </button>
-  </div>
-
-  <!-- Off-Canvas Menu (Hidden by default) -->
-  <div id="off-canvas-menu"
-    class="fixed inset-0 backdrop-blur-sm  f2-bg z-50 transform translate-x-full md:hidden transition-transform duration-300 max-h-[35em]">
-    <div class="container mx-auto flex items-center justify-between p-5 bg-white">
+  <!-- Navbar Start  -->
+  <header class="bg-white shadow-md py-2 px-3">
+    <div class="container mx-auto flex items-center justify-between py-2">
+      <!-- Left Section: Logo -->
       <div class="flex items-center space-x-4">
         <img src="./assets/images/logo.png" alt="Hospital Logo" class="md:h-16 h-10" />
       </div>
-     
-      <button class=" text-2xl p-2 f2-bg rounded-full text-white" id="close-menu">&times;</button>
+
+      <!-- Middle Section: Navigation Links -->
+      <nav class=" space-x-6 f1-color hidden md:flex">
+        <a href="index.html" class=" text-xl">
+          Home
+
+        </a>
+        <a href="about.html" class="text-xl">About</a>
+        <a href="specialty.html" class="text-xl">Specialty</a>
+        <a href="facility.html" class="text-xl">Facility</a>
+        <a href="gallery.html" class="text-xl">Gallery</a>
+        <a href="cashless.html" class="text-xl f2-color font-semibold list-none">Cashless <span
+            class="block h-1 w-2 f2-bg rounded-full mt-1 mx-auto"></span></a>
+        <a href="blog.html" class="text-xl">Blogs</a>
+      </nav>
+
+      <!-- Right Section: Contact Us Button -->
+      <div class="relative md:inline-block hidden">
+        <a href="contact.html" class="flex items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg"
+          style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);">
+          Contact Us
+        </a>
+      </div>
+
+      <!-- Hamburger Menu Button (Visible on small screens) -->
+      <button class="md:hidden flex items-center space-x-2" id="hamburger-btn">
+        <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_138_1296)">
+            <path
+              d="M0 1.05C0.0711123 1.01111 0.0601719 0.933333 0.0820526 0.872222C0.273509 0.366667 0.743944 0.0222222 1.28002 0.0111111C1.34566 0.0111111 1.41678 0.0111111 1.48242 0.0111111C7.47773 0.00555556 13.4785 0.0166667 19.4738 0C20.2123 0 20.8085 0.35 20.9781 1.08333C20.9781 1.08889 20.9891 1.08889 20.9945 1.08889C20.9945 1.26667 20.9945 1.45 20.9945 1.62778C20.9289 1.66111 20.9344 1.73333 20.9179 1.78333C20.7265 2.31111 20.2561 2.65556 19.6981 2.66667C19.6325 2.66667 19.5613 2.66667 19.4957 2.66667C13.5059 2.66667 7.51602 2.66667 1.52618 2.66667C0.694712 2.66667 0.355561 2.43333 0.032821 1.64444C0.0273509 1.63333 0.0109403 1.63333 0 1.62222C0 1.43889 0 1.24444 0 1.05Z"
+              fill="#333333" />
+            <path
+              d="M21.0004 14.9615C20.9347 14.9948 20.9402 15.067 20.9238 15.117C20.7324 15.6448 20.2619 15.9892 19.704 16.0003C19.6383 16.0003 19.5672 16.0003 19.5016 16.0003C13.5117 16.0003 7.52188 16.0003 1.53204 16.0003C0.700572 16.0003 0.361421 15.767 0.0386804 14.9781C0.0332102 14.967 0.0167997 14.967 0.00585938 14.9559C0.00585938 14.7615 0.00585938 14.567 0.00585938 14.3726C0.0769716 14.3337 0.0660313 14.2559 0.087912 14.1948C0.279368 13.6892 0.749803 13.3448 1.28041 13.3337C1.34605 13.3337 1.41716 13.3337 1.48281 13.3337C7.47812 13.3337 13.4789 13.3392 19.4742 13.3281C20.2127 13.3281 20.8089 13.6781 20.9785 14.4115C20.9785 14.417 20.9894 14.417 20.9949 14.417C21.0004 14.6003 21.0004 14.7837 21.0004 14.9615Z"
+              fill="#333333" />
+            <path
+              d="M21.0004 8.29349C20.9347 8.32682 20.9402 8.39905 20.9238 8.44905C20.7324 8.97682 20.2619 9.32127 19.704 9.33238C19.6383 9.33238 19.5672 9.33238 19.5016 9.33238C13.5117 9.33238 7.52188 9.33238 1.53204 9.33238C0.700572 9.33238 0.361421 9.09905 0.0386804 8.31016C0.0332102 8.29905 0.0167997 8.29904 0.00585938 8.28793C0.00585938 8.09349 0.00585938 7.89904 0.00585938 7.7046C0.0769716 7.66571 0.0660313 7.58793 0.087912 7.52682C0.279368 7.02127 0.749803 6.67682 1.28041 6.66571C1.34605 6.66571 1.41716 6.66571 1.48281 6.66571C7.47812 6.66571 13.4789 6.67127 19.4742 6.66016C20.2127 6.66016 20.8089 7.01016 20.9785 7.74349C20.9785 7.74904 20.9894 7.74905 20.9949 7.74905C21.0004 7.93238 21.0004 8.11571 21.0004 8.29349Z"
+              fill="#333333" />
+          </g>
+          <defs>
+            <clipPath id="clip0_138_1296">
+              <rect width="21" height="16" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </button>
     </div>
-    <nav class="flex flex-col items-center space-y-6 mt-10">
-      <a href="index.html" class="text-xl font-semibold text-white">Home</a>
-      <a href="about.html" class="text-xl font-semibold text-white">About</a>
-      <a href="specialty.html" class="text-xl font-semibold text-white">Specialty</a>
-      <a href="facility.html" class="text-xl font-semibold text-white">Facility</a>
-      <a href="gallery.html" class="text-xl font-semibold text-white">Gallery</a>
-      <a href="cashless.html" class="text-xl font-semibold text-white">Cashless</a>
-      <a href="blog.html" class="text-xl font-semibold text-white">Blogs</a>
-      <a href="contact.html" class="text-xl font-semibold text-white">Contact Us</a>
-    </nav>
-  </div>
-</header>
-<!-- Navbar End  -->
+
+    <!-- Off-Canvas Menu (Hidden by default) -->
+    <div id="off-canvas-menu"
+      class="fixed inset-0 backdrop-blur-sm  f2-bg z-50 transform translate-x-full md:hidden transition-transform duration-300 max-h-[35em]">
+      <div class="container mx-auto flex items-center justify-between p-5 bg-white">
+        <div class="flex items-center space-x-4">
+          <img src="./assets/images/logo.png" alt="Hospital Logo" class="md:h-16 h-10" />
+        </div>
+
+        <button class=" text-2xl p-2 f2-bg rounded-full text-white" id="close-menu">&times;</button>
+      </div>
+      <nav class="flex flex-col items-center space-y-6 mt-10">
+        <a href="index.html" class="text-xl font-semibold text-white">Home</a>
+        <a href="about.html" class="text-xl font-semibold text-white">About</a>
+        <a href="specialty.html" class="text-xl font-semibold text-white">Specialty</a>
+        <a href="facility.html" class="text-xl font-semibold text-white">Facility</a>
+        <a href="gallery.html" class="text-xl font-semibold text-white">Gallery</a>
+        <a href="cashless.html" class="text-xl font-semibold text-white">Cashless</a>
+        <a href="blog.html" class="text-xl font-semibold text-white">Blogs</a>
+        <a href="contact.html" class="text-xl font-semibold text-white">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+  <!-- Navbar End  -->
 
 
   <!-- Hero Section -->
-  <section class="relative bg-blue-50 "
+  <section class="relative bg-blue-50 overflow-hidden"
     style="background-image: url('./assets/images/banner.jpg'); background-size: cover; background-position: center;">
-    <div class="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-b from-blue-200 to-transparent opacity-20">
-      <h1 class="text-9xl text-white font-bold -rotate-90 absolute -left-[45%] top-[55%] transform translate-y-1/2">
+    <div class="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-b from-blue-200 to-transparent opacity-20 ">
+      <h1
+        class="hidden md:block text-9xl. text-white font-bold -rotate-90 absolute -left-[48%] top-[37%] transform translate-y-1/2">
         GABANI GABANI
       </h1>
     </div>
-    <!-- Heading -->
-
-    <div class="container mx-auto flex flex-col lg:flex-row items-center py-48 relative">
+    <div class="container mx-auto md:pb-32 pb-72 flex flex-col lg:flex-row md:items-center md:px-0 px-4 relative">
       <!-- Text Content Section -->
-      <div class="lg:w-1/2 text-center lg:text-left space-y-10 ">
-        <div class="flex items-center space-x-4 lg:text-7xl font-bold f2-color mb-5">
-          <span class="font-lato f2-color text-7xl font-extrabold ">Cashless</span>
-          <span class="inline-flex items-center justify-center  f2-color text-5xl font-extrabold ">
+      <div class="lg:w-1/2 mdtext-center lg:text-left md:pt-56 pt-5">
+        <div class="flex ">
+          <h1 class=" lg:text-7xl text-2xl font-bold f2-color me-5 ">
+            Cashless
+          </h1>
+          <span class="inline-flex items-center justify-center  f2-color md:text-5xl w-10 md:w-auto font-extrabold ">
             <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
@@ -143,23 +145,22 @@
           </span>
         </div>
         <!-- Description -->
-        <p class="text-lg lg:text-xl f1-color leading-relaxed font-semibold">
-          It seems like you're interested in learning more about the "About Us" section commonly
-          found on websites, particularly about what kind of information is typically included in this
-          section.
+        <p class=" md:lg:text-xl text-sm f1-color  md:mt-10 mt-2 md:font-semibold font-medium">
+          It seems like you're interested in learning more about the "About Us" section commonly found on websites,
+          particularly about what kind of information is typically included in this section.
         </p>
         <!-- Call-to-Action Buttons -->
       </div>
+
       <!-- Image Section -->
-      <div class="lg:w-1/2  lg:mt-0 flex justify-center relative">
+      <div class="lg:w-1/2 lg:mt-0 flex justify-center relative">
         <!-- Doctor Image -->
-        <img src="./assets/images/gallery/about-dr.png" alt="Doctors" class="absolute top-[-211px] -right-20" />
+        <img src="./assets/images/gallery/about-dr.png" alt="Doctors" class="absolute md:-top-40 top-4 md:-right-20" />
       </div>
   </section>
-  <!-- ------------------------------Main Banner End -------------------------------------------- -->
 
   <!-- ------Inspiration In Healthcare Section Start -------------------------------- -->
-  <section class="py-28 bg-white relative">
+  <section class="md:py-28 py-5 bg-white relative">
     <div class="absolute top-[0] left-[0]  z-0 opacity-25">
       <img src="./assets/images/gallery/Cashless/Cash-bg-shap1.png" alt="High Quality">
     </div>
@@ -168,163 +169,168 @@
     </div>
 
     <!-- Main Content -->
-    <div class="container mx-auto relative z-20 ">
-      <div class="flex justify-between items-center ">
-        <!-- Left Section -->
-        <div class="flex justify-center items-center mb-5">
-          <span class="font-lato f2-color text-5xl font-extrabold items-center text-center">Inspiration In
-            Healthcare</span>
-          <span class="inline-flex items-center justify-center  f2-color text-5xl font-extrabold ">
-            <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
-                fill="#064681" />
-            </svg>
-          </span>
+    <div class="md:p-0 p-5">
+      <div class="container mx-auto relative z-20 ">
+        <div class="flex justify-between items-center ">
+          <!-- Left Section -->
+          <div class="flex justify-center items-center mb-5">
+            <span class="font-lato f2-color md:text-5xl text-2xl font-extrabold items-center text-center">Inspiration In
+              Healthcare <span
+                class="inline-flex items-center justify-center  f2-color md:text-5xl w-10 md:w-auto font-extrabold ">
+                <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
+                    fill="#064681" />
+                </svg>
+              </span></span>
+          </div>
+
         </div>
 
       </div>
 
-    </div>
 
+      <!-- Header Section Our Facilities-->
 
-    <!-- Header Section Our Facilities-->
+      <div class="container mx-auto  relative z-10">
+        <!-- Facilities Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 md:gap-6 gap-2 md:mt-12 mt-2">
+          <!-- Card 1 -->
+          <div class="md:p-4 p-10 rounded-3xl shadow-lg " style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden ">
+              <img src="./assets/images/gallery/Cashless/The-new-india.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl ">
+            </div>
+          </div>
 
-    <div class="container mx-auto  relative z-10">
-      <!-- Facilities Cards -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-12">
-        <!-- Card 1 -->
-        <div class="p-4 rounded-3xl shadow-lg " style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/The-new-india.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
+          <!-- Card 2 -->
+          <div class="md:p-4 p-10  rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/national.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/orient.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg " style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/aditya-birla.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/health-india.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/md-india.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+          <!-- Card 7 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg " style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/heritage.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/star.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+
+          <!-- Card 9 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/reliance.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+          <!-- Card 10 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg " style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/max.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+
+          <!-- Card 12 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/icici-lombard.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+
+          <!-- Card 13 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/icici-produncial.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+
+          <!-- Card 14 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg " style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/future-gen.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+
+          <!-- Card 15 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/TPA.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
+          </div>
+
+          <!-- Card 16 -->
+          <div class="md:p-4 p-10   rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
+            <div class="bg-white rounded-xl  overflow-hidden text-center">
+              <img src="./assets/images/gallery/Cashless/IIFCO.png" alt="Endoscopy Unit"
+                class="w-full  object-cover rounded-xl">
+            </div>
           </div>
         </div>
 
-        <!-- Card 2 -->
-        <div class="p-4 rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/national.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="p-4  rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/orient.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="p-4  rounded-3xl shadow-lg " style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/aditya-birla.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-
-        <!-- Card 5 -->
-        <div class="p-4  rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/health-india.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-
-        <!-- Card 6 -->
-        <div class="p-4  rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/md-india.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-        <!-- Card 7 -->
-        <div class="p-4  rounded-3xl shadow-lg " style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/heritage.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-
-        <!-- Card 8 -->
-        <div class="p-4  rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/star.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-
-        <!-- Card 9 -->
-        <div class="p-4  rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/reliance.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-        <!-- Card 10 -->
-        <div class="p-4  rounded-3xl shadow-lg " style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/max.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-
-        <!-- Card 12 -->
-        <div class="p-4  rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/icici-lombard.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-
-        <!-- Card 13 -->
-        <div class="p-4  rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/icici-produncial.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-
-        <!-- Card 14 -->
-        <div class="p-4  rounded-3xl shadow-lg " style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/future-gen.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-
-        <!-- Card 15 -->
-        <div class="p-4  rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/TPA.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-
-        <!-- Card 16 -->
-        <div class="p-4  rounded-3xl shadow-lg" style="box-shadow: 0px 4px 21px 0px #307BC41A;">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Cashless/IIFCO.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-          </div>
-        </div>
-      </div>
 
 
-
-      <div class="flex justify-center  items-center mt-12  ">
-        <!-- Button: Book Appointment -->
-        <a href="#" class="flex items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg " style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
-">
-          Load More
+        <div class="flex md:justify-center justify-start  items-center md:mt-12 mt-3 ">
+          <!-- Button: Book Appointment -->
+          <a href="lithotripsy.html"
+          class=" items-center f2-bg border-white text-white md:px-12 px-5 md:py-2 py-2 font-normal rounded-md shadow-lg "
+          style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
+  ">
+          Read More
         </a>
 
+        </div>
       </div>
     </div>
   </section>
 
+  
 
   <!-- Footer Start --------------------------------->
   <footer class="bg-blue-100 text-gray-700 pt-14 hidden md:block" style="
@@ -666,22 +672,22 @@ background-position: center;
   </footer>
   <script>
     // Get the hamburger button, off-canvas menu, and close button
-  const hamburgerBtn = document.getElementById('hamburger-btn');
-  const offCanvasMenu = document.getElementById('off-canvas-menu');
-  const closeMenuBtn = document.getElementById('close-menu');
-  
-  // Open the off-canvas menu when hamburger button is clicked
-  hamburgerBtn.addEventListener('click', () => {
-    offCanvasMenu.classList.remove('translate-x-full'); // remove class to slide in
-    offCanvasMenu.classList.add('translate-x-0'); // add class to bring it in
-  });
-  
-  // Close the off-canvas menu when close button is clicked
-  closeMenuBtn.addEventListener('click', () => {
-    offCanvasMenu.classList.remove('translate-x-0'); // remove class to slide out
-    offCanvasMenu.classList.add('translate-x-full'); // add class to bring it off-screen
-  });
-   </script>
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const offCanvasMenu = document.getElementById('off-canvas-menu');
+    const closeMenuBtn = document.getElementById('close-menu');
+
+    // Open the off-canvas menu when hamburger button is clicked
+    hamburgerBtn.addEventListener('click', () => {
+      offCanvasMenu.classList.remove('translate-x-full'); // remove class to slide in
+      offCanvasMenu.classList.add('translate-x-0'); // add class to bring it in
+    });
+
+    // Close the off-canvas menu when close button is clicked
+    closeMenuBtn.addEventListener('click', () => {
+      offCanvasMenu.classList.remove('translate-x-0'); // remove class to slide out
+      offCanvasMenu.classList.add('translate-x-full'); // add class to bring it off-screen
+    });
+  </script>
 
 </body>
 
