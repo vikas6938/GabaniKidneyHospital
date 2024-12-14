@@ -10,17 +10,23 @@
   <link rel="stylesheet" href="./assets/css/styles.css" />
   <!-- Font Family Roboto -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+PT+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<!-- Font Family Jost -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+PT+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<!-- Font Family Popins -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+PT+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<!-- Font CDN -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+PT+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Font Family Jost -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+PT+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Font Family Popins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+PT+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Font CDN -->
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
     rel="stylesheet">
@@ -37,9 +43,9 @@
             clifford: '#da373d', // Example color customization
           },
           fontFamily: {
-            Poppins: ['Poppins', 'sans-serif'], 
-            jost:['Jost', 'sans-serif'],
-            roboto:['Roboto', 'sans-serif'],
+            Poppins: ['Poppins', 'sans-serif'],
+            jost: ['Jost', 'sans-serif'],
+            roboto: ['Roboto', 'sans-serif'],
           },
           primary: '#064681',
         },
@@ -50,51 +56,53 @@
 <!-- Head End  ---------------------->
 
 <body class="font-sans">
-  <!-- Navbar Start  -->
-   <header class="shadow-lg">
+  <!-- Navbar Start  ------------------------------------------>
+  <header class="shadow-lg">
     <div class="container mx-auto">
-    <div class="flex items-center justify-between px-6 py-4 ">
-      <!-- Logo Section -->
-      <div class="flex items-center space-x-3">
-        <img src="/assets/images/vision_eye_logo.png.webp" alt="Logo"  class="w-40">
-       
-      </div>
-  
-      <!-- Navigation Links -->
-      <nav class="flex items-center space-x-8">
-        <a href="#" class="text-blue-600 font-medium hover:#2d90cb">Home</a>
-        <a href="#" class="text-gray-700 font-medium ">About Us</a>
-        <a href="#" class="text-gray-700 font-medium ">Gallery</a>
-        <div class="relative group">
-          <button class="text-gray-700 font-medium  flex items-center space-x-1">
-            <span>Treatment</span>
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </button>
-          <!-- Dropdown -->
-          <div class="absolute hidden group-hover:block shadow-lg mt-4 w-60 space-y-2" style="background-color: #0078bf;">
-            <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Cataract</a>
-            <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Refractive Procedure</a>
-            <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Implantabke Contact Lens (ICL)</a>
-            <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Cornea</a>
-            <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Glaucoma</a>
-            <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Retina</a>
-            <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Pediatric</a>
-            <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Oculoplasty</a>
-          </div>
-        </div>
-        <a href="#" class="text-gray-700 font-medium ">Contact</a>
-      </nav>
-  
-      <!-- Call-to-Action Button -->
-      <a href="#" class="px-4 py-3 bg-black text-white text-lg font-medium rounded shadow-md ">
-        Free Eye Test Online
-      </a>
-    </header>
+      <div class="flex items-center justify-between px-10  py-6 ">
+        <!-- Logo Section -->
+        <div class="flex items-center space-x-3">
+          <img src="/assets/images/vision_eye_logo.png.webp" alt="Logo" class="w-40">
 
-    <!-- Off -->
-    <div id="off-canvas-menu"
+        </div>
+
+        <!-- Navigation Links -->
+        <nav class="flex items-center space-x-8">
+          <a href="#" class=" font-medium " style="color: #0078bf;">Home</a>
+          <a href="#" class="text-gray-700 font-medium  ">About Us</a>
+          <a href="#" class="text-gray-700 font-medium ">Gallery</a>
+          <div class="relative group">
+            <button class="text-gray-700 font-medium  flex items-center space-x-1">
+              <span>Treatment</span>
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <!-- Dropdown -->
+            <div class="absolute hidden group-hover:block shadow-lg mt-4 w-60 space-y-2 z-50"
+              style="background-color: #0078bf;">
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Cataract</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Refractive Procedure</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Implantabke Contact Lens (ICL)</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Cornea</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Glaucoma</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Retina</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Pediatric</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Oculoplasty</a>
+            </div>
+          </div>
+          <a href="#" class="text-gray-700 font-medium ">Contact</a>
+        </nav>
+
+        <!-- Call-to-Action Button -->
+        <a href="#" class="px-4 py-3 bg-black text-white text-lg font-medium rounded shadow-md ">
+          Free Eye Test Online
+        </a>
+  </header>
+
+  <!-- Off -->
+  <div id="off-canvas-menu"
     class="fixed inset-0 backdrop-blur-sm  f2-bg z-50 transform translate-x-full md:hidden transition-transform duration-300 max-h-[35em]">
     <div class="container mx-auto flex items-center justify-between p-5 bg-white">
       <div class="flex items-center space-x-4">
@@ -123,22 +131,464 @@
       <a href="#" class="text-gray-700 font-medium hover:underline">Contact</a>
     </nav>
   </div>
-  </div>
-</header>
-  </div>
-  
-  
   <!-- Navbar End  -->
 
+  <!-- Main Banner Start ---------------------------------------->
+  <section class="relative ">
+    <div class="container mx-auto py-12">
+      <!-- Swiper Slider -->
+      <div class="swiper">
+        <!-- Slides Wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide  ">
+            <!-- Section with Text and Image -->
+            <div class=" flex  ">
+              <!-- Text Content -->
+              <div class="w-2/1 pr-8 py-10">
+                <h3 class=" font-semibold text-2xl " style="color: #0078bf;">Eye Care & Holistic Health
+                  Center</h3>
+                <h1 class="text-7xl font-bold text-gray-800 mt-2">Eye Care & Holistic <br> Health Center</h1>
+                <p class="text-gray-600 py-8 text-lg">We solve all your eye care needs by providing personalized and
+                  holistic eye care <br> for you and your family!</p>
+                <button class=" px-11 py-4 bg-black text-white font-semibold rounded-full hover:bg-gray-800">About
+                  Us</button>
+                <!-- Icons Section -->
+                <div class="flex justify-start space-x-9 py-10">
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye-glasses.png" alt="" class="w-12 h-12">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye.png" alt="" class="w-12 h-12 ">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/man.png" alt="" class="w-12 h-12">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye (1).png" alt="" class="w-12 h-12">
+                  </div>
+                </div>
+              </div>
+              <!-- Image Content -->
+              <div class="w-2/1 relative">
+                <div class=" rounded-t-full absolute top-48 left-20"
+                  style="background-color: #0078bf; height: 470px; width: 455px;">
+                </div>
+                <img src="assets/images/Banner/banner-img-1.png" alt="Person with glasses"
+                  class="relative z-10 -bottom-5 left-11">
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="swiper-slide  ">
+            <!-- Section with Text and Image -->
+            <div class=" flex ">
+              <!-- Text Content -->
+              <div class="w-2/1 pr-8 py-10">
+                <h3 class="text-blue-500 font-semibold text-2xl " style="color: #0078bf;">Eye Care & Holistic Health
+                  Center</h3>
+                <h1 class="text-7xl font-bold text-gray-800 mt-2">Cashless Insurance <br> Claim</h1>
+                <p class="text-gray-600 py-8 text-lg">We solve all your eye care needs by providing personalized and
+                  holistic eye care <br> for you and your family!</p>
+                <button class=" px-11 py-4 bg-black text-white font-semibold rounded-full hover:bg-gray-800">About
+                  Us</button>
+                <!-- Icons Section -->
+                <div class="flex justify-start space-x-9 py-10">
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye-glasses.png" alt="" class="w-12 h-12">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye.png" alt="" class="w-12 h-12 ">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/man.png" alt="" class="w-12 h-12">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye (1).png" alt="" class="w-12 h-12">
+                  </div>
+                </div>
+              </div>
+              <!-- Image Content -->
+              <div class="w-2/1 relative">
+                <div class=" rounded-t-full absolute top-48 left-20"
+                  style="background-color: #0078bf; height: 470px; width: 455px;">
+                </div>
+                <img src="assets/images/Banner/cashless.png" alt="Person with glasses"
+                  class="relative z-10 -bottom-5 left-11">
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="swiper-slide  ">
+            <!-- Section with Text and Image -->
+            <div class=" flex ">
+              <!-- Text Content -->
+              <div class="w-2/1 pr-8 ">
+                <h3 class="text-blue-500 font-semibold text-2xl " style="color: #0078bf;">Best Eye Hopspital in Surat
+                </h3>
+                <h1 class="text-7xl font-bold text-gray-800 mt-2">Super Specialty <br> Hospital - Vision <br> Eye
+                  Hospital</h1>
+                <p class="text-gray-600 py-8 text-lg">We solve all your eye care needs by providing personalized and
+                  holistic eye care <br> for you and your family!</p>
+                <button class=" px-11 py-4 bg-black text-white font-semibold rounded-full hover:bg-gray-800">About
+                  Us</button>
+                <!-- Icons Section -->
+                <div class="flex justify-start space-x-9 py-10">
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye-glasses.png" alt="" class="w-12 h-12">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye.png" alt="" class="w-12 h-12 ">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/man.png" alt="" class="w-12 h-12">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye (1).png" alt="" class="w-12 h-12">
+                  </div>
+                </div>
+              </div>
+              <!-- Image Content -->
+              <div class="w-2/1 relative">
+                <div class=" rounded-t-full absolute top-48 left-20 z-10"
+                  style="background-color: #0078bf; height: 470px; width: 455px;">
+                </div>
+                <img src="assets/images/Banner/cashless.png" alt="Person with glasses"
+                  class="relative z-10 -bottom-5 left-11">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <img src="assets/images/Banner/slider_icon_new.png" alt="" class="absolute top-16 -right-64 z-30"> -->
+        <!-- Pagination -->
+      </div>
+      <img src="assets/images/Banner/Bg-shape.png" alt="" class="absolute top-0 left-0">
+      <div class=" animate-rotate absolute top-28 right-40 rotate-180">
+        <img src="assets/images/Banner/slider_icon_new.png" alt="Rotating Icon" class="w-full h-full">
+      </div>
 
- 
+      <!-- Navigation Buttons -->
+      <div class="swiper-button-next absolute "></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
 
+  <!-- Card Section Start ------------------------------------->
+  <div class="container mx-auto py-16">
+    <!-- Services Section -->
+    <section class="bg-white rounded-2xl shadow-lg p-16">
+      <h2 class="text-4xl font-bold text-gray-800 text-center mb-4">Our Services</h2>
+      <p class="text-gray-600 text-center mt-3">They may forget what you said, they may forget what you did. But they
+        will never forget how you made them feel. - Maya Angelou</p>
 
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+        <!-- Service 1 -->
+        <div class=" p-6 rounded-3xl " style="background-color: #f6f7f8;">
+          <div class="text-blue-500 mb-4 items-start ">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 " viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-start text-lg text-gray-800">CATARACT</h3>
+          <p class="text-gray-600 mt-2 text-start font-normal" style="line-height: 2rem;">Cataract is clouding of the
+            normally clear lens of the <br> eye.</p>
+        </div>
 
+        <!-- Service 2 -->
+        <div class=" p-6 rounded-3xl " style="background-color: #f6f7f8;">
+          <div class="text-blue-500 mb-4 items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 " viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5v14"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg text-gray-800">PROLASIK</h3>
+          <p class="text-gray-600 mt-2 text-start" style="line-height: 2rem;">Get rid of your glasses with Blade free
+            (All-Laser) procedure.</p>
+        </div>
 
+        <!-- Service 3 -->
+        <div class=" p-6 rounded-3xl " style="background-color: #f6f7f8;">
+          <div class="text-blue-500 mb-4 items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 " viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 9a3 3 0 110 6 3 3 0 010-6z"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg text-gray-800">GLAUCOMA</h3>
+          <p class="text-gray-600 mt-2 text-start" style="line-height: 2rem;">Glaucoma is one of the commonest causes
+            for irreversible vision loss.</p>
+        </div>
 
+        <!-- Service 4 -->
+        <div class=" p-6 py-10 rounded-3xl " style="background-color: #f6f7f8;">
+          <div class="text-blue-500 mb-4 items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 " viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M16 8l-8 8M8 8l8 8"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg text-gray-800">RETINA</h3>
+          <p class="text-gray-600 mt-2 text-start" style="line-height: 2rem;">Diabetes, heart conditions, etc. may cause
+            retinal <br> disorders.</p>
+        </div>
+      </div>
+    </section>
+  </div>
 
+  <!-- About Section Start ------------------------------------>
+  <div class="container mx-auto p-6 py-16 relative ">
+    <!-- Who We Are Section -->
+    <section class=" p-8 flex flex-col lg:flex-row items-center lg:items-start space-y-8 lg:space-y-0 lg:space-x-5">
+      <!-- Left Image with Circle Overlay -->
+      <h2 class="absolute text-8xl font-jost font-extrabold top-8 right-64 z-0"
+        style="background: linear-gradient(52deg, #eec8b5a9, #e5f1ec); background-clip: text; -webkit-text-fill-color: transparent">
+        Who We Are?</h2>
+      <div class="w-1/2 relative flex-shrink-0">
+        <img src="assets/images/About/who_we_are.png" alt="Doctor working"
+          class="rounded-full w-96 h-96 object-cover shadow-md">
+        <div
+          class="absolute -bottom-20 left-72 text-white  text-center  font-semibold shadow-xl p-12 py-16 space-y-2 w-60"
+          style="background-color: #0078bf; border-radius: 5rem;">
+          <h3 class="text-5xl font-bold">12</h3>
+          <p class="text-xl">Years of Experience in This Field</p>
+        </div>
+      </div>
 
+      <!-- Right Content -->
+      <div class="w-1/2 flex-1 z-10">
+        <h2 class="text-4xl font-bold text-gray-800 z-20">Vision Eye Hospital</h2>
+        <p class="text-gray-600 mt-4">
+          Vision Eye Hospital was established in 2011 by Dr. Shailesh Agrawal, with the mission of providing specialized
+          tertiary eye care services at affordable prices across the city. Vision Eye Hospital is situated in the heart
+          of the city-parle point, and our other clinic is at Parvat Patia.
+        </p>
+        <p class="text-gray-600 mt-2">
+          Every single individual working in Vision Eye Hospital – from doctors to nurses and the management – is united
+          in the endeavor to deliver top-quality eye care to all. We have access to the best diagnosis and latest
+          surgical technology.
+        </p>
+        <p class="text-gray-600 mt-2">
+          We strongly believe in giving patient satisfaction according to their lifestyle and individual needs.
+        </p>
+        <!-- Mission and Vision -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          <div>
+            <h3 class="text-xl font-bold text-gray-800">Our Mission</h3>
+            <ul class="mt-4 space-y-2 text-gray-600">
+              <li>✔ High-quality work</li>
+              <li>✔ Straightforward pricing</li>
+              <li>✔ Rapid response times</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-gray-800">Our Vision</h3>
+            <ul class="mt-4 space-y-2 text-gray-600">
+              <li>✔ Personalized Service</li>
+              <li>✔ Expert Guidance</li>
+              <li>✔ Embrace a Healthy Lifestyle</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Doctor TeamCard Section Start --------------------------->
+  <div class="container mx-auto p-6 py-16">
+    <!-- Our Team Section -->
+    <section class="text-center"
+      style="background-image: url('./assets/images/Dr-Card/footer-bg-min-1.png'); background-size: cover; background-position: center;">
+      <h2 class="text-4xl font-bold text-gray-800">Our Team Of Doctors</h2>
+      <p class="text-gray-600 mt-4">Meet the experts who care for your vision.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
+        <!-- Doctor Card 1-->
+        <div
+          class="relative bg-gradient-to-r from-[#dff4f1] to-[#faeae1] rounded-lg overflow-hidden max-w-xs shadow-md hover:shadow-lg transition-shadow duration-300">
+          <!-- Image Section -->
+          <div class="relative overflow-hidden clip-path-polygon"
+            style=" clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%, 0% 0%);">
+            <img src="assets/images/Dr-Card/Dr.-Shailesh-Agrawal.jpg" alt="Dr. Shailesh Agrawal"
+              class="w-full h-96 object-cover">
+          </div>
+
+          <!-- Card Content -->
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-gray-800">Dr. Shailesh Agrawal</h3>
+            <p class="text-gray-600 text-sm">M.S (Ophthalmology) Gold Medalist</p>
+          </div>
+
+          <!-- Share Box -->
+          <div class="absolute bottom-24 right-5">
+            <div
+              class="bg-white w-12 h-12 rounded-full flex items-center justify-center shadow-md hover:shadow-lg transition-shadow duration-300">
+              <svg class="h-6 w-6 text-black" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <circle cx="6" cy="12" r="3" />
+                <circle cx="18" cy="6" r="3" />
+                <circle cx="18" cy="18" r="3" />
+                <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+              </svg>
+            </div>
+            <!-- Share Links -->
+            <ul
+              class="absolute right-0 bottom-12 hidden flex-col space-y-2 bg-white rounded-lg shadow-md p-4 transform scale-y-0 opacity-0 transition-transform duration-500 ease-in-out origin-bottom group-hover:scale-y-100 group-hover:opacity-100">
+              <li><a href="https://www.facebook.com" class="text-blue-600" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.twitter.com" class="text-blue-400" target="_blank"><i
+                    class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com" class="text-blue-800" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://www.instagram.com" class="text-pink-500" target="_blank"><i
+                    class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Doctor Card 2 -->
+        <div
+          class="relative bg-gradient-to-r from-[#dff4f1] to-[#faeae1] rounded-lg overflow-hidden max-w-xs shadow-md hover:shadow-lg transition-shadow duration-300">
+          <!-- Image Section -->
+          <div class="relative overflow-hidden clip-path-polygon"
+            style=" clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%, 0% 0%);">
+            <img src="assets/images/Dr-Card/Dr.-Saurin-Gandhi.jpeg" alt="Dr.-Saurin-Gandhi"
+              class="w-full h-96 object-cover">
+          </div>
+
+          <!-- Card Content -->
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-gray-800">Dr. Saurin Gandhi</h3>
+            <p class="text-gray-600 text-sm">DNB - Ophthalmology, </p>
+          </div>
+
+          <!-- Share Box -->
+          <div class="absolute bottom-24 right-5">
+            <div
+              class="bg-white w-12 h-12 rounded-full flex items-center justify-center shadow-md hover:shadow-lg transition-shadow duration-300">
+              <svg class="h-6 w-6 text-black" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" />
+              <circle cx="6" cy="12" r="3" />
+              <circle cx="18" cy="6" r="3" />
+              <circle cx="18" cy="18" r="3" />
+              <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+              <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+            </svg>
+            </div>
+            <!-- Share Links -->
+            <ul
+              class="absolute right-0 bottom-12 hidden flex-col space-y-2 bg-white rounded-lg shadow-md p-4 transform scale-y-0 opacity-0 transition-transform duration-500 ease-in-out origin-bottom group-hover:scale-y-100 group-hover:opacity-100">
+              <li><a href="https://www.facebook.com" class="text-blue-600" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.twitter.com" class="text-blue-400" target="_blank"><i
+                    class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com" class="text-blue-800" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://www.instagram.com" class="text-pink-500" target="_blank"><i
+                    class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Doctor Card 3 -->
+        <div
+          class="relative bg-gradient-to-r from-[#dff4f1] to-[#faeae1] rounded-lg overflow-hidden max-w-xs shadow-md hover:shadow-lg transition-shadow duration-300">
+          <!-- Image Section -->
+          <div class="relative overflow-hidden clip-path-polygon"
+            style=" clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%, 0% 0%);">
+            <img src="assets/images/Dr-Card/Dr.-Nitin-Jain-scaled-e1728740211953.jpeg" alt="Dr.-Nitin-Jain"
+              class="w-full h-96 object-cover">
+          </div>
+
+          <!-- Card Content -->
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-gray-800 text-start">Dr. Nitin Jain</h3>
+            <p class="text-gray-600 text-sm text-start">MS,FAEH  <br>  (Opthalmology)</p>
+          </div>
+
+          <!-- Share Box -->
+          <div class="absolute bottom-24 right-5">
+            <div
+              class="bg-white w-12 h-12 rounded-full flex items-center justify-center shadow-md hover:shadow-lg transition-shadow duration-300">
+              <svg class="h-6 w-6 text-black" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" />
+              <circle cx="6" cy="12" r="3" />
+              <circle cx="18" cy="6" r="3" />
+              <circle cx="18" cy="18" r="3" />
+              <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+              <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+            </svg>
+            </div>
+            <!-- Share Links -->
+            <ul
+              class="absolute right-0 bottom-12 hidden flex-col space-y-2 bg-white rounded-lg shadow-md p-4 transform scale-y-0 opacity-0 transition-transform duration-500 ease-in-out origin-bottom group-hover:scale-y-100 group-hover:opacity-100">
+              <li><a href="https://www.facebook.com" class="text-blue-600" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.twitter.com" class="text-blue-400" target="_blank"><i
+                    class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com" class="text-blue-800" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://www.instagram.com" class="text-pink-500" target="_blank"><i
+                    class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Doctor Card 4 -->
+        <div
+          class="relative bg-gradient-to-r from-[#dff4f1] to-[#faeae1] rounded-lg overflow-hidden max-w-xs shadow-md hover:shadow-lg transition-shadow duration-300">
+          <!-- Image Section -->
+          <div class="relative overflow-hidden clip-path-polygon"
+            style=" clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%, 0% 0%);">
+            <img src="assets/images/Dr-Card/Dr.khushboo.png" alt="Dr.khushboo" class="w-full h-96 object-cover">
+          </div>
+
+          <!-- Card Content -->
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-gray-800">Dr. Shailesh Agrawal</h3>
+            <p class="text-gray-600 text-sm">M.S (Ophthalmology) Gold Medalist</p>
+          </div>
+
+          <!-- Share Box -->
+          <div class="relative">
+            <div class="absolute -top-12 right-8 bg-transparent w-full h-4"></div>
+
+            <!-- Share Icon -->
+            <div class="absolute bottom-24 right-5">
+              <div
+                class="bg-white w-12 h-12 rounded-full flex items-center justify-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                <svg class="h-6 w-6 text-black" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <circle cx="6" cy="12" r="3" />
+                <circle cx="18" cy="6" r="3" />
+                <circle cx="18" cy="18" r="3" />
+                <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+              </svg>
+              </div>
+
+              <!-- Share Links -->
+              <ul
+                class="absolute right-0 bottom-14 flex-col space-y-2 bg-white rounded-lg shadow-md p-4 transform scale-y-0 opacity-0 transition-transform duration-500 ease-in-out origin-bottom hover:scale-y-100 hover:opacity-100">
+                <li><a href="https://www.facebook.com" class="text-blue-600 flex items-center" target="_blank"><i
+                      class="fab fa-facebook-f mr-2"></i>Facebook</a></li>
+                <li><a href="https://www.twitter.com" class="text-blue-400 flex items-center" target="_blank"><i
+                      class="fab fa-twitter mr-2"></i>Twitter</a></li>
+                <li><a href="https://www.linkedin.com" class="text-blue-800 flex items-center" target="_blank"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a></li>
+                <li><a href="https://www.instagram.com" class="text-pink-500 flex items-center" target="_blank"><i
+                      class="fab fa-instagram mr-2"></i>Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
 
   <script>
@@ -161,61 +611,23 @@
   </script>
 
   <script>
-    // Function to animate counters
-    function animateCounter(id, target, duration) {
-      const element = document.getElementById(id);
-      const increment = target / (duration / 16); // Calculate increment for ~60fps
-      let current = 0;
-
-      function updateCounter() {
-        current += increment;
-        if (current >= target) {
-          element.textContent = target; // Set final value
-        } else {
-          element.textContent = Math.floor(current);
-          requestAnimationFrame(updateCounter); // Continue animation
-        }
-      }
-
-      updateCounter();
-    }
-
-    // Initialize counters when DOM content is loaded
-    document.addEventListener("DOMContentLoaded", () => {
-      animateCounter("experience-counter", 23, 2000); // 23 years experience
-      animateCounter("surgeries-counter", 25822, 2000); // 25822 surgeries
-      animateCounter("patients-counter", 74781, 2000); // 74781 happy patients
-      animateCounter("companies-counter", 50, 2000); // 50 cashless companies
+    document.addEventListener('DOMContentLoaded', function () {
+      new Swiper('.swiper', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
     });
   </script>
 
 
-<!-- ---Patient Recover Counter ---- -->
-<script>
-  // Counter Animation Function
-  function animateCounter(id, target, duration) {
-    const element = document.getElementById(id);
-    const increment = target / (duration / 16); // Calculate increment for ~60fps
-    let currentValue = 0;
 
-    function updateCounter() {
-      currentValue += increment;
-      if (currentValue >= target) {
-        element.textContent = `${Math.floor(target)}k +`; // Final value
-      } else {
-        element.textContent = `${Math.floor(currentValue)}k +`; // Incrementing value
-        requestAnimationFrame(updateCounter);
-      }
-    }
-
-    updateCounter();
-  }
-
-  // Start counter when the DOM is fully loaded
-  document.addEventListener("DOMContentLoaded", () => {
-    animateCounter("patient-counter", 150, 2000); // 150k is the target number, 2000ms is the duration
-  });
-</script>
 
   <script>
     // Counter Animation Function

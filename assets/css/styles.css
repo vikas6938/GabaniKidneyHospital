@@ -3,10 +3,23 @@
 body {
   font-family: "";
 }
-.container{max-width: 1278px !important;  }
+.container{max-width: 1290px !important;  }
 
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
+.rotating-icon {
+  animation: rotate 2s linear infinite;
+  width: 100px;
+  height: 100px;
+}
 
 #off-canvas-menu {
   transform: translateX(100%); /* Hidden by default */
@@ -16,3 +29,17 @@ body {
 }
 
 
+.bg-shadow {
+  
+   
+    background-color: #ffffff; /* Background color */
+    box-shadow: 6px 8px 0px 0px #ecf6f6;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+ul:hover {
+  transform: scaleY(1);
+  opacity: 1;
+}
