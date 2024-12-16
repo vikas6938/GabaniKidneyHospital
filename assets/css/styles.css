@@ -1,0 +1,83 @@
+/* General Layout */
+
+
+body {
+  font-family: "font-lato";
+}
+.container{max-width: 1440px !important;  }
+
+.container-1{max-width: 1675px !important;}
+.container-2{max-width: 1675px !important;}
+
+.border-blue{color: #064681;}
+.f1-color{color: #274760;}
+.f2-color{color:#064681;}
+.f2-hover{color: #064681;}
+.f2-bg{background-color: #064681;}
+.f4-color{color: #969696;}
+.f5-color{color: #545454;
+  ;}
+.contact-bg{background-color: #EEEEEC;}
+.f5-bg{background-color: #edf0f3;}
+.card-bg{background-color: #acddf35f;}
+.section-bg{background-color: #edf0f3;}
+
+.f3-color{color:#333333}
+.font-lato{
+  font-family: Lato;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+
+
+#off-canvas-menu {
+  transform: translateX(100%); /* Hidden by default */
+}
+#off-canvas-menu.translate-x-0 {
+  transform: translateX(0); /* Visible */
+}
+
+/* ----------Swiper 1 --------- */
+/* Custom styles for Next and Previous buttons */
+.custom-swiper-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #e4e4e4;
+  padding: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+  display: none; /* Hide default buttons */
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  background-color: #918d8d; /* Darker on hover */
+}
+.swiper-button-prev{font-size: 50px;}
+
+
+/* ---------Swiper2 ----------- */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px; /* Adjust arrow size */
+  color: #064681;
+  z-index: 50;
+}
