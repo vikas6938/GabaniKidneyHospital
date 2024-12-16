@@ -4,15 +4,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gabani Kidney Hospital</title>
+  <title>Best Eye Hospital in Surat</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="./assets/css/styles.css" />
-  <!-- Font Family LATO -->
+  <!-- Font Family Roboto -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+PT+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Font Family Jost -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+PT+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Font Family Popins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+PT+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Font CDN -->
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
     rel="stylesheet">
@@ -29,7 +43,9 @@
             clifford: '#da373d', // Example color customization
           },
           fontFamily: {
-            lato: ['Lato', 'sans-serif'], // Include the Lato font
+            Poppins: ['Poppins', 'sans-serif'],
+            jost: ['Jost', 'sans-serif'],
+            roboto: ['Roboto', 'sans-serif'],
           },
           primary: '#064681',
         },
@@ -40,2018 +56,539 @@
 <!-- Head End  ----------------------->
 
 <body class="font-sans">
-  <!-- Navbar Start  -->
-  <header class="bg-white shadow-md py-2 px-3">
-    <div class="container mx-auto flex items-center justify-between py-2">
-      <!-- Left Section: Logo -->
+  <!-- Navbar Start  ------------------------------------------>
+  <header class="shadow-lg">
+    <div class="container mx-auto">
+      <div class="flex items-center justify-between px-10  py-6 ">
+        <!-- Logo Section -->
+        <div class="flex items-center space-x-3">
+          <img src="/assets/images/vision_eye_logo.png.webp" alt="Logo" class="w-40">
+
+        </div>
+
+        <!-- Navigation Links -->
+        <nav class="flex items-center space-x-8">
+          <a href="#" class=" font-medium " style="color: #0078bf;">Home</a>
+          <a href="#" class="text-gray-700 font-medium  ">About Us</a>
+          <a href="#" class="text-gray-700 font-medium ">Gallery</a>
+          <div class="relative group">
+            <button class="text-gray-700 font-medium  flex items-center space-x-1">
+              <span>Treatment</span>
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <!-- Dropdown -->
+            <div class="absolute hidden group-hover:block shadow-lg mt-4 w-60 space-y-2 z-50"
+              style="background-color: #0078bf;">
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Cataract</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Refractive Procedure</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Implantabke Contact Lens (ICL)</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Cornea</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Glaucoma</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Retina</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Pediatric</a>
+              <a href="#" class="block px-4 py-2 text-sm font-semibold text-white ">Oculoplasty</a>
+            </div>
+          </div>
+          <a href="#" class="text-gray-700 font-medium ">Contact</a>
+        </nav>
+
+        <!-- Call-to-Action Button -->
+        <a href="#" class="px-4 py-3 bg-black text-white text-lg font-medium rounded shadow-md ">
+          Free Eye Test Online
+        </a>
+  </header>
+
+  <!-- Off -->
+  <div id="off-canvas-menu"
+    class="fixed inset-0 backdrop-blur-sm  f2-bg z-50 transform translate-x-full md:hidden transition-transform duration-300 max-h-[35em]">
+    <div class="container mx-auto flex items-center justify-between p-5 bg-white">
       <div class="flex items-center space-x-4">
         <img src="./assets/images/logo.png" alt="Hospital Logo" class="md:h-16 h-10" />
       </div>
 
-      <!-- Middle Section: Navigation Links -->
-      <nav class=" space-x-6 f1-color hidden md:flex">
-        <a href="index.html" class="f2-color font-semibold list-none text-xl">
-          Home
-          <span class="block h-1 w-2 f2-bg rounded-full mt-1 mx-auto"></span>
-        </a>
-        <a href="about.html" class="text-xl">About</a>
-        <a href="specialty.html" class="text-xl">Specialty</a>
-        <a href="facility.html" class="text-xl">Facility</a>
-        <a href="gallery.html" class="text-xl">Gallery</a>
-        <a href="cashless.html" class="text-xl">Cashless</a>
-        <a href="blog.html" class="text-xl">Blogs</a>
-      </nav>
-
-      <!-- Right Section: Contact Us Button -->
-      <div class="relative md:inline-block hidden">
-        <a href="contact.html" class="flex items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg"
-          style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);">
-          Contact Us
-        </a>
-      </div>
-
-      <!-- Hamburger Menu Button (Visible on small screens) -->
-      <button class="md:hidden flex items-center space-x-2" id="hamburger-btn">
-        <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_138_1296)">
-            <path
-              d="M0 1.05C0.0711123 1.01111 0.0601719 0.933333 0.0820526 0.872222C0.273509 0.366667 0.743944 0.0222222 1.28002 0.0111111C1.34566 0.0111111 1.41678 0.0111111 1.48242 0.0111111C7.47773 0.00555556 13.4785 0.0166667 19.4738 0C20.2123 0 20.8085 0.35 20.9781 1.08333C20.9781 1.08889 20.9891 1.08889 20.9945 1.08889C20.9945 1.26667 20.9945 1.45 20.9945 1.62778C20.9289 1.66111 20.9344 1.73333 20.9179 1.78333C20.7265 2.31111 20.2561 2.65556 19.6981 2.66667C19.6325 2.66667 19.5613 2.66667 19.4957 2.66667C13.5059 2.66667 7.51602 2.66667 1.52618 2.66667C0.694712 2.66667 0.355561 2.43333 0.032821 1.64444C0.0273509 1.63333 0.0109403 1.63333 0 1.62222C0 1.43889 0 1.24444 0 1.05Z"
-              fill="#333333" />
-            <path
-              d="M21.0004 14.9615C20.9347 14.9948 20.9402 15.067 20.9238 15.117C20.7324 15.6448 20.2619 15.9892 19.704 16.0003C19.6383 16.0003 19.5672 16.0003 19.5016 16.0003C13.5117 16.0003 7.52188 16.0003 1.53204 16.0003C0.700572 16.0003 0.361421 15.767 0.0386804 14.9781C0.0332102 14.967 0.0167997 14.967 0.00585938 14.9559C0.00585938 14.7615 0.00585938 14.567 0.00585938 14.3726C0.0769716 14.3337 0.0660313 14.2559 0.087912 14.1948C0.279368 13.6892 0.749803 13.3448 1.28041 13.3337C1.34605 13.3337 1.41716 13.3337 1.48281 13.3337C7.47812 13.3337 13.4789 13.3392 19.4742 13.3281C20.2127 13.3281 20.8089 13.6781 20.9785 14.4115C20.9785 14.417 20.9894 14.417 20.9949 14.417C21.0004 14.6003 21.0004 14.7837 21.0004 14.9615Z"
-              fill="#333333" />
-            <path
-              d="M21.0004 8.29349C20.9347 8.32682 20.9402 8.39905 20.9238 8.44905C20.7324 8.97682 20.2619 9.32127 19.704 9.33238C19.6383 9.33238 19.5672 9.33238 19.5016 9.33238C13.5117 9.33238 7.52188 9.33238 1.53204 9.33238C0.700572 9.33238 0.361421 9.09905 0.0386804 8.31016C0.0332102 8.29905 0.0167997 8.29904 0.00585938 8.28793C0.00585938 8.09349 0.00585938 7.89904 0.00585938 7.7046C0.0769716 7.66571 0.0660313 7.58793 0.087912 7.52682C0.279368 7.02127 0.749803 6.67682 1.28041 6.66571C1.34605 6.66571 1.41716 6.66571 1.48281 6.66571C7.47812 6.66571 13.4789 6.67127 19.4742 6.66016C20.2127 6.66016 20.8089 7.01016 20.9785 7.74349C20.9785 7.74904 20.9894 7.74905 20.9949 7.74905C21.0004 7.93238 21.0004 8.11571 21.0004 8.29349Z"
-              fill="#333333" />
-          </g>
-          <defs>
-            <clipPath id="clip0_138_1296">
-              <rect width="21" height="16" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-      </button>
+      <button class=" text-2xl p-2 f2-bg rounded-full text-white" id="close-menu">&times;</button>
     </div>
-
-    <!-- Off-Canvas Menu (Hidden by default) -->
-    <div id="off-canvas-menu"
-      class="fixed inset-0 backdrop-blur-sm  f2-bg z-50 transform translate-x-full md:hidden transition-transform duration-300 max-h-[35em]">
-      <div class="container mx-auto flex items-center justify-between p-5 bg-white">
-        <div class="flex items-center space-x-4">
-          <img src="./assets/images/logo.png" alt="Hospital Logo" class="md:h-16 h-10" />
+    <nav class="flex items-center space-x-8">
+      <a href="#" class="text-blue-600 font-medium hover:underline">Home</a>
+      <a href="#" class="text-gray-700 font-medium hover:underline">About Us</a>
+      <a href="#" class="text-gray-700 font-medium hover:underline">Gallery</a>
+      <div class="relative group">
+        <button class="text-gray-700 font-medium hover:underline flex items-center space-x-1">
+          <span>Treatment</span>
+          <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <!-- Dropdown -->
+        <div class="absolute hidden group-hover:block bg-white shadow-lg rounded mt-2 w-40">
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Treatment 1</a>
+          <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Treatment 2</a>
         </div>
-
-        <button class=" text-2xl p-2 f2-bg rounded-full text-white" id="close-menu">&times;</button>
       </div>
-      <nav class="flex flex-col items-center space-y-6 mt-10">
-        <a href="index.html" class="text-xl font-semibold text-white">Home</a>
-        <a href="about.html" class="text-xl font-semibold text-white">About</a>
-        <a href="specialty.html" class="text-xl font-semibold text-white">Specialty</a>
-        <a href="facility.html" class="text-xl font-semibold text-white">Facility</a>
-        <a href="gallery.html" class="text-xl font-semibold text-white">Gallery</a>
-        <a href="cashless.html" class="text-xl font-semibold text-white">Cashless</a>
-        <a href="blog.html" class="text-xl font-semibold text-white">Blogs</a>
-        <a href="contact.html" class="text-xl font-bold text-white">Contact Us</a>
-      </nav>
-    </div>
-  </header>
+      <a href="#" class="text-gray-700 font-medium hover:underline">Contact</a>
+    </nav>
+  </div>
   <!-- Navbar End  -->
 
+  <!-- Main Banner Start ---------------------------------------->
+  <section class="relative ">
+    <div class="container mx-auto py-12">
+      <!-- Swiper Slider -->
+      <div class="swiper">
+        <!-- Slides Wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide  ">
+            <!-- Section with Text and Image -->
+            <div class=" flex  ">
+              <!-- Text Content -->
+              <div class="w-2/1 pr-8 py-10">
+                <h3 class=" font-semibold text-2xl " style="color: #0078bf;">Eye Care & Holistic Health
+                  Center</h3>
+                <h1 class="text-7xl font-bold text-gray-800 mt-2">Eye Care & Holistic <br> Health Center</h1>
+                <p class="text-gray-600 py-8 text-lg">We solve all your eye care needs by providing personalized and
+                  holistic eye care <br> for you and your family!</p>
+                <button class=" px-11 py-4 bg-black text-white font-semibold rounded-full hover:bg-gray-800">About
+                  Us</button>
+                <!-- Icons Section -->
+                <div class="flex justify-start space-x-9 py-10">
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye-glasses.png" alt="" class="w-12 h-12">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye.png" alt="" class="w-12 h-12 ">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/man.png" alt="" class="w-12 h-12">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye (1).png" alt="" class="w-12 h-12">
+                  </div>
+                </div>
+              </div>
+              <!-- Image Content -->
+              <div class="w-2/1 relative">
+                <div class=" rounded-t-full absolute top-48 left-20"
+                  style="background-color: #0078bf; height: 470px; width: 455px;">
+                </div>
+                <img src="assets/images/Banner/banner-img-1.png" alt="Person with glasses"
+                  class="relative z-10 -bottom-5 left-11">
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="swiper-slide  ">
+            <!-- Section with Text and Image -->
+            <div class=" flex ">
+              <!-- Text Content -->
+              <div class="w-2/1 pr-8 py-10">
+                <h3 class="text-blue-500 font-semibold text-2xl " style="color: #0078bf;">Eye Care & Holistic Health
+                  Center</h3>
+                <h1 class="text-7xl font-bold text-gray-800 mt-2">Cashless Insurance <br> Claim</h1>
+                <p class="text-gray-600 py-8 text-lg">We solve all your eye care needs by providing personalized and
+                  holistic eye care <br> for you and your family!</p>
+                <button class=" px-11 py-4 bg-black text-white font-semibold rounded-full hover:bg-gray-800">About
+                  Us</button>
+                <!-- Icons Section -->
+                <div class="flex justify-start space-x-9 py-10">
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye-glasses.png" alt="" class="w-12 h-12">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye.png" alt="" class="w-12 h-12 ">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/man.png" alt="" class="w-12 h-12">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye (1).png" alt="" class="w-12 h-12">
+                  </div>
+                </div>
+              </div>
+              <!-- Image Content -->
+              <div class="w-2/1 relative">
+                <div class=" rounded-t-full absolute top-48 left-20"
+                  style="background-color: #0078bf; height: 470px; width: 455px;">
+                </div>
+                <img src="assets/images/Banner/cashless.png" alt="Person with glasses"
+                  class="relative z-10 -bottom-5 left-11">
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="swiper-slide  ">
+            <!-- Section with Text and Image -->
+            <div class=" flex ">
+              <!-- Text Content -->
+              <div class="w-2/1 pr-8 ">
+                <h3 class="text-blue-500 font-semibold text-2xl " style="color: #0078bf;">Best Eye Hopspital in Surat
+                </h3>
+                <h1 class="text-7xl font-bold text-gray-800 mt-2">Super Specialty <br> Hospital - Vision <br> Eye
+                  Hospital</h1>
+                <p class="text-gray-600 py-8 text-lg">We solve all your eye care needs by providing personalized and
+                  holistic eye care <br> for you and your family!</p>
+                <button class=" px-11 py-4 bg-black text-white font-semibold rounded-full hover:bg-gray-800">About
+                  Us</button>
+                <!-- Icons Section -->
+                <div class="flex justify-start space-x-9 py-10">
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye-glasses.png" alt="" class="w-12 h-12">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye.png" alt="" class="w-12 h-12 ">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/man.png" alt="" class="w-12 h-12">
+                  </div>
+                  <div class="bg-shadow p-4 rounded-full w-20 h-20 ">
+                    <img src="assets/images/Banner/eye (1).png" alt="" class="w-12 h-12">
+                  </div>
+                </div>
+              </div>
+              <!-- Image Content -->
+              <div class="w-2/1 relative">
+                <div class=" rounded-t-full absolute top-48 left-20 z-10"
+                  style="background-color: #0078bf; height: 470px; width: 455px;">
+                </div>
+                <img src="assets/images/Banner/cashless.png" alt="Person with glasses"
+                  class="relative z-10 -bottom-5 left-11">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <img src="assets/images/Banner/slider_icon_new.png" alt="" class="absolute top-16 -right-64 z-30"> -->
+        <!-- Pagination -->
+      </div>
+      <img src="assets/images/Banner/Bg-shape.png" alt="" class="absolute top-0 left-0">
+      <div class=" animate-rotate absolute top-28 right-40 rotate-180">
+        <img src="assets/images/Banner/slider_icon_new.png" alt="Rotating Icon" class="w-full h-full">
+      </div>
 
-  <!-- Main Content --------------------------------->
-  <!-- Hero Section -->
-  <section class="relative bg-blue-50 md:h-auto h-[80vh]"
-    style="background-image: url('./assets/images/banner.jpg'); background-size: cover; background-position: center;">
-    <div class="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-b from-blue-200 to-transparent opacity-20 ">
-      <h1 class="text-9xl. text-white font-bold -rotate-90 absolute -left-[48%] top-[37%] transform translate-y-1/2">
-        GABANI GABANI
-      </h1>
+      <!-- Navigation Buttons -->
+      <div class="swiper-button-next absolute "></div>
+      <div class="swiper-button-prev"></div>
     </div>
-    <!-- Heading -->
-    <div class="absolute md:left-56 md:top-40 top-5 md:px-0 px-4">
-      <h1 class=" lg:text-7xl text-2xl font-bold f2-color md:mb-8">
-        Complete Urology Gabani
-      </h1>
-      <span class=" lg:text-7xl text-2xl font-bold f2-color">Hospital Surat</span>
-    </div>
-    <div class="container mx-auto   flex flex-col lg:flex-row md:items-center md:py-80 py-16 md:px-0 px-4 relative">
-      <!-- Text Content Section -->
-      <div class="lg:w-1/2 mdtext-center lg:text-left md:space-y-16 space-y-4 ">
+  </section>
 
-        <!-- Description -->
-        <p class=" md:lg:text-xl text-base f1-color  md:mt-10 mt-10 md:font-semibold font-medium">
-          We are committed to providing you with the best medical and healthcare
-          services to help you live healthier and happier.
-        </p>
-        <!-- Call-to-Action Buttons -->
-        <div class="flex lg:justify-start items-center space-x-6 ">
-          <!-- Button: Book Appointment -->
-          <a href="contact.html"
-            class="flex items-center f2-bg text-white md:px-12 px-4 py-3 md:text-lg text-xs font-semibold rounded-md shadow-lg "
-            style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);">
-            Book Appointment
-          </a>
-          <!-- Link: See How We Work -->
-          <a href="#" class="flex items-center f2-color md:text-lg text-base font-medium hover:underline space-x-2">
-            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="md:w-12 w-8 md:h-20 h-10">
-              <g clip-path="url(#clip0_11_785)">
-                <path
-                  d="M34.1912 5.80871C26.315 -1.99037 13.6078 -1.92795 5.8087 5.94821C-1.93623 13.7697 -1.93623 26.3698 5.8087 34.1914C13.6849 41.9904 26.3922 41.928 34.1912 34.0518C41.9361 26.2304 41.9361 13.6302 34.1912 5.80871ZM20 38.457C9.82264 38.457 1.54294 30.1774 1.54294 20C1.54294 9.82256 9.82256 1.54304 20 1.54304C30.1774 1.54304 38.457 9.82272 38.457 20.0001C38.457 30.1774 30.1773 38.457 20 38.457Z"
-                  fill="#274760" />
-                <path
-                  d="M30.8797 19.3011V19.3021L14.5846 9.89429C14.199 9.67165 13.7058 9.80373 13.4831 10.1895C13.4124 10.312 13.3751 10.4509 13.3751 10.5923V29.4077C13.3753 29.853 13.7366 30.214 14.1818 30.2137C14.3233 30.2136 14.4622 30.1764 14.5847 30.1056L30.8798 20.6979C31.2655 20.4753 31.3977 19.9821 31.1751 19.5964C31.1042 19.4737 31.0024 19.3719 30.8797 19.3011Z"
-                  fill="#274760" />
-              </g>
-              <defs>
-                <clipPath id="clip0_11_785">
-                  <rect width="40" height="40" fill="white" />
-                </clipPath>
-              </defs>
+  <!-- Card Section Start ------------------------------------->
+  <div class="container mx-auto py-16">
+    <!-- Services Section -->
+    <section class="bg-white rounded-2xl shadow-lg p-16">
+      <h2 class="text-4xl font-bold text-gray-800 text-center mb-4">Our Services</h2>
+      <p class="text-gray-600 text-center mt-3">They may forget what you said, they may forget what you did. But they
+        will never forget how you made them feel. - Maya Angelou</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+        <!-- Service 1 -->
+        <div class=" p-6 rounded-3xl " style="background-color: #f6f7f8;">
+          <div class="text-blue-500 mb-4 items-start ">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 " viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path>
             </svg>
-            <span class="f1-color">See how we work</span>
-          </a>
-        </div>
-      </div>
-
-      <!-- Image Section -->
-      <div class="lg:w-1/2 mt-8 lg:mt-0 flex justify-center relative">
-        <!-- Doctor Image -->
-        <img src="./assets/images/gallery/doctor.png" alt="Doctors"
-          class="absolute md:-top-72 -bottom-480 md:-right-20" />
-
-        <!-- Doctor Count Section -->
-        <div
-          class="absolute md:-right-28 right-0 md:top-0 top-32 backdrop-blur-sm from-blue-100 to-white shadow-xl rounded-lg flex flex-col items-center justify-center md:w-[200px] w-[110px] md:h-[225px] h-[135px]"
-          style="
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.034), rgba(255, 255, 255, 0.4));
-">
-          <!-- Profile Images -->
-          <div class="flex -space-x-3 md:mb-4 mb-0">
-            <img src="./assets/images/gallery/Ellipse 12.png" alt="Doctor 1"
-              class="md:w-10 w-6 md:h-10 h-6 rounded-full border-2 border-white" />
-            <img src="./assets/images/gallery/Ellipse 11.png" alt="Doctor 2"
-              class="md:w-10 w-6 md:h-10 h-6 rounded-full border-2 border-white" />
-            <img src="./assets/images/gallery/Ellipse 8.png" alt="Doctor 3"
-              class="md:w-14 w-8 md:h-14 h-8 z-20 rounded-full border-2 border-white" />
-            <img src="./assets/images/gallery/Ellipse 9.png" alt="Doctor 4"
-              class="md:w-10 w-6 md:h-10 h-6 z-10 rounded-full border-2 border-white" />
-            <img src="./assets/images/gallery/Ellipse 10.png" alt="Doctor 5"
-              class="md:w-10 w-6 md:h-10 h-6 rounded-full border-2 border-white" />
           </div>
-
-          <!-- Doctor Count -->
-          <span id="doctor-count" class="block md:text-3xl text-xl font-bold f1-color">0</span>
-          <span class="text-sm f1-color">Doctors</span>
+          <h3 class="font-bold text-start text-lg text-gray-800">CATARACT</h3>
+          <p class="text-gray-600 mt-2 text-start font-normal" style="line-height: 2rem;">Cataract is clouding of the
+            normally clear lens of the <br> eye.</p>
         </div>
 
-        <!-- -------Patient recover counter -->
-        <div
-          class="absolute md:top-28 top-72 left-0 backdrop-blur-sm flex justify-center items-center shadow-lg rounded-full md:py-3 md:px-6 px-2 space-x-4 border-t border-s md:w-[280px] w-[190px]"
-          style=" background: linear-gradient(90deg, rgba(255, 255, 255, 0.034), rgba(255, 255, 255, 0.4));">
-          <!-- Profile Images -->
-          <div class="flex md:-space-x-7 -space-x-4">
-            <img src="./assets/images/gallery/Ellipse 14.png" alt="Profile 1"
-              class="md:w-14 w-8 md:h-14 h-8 rounded-full border-1 border-white" />
-            <img src="./assets/images/gallery/Ellipse 15.png" alt="Profile 2"
-              class="md:w-14 w-8 md:h-14 h-8 rounded-full border-1 border-white" />
-            <img src="./assets/images/gallery/Ellipse 16.png" alt="Profile 3"
-              class="md:w-14 w-8 md:h-14 h-8 rounded-full border-1 border-white" />
-          </div>
-
-          <!-- Text Section -->
-          <div class="flex flex-col text-left">
-            <span id="patient-counter" class="md:text-xl font-semibold text-white md:py-2">0</span>
-            <span class="md:text-sm text-xs text-white">Patient Recover</span>
-          </div>
-        </div>
-
-
-      </div>
-  </section>
-  <!-- ------------------------------ Main Banner End ---------------------------------------------->
-
-  <!-- Stats Section -->
-  <section class="md:mx-auto mx-5">
-    <div class="bg-white md:py-10 py-4 shadow-md rounded-xl md:-mt-20 -mt-[60px] container mx-auto relative z-10 ">
-      <div
-        class="container mx-auto grid md:grid-cols-1 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 md:gap-8 gap-6 text-center ">
-        <!-- Years Experience -->
-        <div class="flex justify-center items-center md:border-r-2 border-none">
-          <div class="md:w-16 w-10 md:h-16 h-10 rounded-full  flex items-center justify-center"
-            style="background: linear-gradient(180deg, #dee4e9 0%, rgba(189, 209, 228, 0) 87.21%);">
-            <img src="./assets/images/experience.png" alt="Years Experience Icon" class="md:w-8 w-6 md:h-8 h-6">
-          </div>
-          <div class="md:px-5 px-2">
-            <div id="experience-counter" class="md:text-4xl text-lg font-bold f1-color text-start">0</div>
-            <div class="f4-color md:text-lg text-xs">Years Experience</div>
-          </div>
-        </div>
-
-        <!-- Surgeries Done -->
-        <div class="flex justify-center items-center md:border-r-2 border-none">
-          <div class="md:w-16 w-10 md:h-16 h-10 rounded-full  flex items-center justify-center"
-            style="background: linear-gradient(180deg, #dee4e9 0%, rgba(189, 209, 228, 0) 87.21%);">
-            <img src="./assets/images/happy.png" alt="Surgeries Done Icon" class="md:w-8 w-6 md:h-8 h-6">
-          </div>
-          <div class="md:px-5 px-2">
-            <div id="surgeries-counter" class="md:text-4xl text-lg font-bold f1-color text-start">0</div>
-            <div class="f4-color md:text-lg text-xs">Surgeries Done</div>
-          </div>
-        </div>
-
-        <!-- Happy Patients -->
-        <div class="flex justify-center items-center md:border-r-2 border-none">
-          <div class="md:w-16 w-10 md:h-16 h-10 rounded-full  flex items-center justify-center"
-            style="background: linear-gradient(180deg, #dee4e9 0%, rgba(189, 209, 228, 0) 87.21%);">
-            <img src="./assets/images/happy.png" alt="Happy Patients Icon" class="md:w-8 w-6 md:h-8 h-6">
-          </div>
-          <div class="md:px-5 px-2">
-            <div id="patients-counter" class="md:text-4xl text-lg font-bold f1-color text-start">0</div>
-            <div class="f4-color md:text-lg text-xs">Happy Patients</div>
-          </div>
-        </div>
-
-        <!-- Cashless Companies -->
-        <div class="flex justify-center items-center">
-          <div class="md:w-16 w-10 md:h-16 h-10 rounded-full  flex items-center justify-center"
-            style="background: linear-gradient(180deg, #dee4e9 0%, rgba(189, 209, 228, 0) 87.21%);">
-            <img src="./assets/images/compony.png" alt="Cashless Companies Icon" class="md:w-8 w-6 md:h-8 h-6">
-          </div>
-          <div class="md:px-5 px-2">
-            <div id="companies-counter" class="md:text-4xl text-lg font-bold f1-color text-start">0</div>
-            <div class="f4-color md:text-lg text-xs">Cashless Companies</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- ----------------------------About Section Start ------------------ -->
-  <section class="md:py-36 m-5 bg-white">
-    <div class="container mx-auto flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 relative">
-      <!-- Left Image Section -->
-      <div class="lg:w-1/2 flex justify-center relative">
-        <!-- Main Image -->
-        <div class="absolute md:top-[-290px] top-[-150px] md:right-[-80%] z-20 shadow-lg rounded-xl">
-          <img src="./assets/images/gallery/patient-care.png" alt="Patient Care" class="  ">
-        </div>
-        <!-- Overlay Image -->
-        <img src="./assets/images/gallery/smile-doctor.png" alt="Doctor Smiling"
-          class="absolute top-[50px] md:right-[-280px]  z-20">
-        <!-- Badge -->
-        <div class="absolute bottom-[150px] md:right-[-350px]  z-30 ">
-          <img src="./assets/images/gallery/quality.png" alt="High Quality">
-        </div>
-        <div class="absolute top-[50px] md:left-[-150px]  z-0">
-          <img src="./assets/images/gallery/shadow.png" alt="High Quality">
-        </div>
-      </div>
-
-      <!-- Right Text Section -->
-      <div class="lg:w-3/3 f5-bg rounded-3xl shadow-md md:pb-36 pb-10 pt-10 md:pl-96 pl-10 pr-10 relative  ">
-
-        <!-- Background Title -->
-        <div class="absolute right-10 md:top-10 top-8 opacity-5">
-          <h3 class="font-bold md:text-9xl text-3xl f1-color">About US</h3>
-        </div>
-
-        <!-- Main Content -->
-        <div class="relative z-20 ">
-          <!-- Section Title -->
-          <div class="flex items-center space-x-4 md:mt-44 mt-15">
-            <span class="font-lato f2-color md:text-5xl text-2xl font-extrabold ">About US</span>
-            <span class="inline-flex items-center justify-center  f2-color md:text-5xl w-10 md:w-auto font-extrabold ">
-              <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
-                  fill="#064681" />
-              </svg>
-            </span>
-          </div>
-          <!-- Description -->
-          <p class="md:text-2xl text-lg f2-color font-semibold md:mt-10 mt-5">
-            Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. Ashvin Gabani.
-          </p>
-          <div class="lg:w-1/2 flex justify-center relative md:hidden">
-            <!-- Main Image -->
-            <div class="absolute  md:top-[-290px] top-[20px] md:right-[-80%] left-[-0%] z-20 shadow-lg rounded-xl">
-              <img src="./assets/images/gallery/patient-care.png" alt="Patient Care" class=" md:h-auto h-80 md:w-auto ">
-            </div>
-            <!-- Overlay Image -->
-            <img src="./assets/images/gallery/smile-doctor.png" alt="Doctor Smiling"
-              class="absolute md:h-auto h-52 md:w-auto md:top-[50px] top-[180px] md:right-[-280px] right-[-10px] z-20">
-            <!-- Badge -->
-            <div class="absolute md:bottom-[150px] bottom-[-80px] md:right-[-350px] right-[-15px]  z-30 ">
-              <img src="./assets/images/gallery/quality.png" alt="High Quality" class="md:h-auto h-24 md:w-auto">
-            </div>
-            <div class="absolute top-[50px] md:left-[-150px]  z-0">
-              <img src="./assets/images/gallery/shadow.png" alt="High Quality">
-            </div>
-          </div>
-          <!-- Bullet Points -->
-          <ul class="md:mt-6 space-y-5 f1-color mt-[25rem]">
-            <li class="flex items-start md:text-lg text-base  font-semibold">
-              <svg class="mr-2 mt-1" width="18" height="18" viewBox="0 0 18 18" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
-                  fill="#274760" />
-              </svg>
-              Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. Ashvin Gabani.
-            </li>
-            <li class="flex items-start md:text-lg text-base font-semibold">
-              <svg class="mr-2 mt-1" width="40" height="18" viewBox="0 0 18 18" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
-                  fill="#274760" />
-              </svg>
-              We are pioneers in ESWL at private setup in South Gujarat. We are the first in flexible endoscopy &
-              Holmium laser setup in South Gujarat. We have first & only mobile Lithotripsy center in south Gujarat.
-            </li>
-          </ul>
-
-          <!-- Button -->
-          <div class="relative inline-block md:mt-8 mt-5">
-            <a href="about.html"
-              class="flex items-center f2-bg text-white md:text-lg text-xs md:px-12 px-6 md:py-3 py-2 font-semibold rounded-md shadow-lg "
-              style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
-  ">
-              Read More
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- -----------------------------Our Specialty Page Start ----------------->
-  <section class="relative md:py-20 p-7  bg-gradient-to-r from-blue-400 via-blue-200 to-blue-100">
-    <!-- Background Element -->
-    <div
-      class="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-b from-blue-200 to-transparent opacity-20 md:block hidden">
-      <h1 class="text-9xl text-white font-bold -rotate-90 absolute -left-80 top-1/3 transform translate-y-1/2 ">
-        Specialty Our
-      </h1>
-    </div>
-    <div class="absolute top-[0px] left-[0px]  z-0">
-      <img src="./assets/images/gallery/special-shap1.png" alt="High Quality">
-    </div>
-    <div class="absolute bottom-[0px] right-[0px]  z-0">
-      <img src="./assets/images/gallery/special-shap2.png" alt="High Quality">
-    </div>
-
-    <div class="container mx-auto relative z-10">
-      <!-- Header Section Specialty-->
-      <div class=" flex justify-between items-center ">
-        <div>
-
-          <div class="flex ">
-            <h2 class="md:text-5xl text-xl font-bold text-white me-5 md:mb-5 mb-2 "
-              style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);">Our Specialty</h2>
-            <span
-              class="inline-flex items-center justify-center  text-white font-extrabold md:text-5xl w-10 md:w-auto ">
-              <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
-                  fill="#ffffff" />
-              </svg>
-            </span>
-          </div>
-          <p class="md:text-lg text-white mt-2">
-            Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. </br> Ashvin Gabani.
-          </p>
-        </div>
-
-        <a href="specialty.html"
-          class="md:flex hidden items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg " style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
-">
-          View All
-        </a>
-      </div>
-
-      <!-- Specialty Cards Section -->
-      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 md:gap-6 gap-2 md:mt-10 mt-5">
-        <!-- Image Card 1 -->
-        <div class="relative">
-          <img src="./assets/images/gallery/get-started.png" alt="Lithotripsy"
-            class="w-45 h-45 object-cover md:mb-8 mb-3">
-          <div class="absolute inset-0 flex justify-center items-center text-white font-bold text-xl">
-          </div>
-          <div class="card-bg rounded-2xl shadow-md border-white border-s-2 border-t-2 md:p-4 p-2">
-            <h3 class="md:text-xl text-lg font-bold f2-color">Lithotripsy</h3>
-            <p class="f1-color mt-2 text-sm">
-              We have extracorporeal shock wave Lithotripsy unit on which we have successfully performed ESWL of more
-              than 5000.
-            </p>
-          </div>
-        </div>
-
-        <!-- Image Card 2 -->
-        <div class="relative ">
-          <div class="card-bg rounded-2xl shadow-md border-white border-s-2 border-t-2 md:p-4 p-2 md:mb-8 mb-4">
-            <h3 class="md:text-xl font-bold f2-color">Cystolitholapaxy</h3>
-            <p class="f1-color mt-2 text-sm">
-              Any big bladder stone can be treated by per urethral cystoscopy fragmentation of stone by Laser
-              Lithotripsy & removal.
-            </p>
-          </div>
-          <img src="./assets/images/gallery/ling.png" alt="PCNL Treatment" class="w-45 h-45 object-cover">
-        </div>
-
-        <!-- Image Card 3 -->
-        <div class=" relative md:block hidden">
-          <img src="./assets/images/gallery/loung.png" alt="Prostate Cancer"
-            class="w-45 h-45 object-cover md:mb-8 mb-4">
-          <div class="absolute inset-0 flex justify-center items-center  text-white font-bold text-xl">
-          </div>
-          <div class="card-bg rounded-2xl shadow-md border-white border-s-2 border-t-2 p-4">
-            <h3 class="text-xl font-bold f2-color">Lithotripsy</h3>
-            <p class="f1-color mt-2 text-sm">
-              We have extracorporeal shock wave Lithotripsy unit on which we have successfully performed ESWL of more
-              than 5000.
-            </p>
-          </div>
-        </div>
-
-        <!-- Image Card 4 -->
-        <div class="relative md:block hidden">
-          <div class="card-bg rounded-2xl shadow-md border-white border-s-2 border-t-2 p-4 md:mb-8 mb-4">
-            <h3 class="text-xl font-bold f2-color">PCNL Treatment</h3>
-            <p class="f1-color mt-2 text-sm">
-              In this procedure, by a small 1 cm incision in flank under anesthesia & under vision of nephroscope – any
-              hard or big stone can be...
-            </p>
-          </div>
-          <img src="./assets/images/gallery/digital.png" alt="Cystolitholapaxy" class="w-45 h-45 object-cover">
-        </div>
-      </div>
-
-    </div>
-    <div class="mt-8">
-      <a href="specialty.html"
-        class=" md:hidden items-center f2-bg border-white text-white md:px-12 px-5 md:py-2 py-2 font-normal rounded-md shadow-lg "
-        style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
-">
-        Read More
-      </a>
-    </div>
-  </section>
-
-  <!-- ------Our Facilities Section Start -------------------------------- -->
-  <section class="md:py-28  py-10 bg-white relative">
-    <section class="container-1 relative bg-gray-100 md:py-10 py-6 rounded-r-3xl ">
-      <!-- Background Text -->
-      <div
-        class="absolute inset-y-0 md:left-[67%] left-[190px] md:top-[-30px] top-[-45px] opacity-5 flex justify-end items-center md:mb-16 mb-0 ">
-        <h1 class="md:text-9xl text-3xl font-bold f1-color"> Facilities</h1>
-      </div>
-
-      <!-- Main Content -->
-      <div class="container mx-auto relative z-10 ">
-        <div class="flex justify-between items-center md:mt-28 mt-6">
-          <!-- Left Section -->
-          <div>
-            <div class="flex items-center ">
-              <h2 class="md:text-5xl text-xl font-bold f2-color md:ms-40 ms-10 me-2 ">Our Facilities</h2>
-              <span class="inline-flex items-center justify-center f2-color text-xl font-bold w-10 md:w-auto">
-                <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
-                    fill="#064681" />
-                </svg>
-              </span>
-
-            </div>
-
-          </div>
-
-          <!-- Right Section -->
-          <a href="specialty.html"
-            class="md:flex hidden items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg " style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
-">
-            View All
-          </a>
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- Header Section Our Facilities-->
-
-    <div class="container mx-auto  relative z-10">
-      <!-- Facilities Cards -->
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 md:gap-8 gap-3 md:mt-12 mt-5 md:m-auto m-5">
-        <!-- Card 1 -->
-        <div class="p-4 bg-white rounded-3xl shadow-lg">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Endoscopy.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-            <div class="md:p-4 p-0 ">
-              <h3 class="md:text-2xl text-lg font-semibold f1-color">Endoscopy Unit</h3>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="p-4 bg-white rounded-3xl shadow-lg">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Enaestiesia.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-            <div class="md:p-4 p-0">
-              <h3 class="md:text-2xl text-lg font-semibold f1-color">Enaesthesia Machine</h3>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="p-4 bg-white rounded-3xl shadow-lg">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/Holmium.png" alt="Endoscopy Unit" class="w-full  object-cover rounded-xl">
-            <div class="md:p-4 p-0">
-              <h3 class="md:text-2xl text-lg font-semibold f1-color">35 Watt Holminum Laser</h3>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="md:block hidden p-4 bg-white rounded-3xl shadow-lg ">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/sonography.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-            <div class="md:p-4 p-0">
-              <h3 class="md:text-2xl text-lg font-semibold f1-color">Sonography Machine</h3>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 5 -->
-        <div class="md:block hidden p-4 bg-white rounded-3xl shadow-lg">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/iitv.png" alt="Endoscopy Unit" class="w-full  object-cover rounded-xl">
-            <div class="md:p-4 p-0">
-              <h3 class="md:text-2xl text-lg font-semibold f1-color">C-Arm IITV</h3>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 6 -->
-        <div class="md:block hidden p-4 bg-white rounded-3xl shadow-lg">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
-            <img src="./assets/images/gallery/operation.png" alt="Endoscopy Unit"
-              class="w-full  object-cover rounded-xl">
-            <div class="md:p-4 p-0">
-              <h3 class="md:text-2xl text-lg font-semibold f1-color">Operation Theater</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="mt-8 md:ms-5 ms-10">
-        <a href="facility.html"
-          class=" md:hidden items-center f2-bg border-white text-white md:px-12 px-6 md:py-3 py-2 font-semibold rounded-md shadow-lg "
-          style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
-    ">
-          Read More
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ---------------------Our Gallery Section start -->
-  <section class="relative md:py-16 py-6 md:px-auto px-6 bg-gradient-to-t from-white via-blue-200 to-blue-400">
-    <!-- Background Element -->
-
-    <div class="absolute top-[0px] left-[0px]  z-0">
-      <img src="./assets/images/gallery/special-shap1.png" alt="High Quality">
-    </div>
-    <div class="absolute bottom-[0px] right-[0px]  z-0">
-      <img src="./assets/images/gallery/special-shap2.png" alt="High Quality">
-    </div>
-
-    <div class="container mx-auto relative z-10 ">
-      <!-- Header Section Specialty-->
-      <div class="flex justify-between items-center ">
-        <div>
-
-          <div class="flex ">
-            <h2 class="md:text-5xl text-xl font-bold text-white me-5 md:mb-5 mb-0">Our Gallery</h2>
-            <span
-              class="inline-flex items-center justify-center  text-white text-5xl font-extrabold w-10 md:w-auto me-20">
-              <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
-                  fill="#ffffff" />
-              </svg>
-            </span>
-            <div class="">
-              <a href="gallery.html"
-                class=" md:hidden items-center f2-bg border-white text-white md:px-12 px-5 md:py-3 py-2 font-semibold rounded-md shadow-lg"
-                style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
-        ">
-                View All
-              </a>
-            </div>
-          </div>
-          <p class="md:text-lg text-base text-white md:mt-2 mt-4">
-            Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. Ashvin Gabani.
-          </p>
-        </div>
-
-        <a href="specialty.html"
-          class="md:flex hidden items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg " style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
-">
-          View All
-        </a>
-
-      </div>
-
-      <!-- Specialty Cards Section -->
-      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 md:gap-6 gap-2 mt-10">
-        <!-- Image Card 1 -->
-        <div class="relative ">
-          <div class="card-bg rounded-2xl md:mb-8 mb-3">
-            <img src="./assets/images/gallery/p1.png" alt="" class="w-45 h-45 object-cover">
-          </div>
-          <img src="./assets/images/gallery/p2.png" alt="" class="w-45 h-45 object-cover">
-        </div>
-
-        <!-- Image Card 2 -->
-        <div class="relative mt-16">
-          <div class="card-bg rounded-2xl md:mb-8 mb-3">
-            <img src="./assets/images/gallery/p3.png" alt="" class="w-45 h-45 object-cover">
-          </div>
-          <img src="./assets/images/gallery/p4.png" alt="" class="w-45 h-45 object-cover">
-        </div>
-
-        <!-- Image Card 3 -->
-        <div class="md:block hidden relative ">
-          <div class="card-bg rounded-2xl mb-8">
-            <img src="./assets/images/gallery/p5.png" alt="" class="w-45 h-45 object-cover">
-          </div>
-          <img src="./assets/images/gallery/p6.png" alt="" class="w-45 h-45 object-cover">
-        </div>
-
-        <!-- Image Card 4 -->
-        <div class="md:block hidden relative mt-16">
-          <div class="card-bg rounded-2xl mb-8">
-            <img src="./assets/images/gallery/p7.png" alt="" class="w-45 h-45 object-cover">
-          </div>
-          <img src="./assets/images/gallery/p8.png" alt="" class="w-45 h-45 object-cover">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ----------------Our Blogs Start --------------- -->
-  <section class="md:py-28 py-5 bg-white relative">
-    <section class="container-2 md:ms-auto ms-5 relative bg-gray-100 md:py-16 py-5 rounded-s-3xl ">
-      <!-- Background Text -->
-      <div class="absolute inset-y-0 right-0 opacity-5 flex justify-end items-center md:mb-32 mb-16 md:pr-72 pr-10">
-        <h1 class="md:text-9xl text-4xl font-bold f1-color">Blogs</h1>
-      </div>
-
-      <!-- Main Content -->
-      <div class="container mx-auto  relative z-0 ">
-        <div class="flex justify-between items-center md:mt-28 mt-10 m-0 md:me-52 me-10">
-          <!-- Left Section -->
-          <div>
-            <div class="flex items-center md:-ms-16 ms-4 ">
-              <h2 class="md:text-5xl text-2xl font-bold f2-color me-3">Our Blogs</h2>
-              <span class="inline-flex items-center justify-center f2-color text-xl font-bold ">
-                <svg width="36" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
-                    fill="#064681" />
-                </svg>
-              </span>
-            </div>
-          </div>
-
-          <!-- Right Section -->
-
-          <a href="specialty.html"
-            class=" md:flex hidden items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg " style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
-">
-            View All
-          </a>
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- Header Section Our Facilities-->
-    <div class="container mx-auto relative z-0 md:p-auto ">
-      <!-- Facilities Cards -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 md:mt-12 mt-2">
-
-        <!-- Card 1 -->
-        <div class="md:block hidden bg-white rounded-3xl shadow-lg">
-          <!-- Image Section -->
-          <div class="bg-white rounded-xl overflow-hidden text-center">
-            <img src="./assets/images/gallery/laptop.png" alt="Description" class="w-full object-cover rounded-t-xl">
-          </div>
-
-          <!-- Content Section -->
-          <!-- Card -1 -->
-          <div class="p-4">
-            <!-- Date -->
-            <div class="flex items-center justify-between text-sm text-gray-500 mb-5">
-              <!-- Date Section -->
-              <div class="flex items-center">
-                <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M6 4.75C5.59 4.75 5.25 4.41 5.25 4V1C5.25 0.59 5.59 0.25 6 0.25C6.41 0.25 6.75 0.59 6.75 1V4C6.75 4.41 6.41 4.75 6 4.75ZM14 4.75C13.59 4.75 13.25 4.41 13.25 4V1C13.25 0.59 13.59 0.25 14 0.25C14.41 0.25 14.75 0.59 14.75 1V4C14.75 4.41 14.41 4.75 14 4.75ZM6.5 13.5C6.37 13.5 6.24 13.47 6.12 13.42C5.99 13.37 5.89 13.3 5.79 13.21C5.61 13.02 5.5 12.77 5.5 12.5C5.5 12.37 5.53 12.24 5.58 12.12C5.63 12 5.7 11.89 5.79 11.79C5.89 11.7 5.99 11.63 6.12 11.58C6.48 11.43 6.93 11.51 7.21 11.79C7.39 11.98 7.5 12.24 7.5 12.5C7.5 12.56 7.49 12.63 7.48 12.7C7.47 12.76 7.45 12.82 7.42 12.88C7.4 12.94 7.37 13 7.33 13.06C7.3 13.11 7.25 13.16 7.21 13.21C7.02 13.39 6.76 13.5 6.5 13.5ZM10 13.5C9.87 13.5 9.74 13.47 9.62 13.42C9.49 13.37 9.39 13.3 9.29 13.21C9.11 13.02 9 12.77 9 12.5C9 12.37 9.03 12.24 9.08 12.12C9.13 12 9.2 11.89 9.29 11.79C9.39 11.7 9.49 11.63 9.62 11.58C9.98 11.42 10.43 11.51 10.71 11.79C10.89 11.98 11 12.24 11 12.5C11 12.56 10.99 12.63 10.98 12.7C10.97 12.76 10.95 12.82 10.92 12.88C10.9 12.94 10.87 13 10.83 13.06C10.8 13.11 10.75 13.16 10.71 13.21C10.52 13.39 10.26 13.5 10 13.5ZM13.5 13.5C13.37 13.5 13.24 13.47 13.12 13.42C12.99 13.37 12.89 13.3 12.79 13.21L12.67 13.06C12.6321 13.0043 12.6019 12.9437 12.58 12.88C12.5511 12.8233 12.5309 12.7627 12.52 12.7C12.51 12.63 12.5 12.56 12.5 12.5C12.5 12.24 12.61 11.98 12.79 11.79C12.89 11.7 12.99 11.63 13.12 11.58C13.49 11.42 13.93 11.51 14.21 11.79C14.39 11.98 14.5 12.24 14.5 12.5C14.5 12.56 14.49 12.63 14.48 12.7C14.47 12.76 14.45 12.82 14.42 12.88C14.4 12.94 14.37 13 14.33 13.06C14.3 13.11 14.25 13.16 14.21 13.21C14.02 13.39 13.76 13.5 13.5 13.5ZM6.5 17C6.37 17 6.24 16.97 6.12 16.92C6 16.87 5.89 16.8 5.79 16.71C5.61 16.52 5.5 16.26 5.5 16C5.5 15.87 5.53 15.74 5.58 15.62C5.63 15.49 5.7 15.38 5.79 15.29C6.16 14.92 6.84 14.92 7.21 15.29C7.39 15.48 7.5 15.74 7.5 16C7.5 16.26 7.39 16.52 7.21 16.71C7.02 16.89 6.76 17 6.5 17ZM10 17C9.74 17 9.48 16.89 9.29 16.71C9.11 16.52 9 16.26 9 16C9 15.87 9.03 15.74 9.08 15.62C9.13 15.49 9.2 15.38 9.29 15.29C9.66 14.92 10.34 14.92 10.71 15.29C10.8 15.38 10.87 15.49 10.92 15.62C10.97 15.74 11 15.87 11 16C11 16.26 10.89 16.52 10.71 16.71C10.52 16.89 10.26 17 10 17ZM13.5 17C13.24 17 12.98 16.89 12.79 16.71C12.6975 16.6161 12.6259 16.5036 12.58 16.38C12.53 16.26 12.5 16.13 12.5 16C12.5 15.87 12.53 15.74 12.58 15.62C12.63 15.49 12.7 15.38 12.79 15.29C13.02 15.06 13.37 14.95 13.69 15.02C13.76 15.03 13.82 15.05 13.88 15.08C13.94 15.1 14 15.13 14.06 15.17C14.11 15.2 14.16 15.25 14.21 15.29C14.39 15.48 14.5 15.74 14.5 16C14.5 16.26 14.39 16.52 14.21 16.71C14.02 16.89 13.76 17 13.5 17ZM18.5 8.84H1.5C1.09 8.84 0.75 8.5 0.75 8.09C0.75 7.68 1.09 7.34 1.5 7.34H18.5C18.91 7.34 19.25 7.68 19.25 8.09C19.25 8.5 18.91 8.84 18.5 8.84Z"
-                    fill="#274760" />
-                  <path
-                    d="M14 21.75H6C2.35 21.75 0.25 19.65 0.25 16V7.5C0.25 3.85 2.35 1.75 6 1.75H14C17.65 1.75 19.75 3.85 19.75 7.5V16C19.75 19.65 17.65 21.75 14 21.75ZM6 3.25C3.14 3.25 1.75 4.64 1.75 7.5V16C1.75 18.86 3.14 20.25 6 20.25H14C16.86 20.25 18.25 18.86 18.25 16V7.5C18.25 4.64 16.86 3.25 14 3.25H6Z"
-                    fill="#274760" />
-                </svg>
-
-                <span class="text-lg font-semibold f1-color ms-3">May 1, 2023</span>
-              </div>
-
-              <!-- Social Icons -->
-              <div class="flex space-x-4">
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M11.6144 20H9.07141V11.8242H11.6144V20ZM10.3292 10.7305C9.53625 10.7305 8.88 10.0469 8.88 9.22656C8.88 8.43359 9.53625 7.77734 10.3292 7.77734C11.1495 7.77734 11.8058 8.43359 11.8058 9.22656C11.8058 10.0469 11.1495 10.7305 10.3292 10.7305ZM21.1027 20H18.587V16.0352C18.587 15.0781 18.5597 13.875 17.2472 13.875C15.9347 13.875 15.7433 14.8867 15.7433 15.9531V20H13.2003V11.8242H15.6339V12.9453H15.6613C16.0167 12.3164 16.837 11.6328 18.0675 11.6328C20.6378 11.6328 21.13 13.3281 21.13 15.5156V20H21.1027Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M18.2589 15.625H16.2081V21.75H13.4738V15.625H11.2316V13.1094H13.4738V11.168C13.4738 8.98047 14.7863 7.75 16.7823 7.75C17.7394 7.75 18.7511 7.94141 18.7511 7.94141V10.1016H17.63C16.5363 10.1016 16.2081 10.7578 16.2081 11.4688V13.1094H18.6417L18.2589 15.625Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M20.5508 11.9062C20.5508 12.043 20.5508 12.1523 20.5508 12.2891C20.5508 16.0898 17.6797 20.4375 12.4023 20.4375C10.7617 20.4375 9.25781 19.9727 8 19.1523C8.21875 19.1797 8.4375 19.207 8.68359 19.207C10.0234 19.207 11.2539 18.7422 12.2383 17.9766C10.9805 17.9492 9.91406 17.1289 9.55859 15.9805C9.75 16.0078 9.91406 16.0352 10.1055 16.0352C10.3516 16.0352 10.625 15.9805 10.8438 15.9258C9.53125 15.6523 8.54688 14.5039 8.54688 13.1094V13.082C8.92969 13.3008 9.39453 13.4102 9.85938 13.4375C9.06641 12.918 8.57422 12.043 8.57422 11.0586C8.57422 10.5117 8.71094 10.0195 8.95703 9.60938C10.3789 11.332 12.5117 12.4805 14.8906 12.6172C14.8359 12.3984 14.8086 12.1797 14.8086 11.9609C14.8086 10.375 16.0938 9.08984 17.6797 9.08984C18.5 9.08984 19.2383 9.41797 19.7852 9.99219C20.4141 9.85547 21.043 9.60938 21.5898 9.28125C21.3711 9.96484 20.9336 10.5117 20.332 10.8672C20.9062 10.8125 21.4805 10.6484 21.9727 10.4297C21.5898 11.0039 21.0977 11.4961 20.5508 11.9062Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- Title -->
-            <h3 class="text-xl font-semibold f1-color mb-5">
-              The Benefits of Mindfulness Meditation for Stress and Anxiety
-            </h3>
-            <!-- Read More Button -->
-            <div class="flex ">
-              <a href="#" class="f2-color font-medium text-xl mb-2">
-                Read More
-              </a><span>
-                <svg class="mr-2 mt-2 f2-color" width="40" height="18" viewBox="0 0 18 18" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
-                    fill="#274760" />
-                </svg></span>
-            </div>
-          </div>
-        </div>
-
-        <!--- Card -2 -->
-        <div class="md:block hidden bg-white rounded-3xl shadow-lg">
-          <!-- Image Section -->
-          <div class="bg-white rounded-xl overflow-hidden text-center">
-            <img src="./assets/images/gallery/patient1.png" alt="Description" class="w-full object-cover rounded-t-xl">
-          </div>
-
-          <!-- Content Section -->
-          <div class="p-4">
-            <!-- Date -->
-            <div class="flex items-center justify-between text-sm text-gray-500 mb-5">
-              <!-- Date Section -->
-              <div class="flex items-center">
-                <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M6 4.75C5.59 4.75 5.25 4.41 5.25 4V1C5.25 0.59 5.59 0.25 6 0.25C6.41 0.25 6.75 0.59 6.75 1V4C6.75 4.41 6.41 4.75 6 4.75ZM14 4.75C13.59 4.75 13.25 4.41 13.25 4V1C13.25 0.59 13.59 0.25 14 0.25C14.41 0.25 14.75 0.59 14.75 1V4C14.75 4.41 14.41 4.75 14 4.75ZM6.5 13.5C6.37 13.5 6.24 13.47 6.12 13.42C5.99 13.37 5.89 13.3 5.79 13.21C5.61 13.02 5.5 12.77 5.5 12.5C5.5 12.37 5.53 12.24 5.58 12.12C5.63 12 5.7 11.89 5.79 11.79C5.89 11.7 5.99 11.63 6.12 11.58C6.48 11.43 6.93 11.51 7.21 11.79C7.39 11.98 7.5 12.24 7.5 12.5C7.5 12.56 7.49 12.63 7.48 12.7C7.47 12.76 7.45 12.82 7.42 12.88C7.4 12.94 7.37 13 7.33 13.06C7.3 13.11 7.25 13.16 7.21 13.21C7.02 13.39 6.76 13.5 6.5 13.5ZM10 13.5C9.87 13.5 9.74 13.47 9.62 13.42C9.49 13.37 9.39 13.3 9.29 13.21C9.11 13.02 9 12.77 9 12.5C9 12.37 9.03 12.24 9.08 12.12C9.13 12 9.2 11.89 9.29 11.79C9.39 11.7 9.49 11.63 9.62 11.58C9.98 11.42 10.43 11.51 10.71 11.79C10.89 11.98 11 12.24 11 12.5C11 12.56 10.99 12.63 10.98 12.7C10.97 12.76 10.95 12.82 10.92 12.88C10.9 12.94 10.87 13 10.83 13.06C10.8 13.11 10.75 13.16 10.71 13.21C10.52 13.39 10.26 13.5 10 13.5ZM13.5 13.5C13.37 13.5 13.24 13.47 13.12 13.42C12.99 13.37 12.89 13.3 12.79 13.21L12.67 13.06C12.6321 13.0043 12.6019 12.9437 12.58 12.88C12.5511 12.8233 12.5309 12.7627 12.52 12.7C12.51 12.63 12.5 12.56 12.5 12.5C12.5 12.24 12.61 11.98 12.79 11.79C12.89 11.7 12.99 11.63 13.12 11.58C13.49 11.42 13.93 11.51 14.21 11.79C14.39 11.98 14.5 12.24 14.5 12.5C14.5 12.56 14.49 12.63 14.48 12.7C14.47 12.76 14.45 12.82 14.42 12.88C14.4 12.94 14.37 13 14.33 13.06C14.3 13.11 14.25 13.16 14.21 13.21C14.02 13.39 13.76 13.5 13.5 13.5ZM6.5 17C6.37 17 6.24 16.97 6.12 16.92C6 16.87 5.89 16.8 5.79 16.71C5.61 16.52 5.5 16.26 5.5 16C5.5 15.87 5.53 15.74 5.58 15.62C5.63 15.49 5.7 15.38 5.79 15.29C6.16 14.92 6.84 14.92 7.21 15.29C7.39 15.48 7.5 15.74 7.5 16C7.5 16.26 7.39 16.52 7.21 16.71C7.02 16.89 6.76 17 6.5 17ZM10 17C9.74 17 9.48 16.89 9.29 16.71C9.11 16.52 9 16.26 9 16C9 15.87 9.03 15.74 9.08 15.62C9.13 15.49 9.2 15.38 9.29 15.29C9.66 14.92 10.34 14.92 10.71 15.29C10.8 15.38 10.87 15.49 10.92 15.62C10.97 15.74 11 15.87 11 16C11 16.26 10.89 16.52 10.71 16.71C10.52 16.89 10.26 17 10 17ZM13.5 17C13.24 17 12.98 16.89 12.79 16.71C12.6975 16.6161 12.6259 16.5036 12.58 16.38C12.53 16.26 12.5 16.13 12.5 16C12.5 15.87 12.53 15.74 12.58 15.62C12.63 15.49 12.7 15.38 12.79 15.29C13.02 15.06 13.37 14.95 13.69 15.02C13.76 15.03 13.82 15.05 13.88 15.08C13.94 15.1 14 15.13 14.06 15.17C14.11 15.2 14.16 15.25 14.21 15.29C14.39 15.48 14.5 15.74 14.5 16C14.5 16.26 14.39 16.52 14.21 16.71C14.02 16.89 13.76 17 13.5 17ZM18.5 8.84H1.5C1.09 8.84 0.75 8.5 0.75 8.09C0.75 7.68 1.09 7.34 1.5 7.34H18.5C18.91 7.34 19.25 7.68 19.25 8.09C19.25 8.5 18.91 8.84 18.5 8.84Z"
-                    fill="#274760" />
-                  <path
-                    d="M14 21.75H6C2.35 21.75 0.25 19.65 0.25 16V7.5C0.25 3.85 2.35 1.75 6 1.75H14C17.65 1.75 19.75 3.85 19.75 7.5V16C19.75 19.65 17.65 21.75 14 21.75ZM6 3.25C3.14 3.25 1.75 4.64 1.75 7.5V16C1.75 18.86 3.14 20.25 6 20.25H14C16.86 20.25 18.25 18.86 18.25 16V7.5C18.25 4.64 16.86 3.25 14 3.25H6Z"
-                    fill="#274760" />
-                </svg>
-
-                <span class="text-lg font-semibold f1-color ms-3">May 1, 2023</span>
-              </div>
-
-              <!-- Social Icons -->
-              <div class="flex space-x-4">
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M11.6144 20H9.07141V11.8242H11.6144V20ZM10.3292 10.7305C9.53625 10.7305 8.88 10.0469 8.88 9.22656C8.88 8.43359 9.53625 7.77734 10.3292 7.77734C11.1495 7.77734 11.8058 8.43359 11.8058 9.22656C11.8058 10.0469 11.1495 10.7305 10.3292 10.7305ZM21.1027 20H18.587V16.0352C18.587 15.0781 18.5597 13.875 17.2472 13.875C15.9347 13.875 15.7433 14.8867 15.7433 15.9531V20H13.2003V11.8242H15.6339V12.9453H15.6613C16.0167 12.3164 16.837 11.6328 18.0675 11.6328C20.6378 11.6328 21.13 13.3281 21.13 15.5156V20H21.1027Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M18.2589 15.625H16.2081V21.75H13.4738V15.625H11.2316V13.1094H13.4738V11.168C13.4738 8.98047 14.7863 7.75 16.7823 7.75C17.7394 7.75 18.7511 7.94141 18.7511 7.94141V10.1016H17.63C16.5363 10.1016 16.2081 10.7578 16.2081 11.4688V13.1094H18.6417L18.2589 15.625Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M20.5508 11.9062C20.5508 12.043 20.5508 12.1523 20.5508 12.2891C20.5508 16.0898 17.6797 20.4375 12.4023 20.4375C10.7617 20.4375 9.25781 19.9727 8 19.1523C8.21875 19.1797 8.4375 19.207 8.68359 19.207C10.0234 19.207 11.2539 18.7422 12.2383 17.9766C10.9805 17.9492 9.91406 17.1289 9.55859 15.9805C9.75 16.0078 9.91406 16.0352 10.1055 16.0352C10.3516 16.0352 10.625 15.9805 10.8438 15.9258C9.53125 15.6523 8.54688 14.5039 8.54688 13.1094V13.082C8.92969 13.3008 9.39453 13.4102 9.85938 13.4375C9.06641 12.918 8.57422 12.043 8.57422 11.0586C8.57422 10.5117 8.71094 10.0195 8.95703 9.60938C10.3789 11.332 12.5117 12.4805 14.8906 12.6172C14.8359 12.3984 14.8086 12.1797 14.8086 11.9609C14.8086 10.375 16.0938 9.08984 17.6797 9.08984C18.5 9.08984 19.2383 9.41797 19.7852 9.99219C20.4141 9.85547 21.043 9.60938 21.5898 9.28125C21.3711 9.96484 20.9336 10.5117 20.332 10.8672C20.9062 10.8125 21.4805 10.6484 21.9727 10.4297C21.5898 11.0039 21.0977 11.4961 20.5508 11.9062Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- Title -->
-            <h3 class="text-xl font-semibold f1-color mb-5">
-              The Benefits of Mindfulness Meditation for Stress and Anxiety
-            </h3>
-            <!-- Read More Button -->
-            <div class="flex ">
-              <a href="#" class="f2-color font-medium text-xl mb-2">
-                Read More
-              </a><span>
-                <svg class="mr-2 mt-2 f2-color" width="40" height="18" viewBox="0 0 18 18" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
-                    fill="#274760" />
-                </svg></span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="md:block hidden bg-white rounded-3xl shadow-lg">
-          <!-- Image Section -->
-          <div class="bg-white rounded-xl overflow-hidden text-center">
-            <img src="./assets/images/gallery/patient2.png" alt="Description" class="w-full object-cover rounded-t-xl">
-          </div>
-
-          <!-- Content Section -->
-          <div class="p-4">
-            <!-- Date -->
-            <div class="flex items-center justify-between text-sm text-gray-500 mb-5">
-              <!-- Date Section -->
-              <div class="flex items-center">
-                <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M6 4.75C5.59 4.75 5.25 4.41 5.25 4V1C5.25 0.59 5.59 0.25 6 0.25C6.41 0.25 6.75 0.59 6.75 1V4C6.75 4.41 6.41 4.75 6 4.75ZM14 4.75C13.59 4.75 13.25 4.41 13.25 4V1C13.25 0.59 13.59 0.25 14 0.25C14.41 0.25 14.75 0.59 14.75 1V4C14.75 4.41 14.41 4.75 14 4.75ZM6.5 13.5C6.37 13.5 6.24 13.47 6.12 13.42C5.99 13.37 5.89 13.3 5.79 13.21C5.61 13.02 5.5 12.77 5.5 12.5C5.5 12.37 5.53 12.24 5.58 12.12C5.63 12 5.7 11.89 5.79 11.79C5.89 11.7 5.99 11.63 6.12 11.58C6.48 11.43 6.93 11.51 7.21 11.79C7.39 11.98 7.5 12.24 7.5 12.5C7.5 12.56 7.49 12.63 7.48 12.7C7.47 12.76 7.45 12.82 7.42 12.88C7.4 12.94 7.37 13 7.33 13.06C7.3 13.11 7.25 13.16 7.21 13.21C7.02 13.39 6.76 13.5 6.5 13.5ZM10 13.5C9.87 13.5 9.74 13.47 9.62 13.42C9.49 13.37 9.39 13.3 9.29 13.21C9.11 13.02 9 12.77 9 12.5C9 12.37 9.03 12.24 9.08 12.12C9.13 12 9.2 11.89 9.29 11.79C9.39 11.7 9.49 11.63 9.62 11.58C9.98 11.42 10.43 11.51 10.71 11.79C10.89 11.98 11 12.24 11 12.5C11 12.56 10.99 12.63 10.98 12.7C10.97 12.76 10.95 12.82 10.92 12.88C10.9 12.94 10.87 13 10.83 13.06C10.8 13.11 10.75 13.16 10.71 13.21C10.52 13.39 10.26 13.5 10 13.5ZM13.5 13.5C13.37 13.5 13.24 13.47 13.12 13.42C12.99 13.37 12.89 13.3 12.79 13.21L12.67 13.06C12.6321 13.0043 12.6019 12.9437 12.58 12.88C12.5511 12.8233 12.5309 12.7627 12.52 12.7C12.51 12.63 12.5 12.56 12.5 12.5C12.5 12.24 12.61 11.98 12.79 11.79C12.89 11.7 12.99 11.63 13.12 11.58C13.49 11.42 13.93 11.51 14.21 11.79C14.39 11.98 14.5 12.24 14.5 12.5C14.5 12.56 14.49 12.63 14.48 12.7C14.47 12.76 14.45 12.82 14.42 12.88C14.4 12.94 14.37 13 14.33 13.06C14.3 13.11 14.25 13.16 14.21 13.21C14.02 13.39 13.76 13.5 13.5 13.5ZM6.5 17C6.37 17 6.24 16.97 6.12 16.92C6 16.87 5.89 16.8 5.79 16.71C5.61 16.52 5.5 16.26 5.5 16C5.5 15.87 5.53 15.74 5.58 15.62C5.63 15.49 5.7 15.38 5.79 15.29C6.16 14.92 6.84 14.92 7.21 15.29C7.39 15.48 7.5 15.74 7.5 16C7.5 16.26 7.39 16.52 7.21 16.71C7.02 16.89 6.76 17 6.5 17ZM10 17C9.74 17 9.48 16.89 9.29 16.71C9.11 16.52 9 16.26 9 16C9 15.87 9.03 15.74 9.08 15.62C9.13 15.49 9.2 15.38 9.29 15.29C9.66 14.92 10.34 14.92 10.71 15.29C10.8 15.38 10.87 15.49 10.92 15.62C10.97 15.74 11 15.87 11 16C11 16.26 10.89 16.52 10.71 16.71C10.52 16.89 10.26 17 10 17ZM13.5 17C13.24 17 12.98 16.89 12.79 16.71C12.6975 16.6161 12.6259 16.5036 12.58 16.38C12.53 16.26 12.5 16.13 12.5 16C12.5 15.87 12.53 15.74 12.58 15.62C12.63 15.49 12.7 15.38 12.79 15.29C13.02 15.06 13.37 14.95 13.69 15.02C13.76 15.03 13.82 15.05 13.88 15.08C13.94 15.1 14 15.13 14.06 15.17C14.11 15.2 14.16 15.25 14.21 15.29C14.39 15.48 14.5 15.74 14.5 16C14.5 16.26 14.39 16.52 14.21 16.71C14.02 16.89 13.76 17 13.5 17ZM18.5 8.84H1.5C1.09 8.84 0.75 8.5 0.75 8.09C0.75 7.68 1.09 7.34 1.5 7.34H18.5C18.91 7.34 19.25 7.68 19.25 8.09C19.25 8.5 18.91 8.84 18.5 8.84Z"
-                    fill="#274760" />
-                  <path
-                    d="M14 21.75H6C2.35 21.75 0.25 19.65 0.25 16V7.5C0.25 3.85 2.35 1.75 6 1.75H14C17.65 1.75 19.75 3.85 19.75 7.5V16C19.75 19.65 17.65 21.75 14 21.75ZM6 3.25C3.14 3.25 1.75 4.64 1.75 7.5V16C1.75 18.86 3.14 20.25 6 20.25H14C16.86 20.25 18.25 18.86 18.25 16V7.5C18.25 4.64 16.86 3.25 14 3.25H6Z"
-                    fill="#274760" />
-                </svg>
-
-                <span class="text-lg font-semibold f1-color ms-3">May 1, 2023</span>
-              </div>
-
-              <!-- Social Icons -->
-              <div class="flex space-x-4">
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M11.6144 20H9.07141V11.8242H11.6144V20ZM10.3292 10.7305C9.53625 10.7305 8.88 10.0469 8.88 9.22656C8.88 8.43359 9.53625 7.77734 10.3292 7.77734C11.1495 7.77734 11.8058 8.43359 11.8058 9.22656C11.8058 10.0469 11.1495 10.7305 10.3292 10.7305ZM21.1027 20H18.587V16.0352C18.587 15.0781 18.5597 13.875 17.2472 13.875C15.9347 13.875 15.7433 14.8867 15.7433 15.9531V20H13.2003V11.8242H15.6339V12.9453H15.6613C16.0167 12.3164 16.837 11.6328 18.0675 11.6328C20.6378 11.6328 21.13 13.3281 21.13 15.5156V20H21.1027Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M18.2589 15.625H16.2081V21.75H13.4738V15.625H11.2316V13.1094H13.4738V11.168C13.4738 8.98047 14.7863 7.75 16.7823 7.75C17.7394 7.75 18.7511 7.94141 18.7511 7.94141V10.1016H17.63C16.5363 10.1016 16.2081 10.7578 16.2081 11.4688V13.1094H18.6417L18.2589 15.625Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M20.5508 11.9062C20.5508 12.043 20.5508 12.1523 20.5508 12.2891C20.5508 16.0898 17.6797 20.4375 12.4023 20.4375C10.7617 20.4375 9.25781 19.9727 8 19.1523C8.21875 19.1797 8.4375 19.207 8.68359 19.207C10.0234 19.207 11.2539 18.7422 12.2383 17.9766C10.9805 17.9492 9.91406 17.1289 9.55859 15.9805C9.75 16.0078 9.91406 16.0352 10.1055 16.0352C10.3516 16.0352 10.625 15.9805 10.8438 15.9258C9.53125 15.6523 8.54688 14.5039 8.54688 13.1094V13.082C8.92969 13.3008 9.39453 13.4102 9.85938 13.4375C9.06641 12.918 8.57422 12.043 8.57422 11.0586C8.57422 10.5117 8.71094 10.0195 8.95703 9.60938C10.3789 11.332 12.5117 12.4805 14.8906 12.6172C14.8359 12.3984 14.8086 12.1797 14.8086 11.9609C14.8086 10.375 16.0938 9.08984 17.6797 9.08984C18.5 9.08984 19.2383 9.41797 19.7852 9.99219C20.4141 9.85547 21.043 9.60938 21.5898 9.28125C21.3711 9.96484 20.9336 10.5117 20.332 10.8672C20.9062 10.8125 21.4805 10.6484 21.9727 10.4297C21.5898 11.0039 21.0977 11.4961 20.5508 11.9062Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- Title -->
-            <h3 class="text-xl font-semibold f1-color mb-5">
-              The Benefits of Mindfulness Meditation for Stress and Anxiety
-            </h3>
-            <!-- Read More Button -->
-            <div class="flex ">
-              <a href="#" class="f2-color font-medium text-xl mb-2">
-                Read More
-              </a><span>
-                <svg class="mr-2 mt-2 f2-color" width="40" height="18" viewBox="0 0 18 18" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
-                    fill="#274760" />
-                </svg></span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="md:block hidden bg-white rounded-3xl shadow-lg">
-          <!-- Image Section -->
-          <div class="bg-white rounded-xl overflow-hidden text-center">
-            <img src="./assets/images/gallery/baby.png" alt="Description" class="w-full object-cover rounded-t-xl">
-          </div>
-
-          <!-- Content Section -->
-          <div class="p-4">
-            <!-- Date -->
-            <div class="flex items-center justify-between text-sm text-gray-500 mb-5">
-              <!-- Date Section -->
-              <div class="flex items-center">
-                <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M6 4.75C5.59 4.75 5.25 4.41 5.25 4V1C5.25 0.59 5.59 0.25 6 0.25C6.41 0.25 6.75 0.59 6.75 1V4C6.75 4.41 6.41 4.75 6 4.75ZM14 4.75C13.59 4.75 13.25 4.41 13.25 4V1C13.25 0.59 13.59 0.25 14 0.25C14.41 0.25 14.75 0.59 14.75 1V4C14.75 4.41 14.41 4.75 14 4.75ZM6.5 13.5C6.37 13.5 6.24 13.47 6.12 13.42C5.99 13.37 5.89 13.3 5.79 13.21C5.61 13.02 5.5 12.77 5.5 12.5C5.5 12.37 5.53 12.24 5.58 12.12C5.63 12 5.7 11.89 5.79 11.79C5.89 11.7 5.99 11.63 6.12 11.58C6.48 11.43 6.93 11.51 7.21 11.79C7.39 11.98 7.5 12.24 7.5 12.5C7.5 12.56 7.49 12.63 7.48 12.7C7.47 12.76 7.45 12.82 7.42 12.88C7.4 12.94 7.37 13 7.33 13.06C7.3 13.11 7.25 13.16 7.21 13.21C7.02 13.39 6.76 13.5 6.5 13.5ZM10 13.5C9.87 13.5 9.74 13.47 9.62 13.42C9.49 13.37 9.39 13.3 9.29 13.21C9.11 13.02 9 12.77 9 12.5C9 12.37 9.03 12.24 9.08 12.12C9.13 12 9.2 11.89 9.29 11.79C9.39 11.7 9.49 11.63 9.62 11.58C9.98 11.42 10.43 11.51 10.71 11.79C10.89 11.98 11 12.24 11 12.5C11 12.56 10.99 12.63 10.98 12.7C10.97 12.76 10.95 12.82 10.92 12.88C10.9 12.94 10.87 13 10.83 13.06C10.8 13.11 10.75 13.16 10.71 13.21C10.52 13.39 10.26 13.5 10 13.5ZM13.5 13.5C13.37 13.5 13.24 13.47 13.12 13.42C12.99 13.37 12.89 13.3 12.79 13.21L12.67 13.06C12.6321 13.0043 12.6019 12.9437 12.58 12.88C12.5511 12.8233 12.5309 12.7627 12.52 12.7C12.51 12.63 12.5 12.56 12.5 12.5C12.5 12.24 12.61 11.98 12.79 11.79C12.89 11.7 12.99 11.63 13.12 11.58C13.49 11.42 13.93 11.51 14.21 11.79C14.39 11.98 14.5 12.24 14.5 12.5C14.5 12.56 14.49 12.63 14.48 12.7C14.47 12.76 14.45 12.82 14.42 12.88C14.4 12.94 14.37 13 14.33 13.06C14.3 13.11 14.25 13.16 14.21 13.21C14.02 13.39 13.76 13.5 13.5 13.5ZM6.5 17C6.37 17 6.24 16.97 6.12 16.92C6 16.87 5.89 16.8 5.79 16.71C5.61 16.52 5.5 16.26 5.5 16C5.5 15.87 5.53 15.74 5.58 15.62C5.63 15.49 5.7 15.38 5.79 15.29C6.16 14.92 6.84 14.92 7.21 15.29C7.39 15.48 7.5 15.74 7.5 16C7.5 16.26 7.39 16.52 7.21 16.71C7.02 16.89 6.76 17 6.5 17ZM10 17C9.74 17 9.48 16.89 9.29 16.71C9.11 16.52 9 16.26 9 16C9 15.87 9.03 15.74 9.08 15.62C9.13 15.49 9.2 15.38 9.29 15.29C9.66 14.92 10.34 14.92 10.71 15.29C10.8 15.38 10.87 15.49 10.92 15.62C10.97 15.74 11 15.87 11 16C11 16.26 10.89 16.52 10.71 16.71C10.52 16.89 10.26 17 10 17ZM13.5 17C13.24 17 12.98 16.89 12.79 16.71C12.6975 16.6161 12.6259 16.5036 12.58 16.38C12.53 16.26 12.5 16.13 12.5 16C12.5 15.87 12.53 15.74 12.58 15.62C12.63 15.49 12.7 15.38 12.79 15.29C13.02 15.06 13.37 14.95 13.69 15.02C13.76 15.03 13.82 15.05 13.88 15.08C13.94 15.1 14 15.13 14.06 15.17C14.11 15.2 14.16 15.25 14.21 15.29C14.39 15.48 14.5 15.74 14.5 16C14.5 16.26 14.39 16.52 14.21 16.71C14.02 16.89 13.76 17 13.5 17ZM18.5 8.84H1.5C1.09 8.84 0.75 8.5 0.75 8.09C0.75 7.68 1.09 7.34 1.5 7.34H18.5C18.91 7.34 19.25 7.68 19.25 8.09C19.25 8.5 18.91 8.84 18.5 8.84Z"
-                    fill="#274760" />
-                  <path
-                    d="M14 21.75H6C2.35 21.75 0.25 19.65 0.25 16V7.5C0.25 3.85 2.35 1.75 6 1.75H14C17.65 1.75 19.75 3.85 19.75 7.5V16C19.75 19.65 17.65 21.75 14 21.75ZM6 3.25C3.14 3.25 1.75 4.64 1.75 7.5V16C1.75 18.86 3.14 20.25 6 20.25H14C16.86 20.25 18.25 18.86 18.25 16V7.5C18.25 4.64 16.86 3.25 14 3.25H6Z"
-                    fill="#274760" />
-                </svg>
-
-                <span class="text-lg font-semibold f1-color ms-3">May 1, 2023</span>
-              </div>
-
-              <!-- Social Icons -->
-              <div class="flex space-x-4">
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M11.6144 20H9.07141V11.8242H11.6144V20ZM10.3292 10.7305C9.53625 10.7305 8.88 10.0469 8.88 9.22656C8.88 8.43359 9.53625 7.77734 10.3292 7.77734C11.1495 7.77734 11.8058 8.43359 11.8058 9.22656C11.8058 10.0469 11.1495 10.7305 10.3292 10.7305ZM21.1027 20H18.587V16.0352C18.587 15.0781 18.5597 13.875 17.2472 13.875C15.9347 13.875 15.7433 14.8867 15.7433 15.9531V20H13.2003V11.8242H15.6339V12.9453H15.6613C16.0167 12.3164 16.837 11.6328 18.0675 11.6328C20.6378 11.6328 21.13 13.3281 21.13 15.5156V20H21.1027Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M18.2589 15.625H16.2081V21.75H13.4738V15.625H11.2316V13.1094H13.4738V11.168C13.4738 8.98047 14.7863 7.75 16.7823 7.75C17.7394 7.75 18.7511 7.94141 18.7511 7.94141V10.1016H17.63C16.5363 10.1016 16.2081 10.7578 16.2081 11.4688V13.1094H18.6417L18.2589 15.625Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M20.5508 11.9062C20.5508 12.043 20.5508 12.1523 20.5508 12.2891C20.5508 16.0898 17.6797 20.4375 12.4023 20.4375C10.7617 20.4375 9.25781 19.9727 8 19.1523C8.21875 19.1797 8.4375 19.207 8.68359 19.207C10.0234 19.207 11.2539 18.7422 12.2383 17.9766C10.9805 17.9492 9.91406 17.1289 9.55859 15.9805C9.75 16.0078 9.91406 16.0352 10.1055 16.0352C10.3516 16.0352 10.625 15.9805 10.8438 15.9258C9.53125 15.6523 8.54688 14.5039 8.54688 13.1094V13.082C8.92969 13.3008 9.39453 13.4102 9.85938 13.4375C9.06641 12.918 8.57422 12.043 8.57422 11.0586C8.57422 10.5117 8.71094 10.0195 8.95703 9.60938C10.3789 11.332 12.5117 12.4805 14.8906 12.6172C14.8359 12.3984 14.8086 12.1797 14.8086 11.9609C14.8086 10.375 16.0938 9.08984 17.6797 9.08984C18.5 9.08984 19.2383 9.41797 19.7852 9.99219C20.4141 9.85547 21.043 9.60938 21.5898 9.28125C21.3711 9.96484 20.9336 10.5117 20.332 10.8672C20.9062 10.8125 21.4805 10.6484 21.9727 10.4297C21.5898 11.0039 21.0977 11.4961 20.5508 11.9062Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- Title -->
-            <h3 class="text-xl font-semibold f1-color mb-5">
-              The Benefits of Mindfulness Meditation for Stress and Anxiety
-            </h3>
-            <!-- Read More Button -->
-            <div class="flex ">
-              <a href="#" class="f2-color font-medium text-xl mb-2">
-                Read More
-              </a><span>
-                <svg class="mr-2 mt-2 f2-color" width="40" height="18" viewBox="0 0 18 18" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
-                    fill="#274760" />
-                </svg></span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 5 -->
-        <div class="md:block hidden bg-white rounded-3xl shadow-lg">
-          <!-- Image Section -->
-          <div class="bg-white rounded-xl overflow-hidden text-center">
-            <img src="./assets/images/gallery/toy.png" alt="Description" class="w-full object-cover rounded-t-xl">
-          </div>
-
-          <!-- Content Section -->
-          <div class="p-4">
-            <!-- Date -->
-            <div class="flex items-center justify-between text-sm text-gray-500 mb-5">
-              <!-- Date Section -->
-              <div class="flex items-center">
-                <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M6 4.75C5.59 4.75 5.25 4.41 5.25 4V1C5.25 0.59 5.59 0.25 6 0.25C6.41 0.25 6.75 0.59 6.75 1V4C6.75 4.41 6.41 4.75 6 4.75ZM14 4.75C13.59 4.75 13.25 4.41 13.25 4V1C13.25 0.59 13.59 0.25 14 0.25C14.41 0.25 14.75 0.59 14.75 1V4C14.75 4.41 14.41 4.75 14 4.75ZM6.5 13.5C6.37 13.5 6.24 13.47 6.12 13.42C5.99 13.37 5.89 13.3 5.79 13.21C5.61 13.02 5.5 12.77 5.5 12.5C5.5 12.37 5.53 12.24 5.58 12.12C5.63 12 5.7 11.89 5.79 11.79C5.89 11.7 5.99 11.63 6.12 11.58C6.48 11.43 6.93 11.51 7.21 11.79C7.39 11.98 7.5 12.24 7.5 12.5C7.5 12.56 7.49 12.63 7.48 12.7C7.47 12.76 7.45 12.82 7.42 12.88C7.4 12.94 7.37 13 7.33 13.06C7.3 13.11 7.25 13.16 7.21 13.21C7.02 13.39 6.76 13.5 6.5 13.5ZM10 13.5C9.87 13.5 9.74 13.47 9.62 13.42C9.49 13.37 9.39 13.3 9.29 13.21C9.11 13.02 9 12.77 9 12.5C9 12.37 9.03 12.24 9.08 12.12C9.13 12 9.2 11.89 9.29 11.79C9.39 11.7 9.49 11.63 9.62 11.58C9.98 11.42 10.43 11.51 10.71 11.79C10.89 11.98 11 12.24 11 12.5C11 12.56 10.99 12.63 10.98 12.7C10.97 12.76 10.95 12.82 10.92 12.88C10.9 12.94 10.87 13 10.83 13.06C10.8 13.11 10.75 13.16 10.71 13.21C10.52 13.39 10.26 13.5 10 13.5ZM13.5 13.5C13.37 13.5 13.24 13.47 13.12 13.42C12.99 13.37 12.89 13.3 12.79 13.21L12.67 13.06C12.6321 13.0043 12.6019 12.9437 12.58 12.88C12.5511 12.8233 12.5309 12.7627 12.52 12.7C12.51 12.63 12.5 12.56 12.5 12.5C12.5 12.24 12.61 11.98 12.79 11.79C12.89 11.7 12.99 11.63 13.12 11.58C13.49 11.42 13.93 11.51 14.21 11.79C14.39 11.98 14.5 12.24 14.5 12.5C14.5 12.56 14.49 12.63 14.48 12.7C14.47 12.76 14.45 12.82 14.42 12.88C14.4 12.94 14.37 13 14.33 13.06C14.3 13.11 14.25 13.16 14.21 13.21C14.02 13.39 13.76 13.5 13.5 13.5ZM6.5 17C6.37 17 6.24 16.97 6.12 16.92C6 16.87 5.89 16.8 5.79 16.71C5.61 16.52 5.5 16.26 5.5 16C5.5 15.87 5.53 15.74 5.58 15.62C5.63 15.49 5.7 15.38 5.79 15.29C6.16 14.92 6.84 14.92 7.21 15.29C7.39 15.48 7.5 15.74 7.5 16C7.5 16.26 7.39 16.52 7.21 16.71C7.02 16.89 6.76 17 6.5 17ZM10 17C9.74 17 9.48 16.89 9.29 16.71C9.11 16.52 9 16.26 9 16C9 15.87 9.03 15.74 9.08 15.62C9.13 15.49 9.2 15.38 9.29 15.29C9.66 14.92 10.34 14.92 10.71 15.29C10.8 15.38 10.87 15.49 10.92 15.62C10.97 15.74 11 15.87 11 16C11 16.26 10.89 16.52 10.71 16.71C10.52 16.89 10.26 17 10 17ZM13.5 17C13.24 17 12.98 16.89 12.79 16.71C12.6975 16.6161 12.6259 16.5036 12.58 16.38C12.53 16.26 12.5 16.13 12.5 16C12.5 15.87 12.53 15.74 12.58 15.62C12.63 15.49 12.7 15.38 12.79 15.29C13.02 15.06 13.37 14.95 13.69 15.02C13.76 15.03 13.82 15.05 13.88 15.08C13.94 15.1 14 15.13 14.06 15.17C14.11 15.2 14.16 15.25 14.21 15.29C14.39 15.48 14.5 15.74 14.5 16C14.5 16.26 14.39 16.52 14.21 16.71C14.02 16.89 13.76 17 13.5 17ZM18.5 8.84H1.5C1.09 8.84 0.75 8.5 0.75 8.09C0.75 7.68 1.09 7.34 1.5 7.34H18.5C18.91 7.34 19.25 7.68 19.25 8.09C19.25 8.5 18.91 8.84 18.5 8.84Z"
-                    fill="#274760" />
-                  <path
-                    d="M14 21.75H6C2.35 21.75 0.25 19.65 0.25 16V7.5C0.25 3.85 2.35 1.75 6 1.75H14C17.65 1.75 19.75 3.85 19.75 7.5V16C19.75 19.65 17.65 21.75 14 21.75ZM6 3.25C3.14 3.25 1.75 4.64 1.75 7.5V16C1.75 18.86 3.14 20.25 6 20.25H14C16.86 20.25 18.25 18.86 18.25 16V7.5C18.25 4.64 16.86 3.25 14 3.25H6Z"
-                    fill="#274760" />
-                </svg>
-
-                <span class="text-lg font-semibold f1-color ms-3">May 1, 2023</span>
-              </div>
-
-              <!-- Social Icons -->
-              <div class="flex space-x-4">
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M11.6144 20H9.07141V11.8242H11.6144V20ZM10.3292 10.7305C9.53625 10.7305 8.88 10.0469 8.88 9.22656C8.88 8.43359 9.53625 7.77734 10.3292 7.77734C11.1495 7.77734 11.8058 8.43359 11.8058 9.22656C11.8058 10.0469 11.1495 10.7305 10.3292 10.7305ZM21.1027 20H18.587V16.0352C18.587 15.0781 18.5597 13.875 17.2472 13.875C15.9347 13.875 15.7433 14.8867 15.7433 15.9531V20H13.2003V11.8242H15.6339V12.9453H15.6613C16.0167 12.3164 16.837 11.6328 18.0675 11.6328C20.6378 11.6328 21.13 13.3281 21.13 15.5156V20H21.1027Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M18.2589 15.625H16.2081V21.75H13.4738V15.625H11.2316V13.1094H13.4738V11.168C13.4738 8.98047 14.7863 7.75 16.7823 7.75C17.7394 7.75 18.7511 7.94141 18.7511 7.94141V10.1016H17.63C16.5363 10.1016 16.2081 10.7578 16.2081 11.4688V13.1094H18.6417L18.2589 15.625Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M20.5508 11.9062C20.5508 12.043 20.5508 12.1523 20.5508 12.2891C20.5508 16.0898 17.6797 20.4375 12.4023 20.4375C10.7617 20.4375 9.25781 19.9727 8 19.1523C8.21875 19.1797 8.4375 19.207 8.68359 19.207C10.0234 19.207 11.2539 18.7422 12.2383 17.9766C10.9805 17.9492 9.91406 17.1289 9.55859 15.9805C9.75 16.0078 9.91406 16.0352 10.1055 16.0352C10.3516 16.0352 10.625 15.9805 10.8438 15.9258C9.53125 15.6523 8.54688 14.5039 8.54688 13.1094V13.082C8.92969 13.3008 9.39453 13.4102 9.85938 13.4375C9.06641 12.918 8.57422 12.043 8.57422 11.0586C8.57422 10.5117 8.71094 10.0195 8.95703 9.60938C10.3789 11.332 12.5117 12.4805 14.8906 12.6172C14.8359 12.3984 14.8086 12.1797 14.8086 11.9609C14.8086 10.375 16.0938 9.08984 17.6797 9.08984C18.5 9.08984 19.2383 9.41797 19.7852 9.99219C20.4141 9.85547 21.043 9.60938 21.5898 9.28125C21.3711 9.96484 20.9336 10.5117 20.332 10.8672C20.9062 10.8125 21.4805 10.6484 21.9727 10.4297C21.5898 11.0039 21.0977 11.4961 20.5508 11.9062Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- Title -->
-            <h3 class="text-xl font-semibold f1-color mb-5">
-              The Benefits of Mindfulness Meditation for Stress and Anxiety
-            </h3>
-            <!-- Read More Button -->
-            <div class="flex ">
-              <a href="#" class="f2-color font-medium text-xl mb-2">
-                Read More
-              </a><span>
-                <svg class="mr-2 mt-2 f2-color" width="40" height="18" viewBox="0 0 18 18" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
-                    fill="#274760" />
-                </svg></span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 6 -->
-        <div class="md:block hidden bg-white rounded-3xl shadow-lg">
-          <!-- Image Section -->
-          <div class="bg-white rounded-xl overflow-hidden text-center">
-            <img src="./assets/images/gallery/employee.png" alt="Description" class="w-full object-cover rounded-t-xl">
-          </div>
-
-          <!-- Content Section -->
-          <div class="p-4">
-            <!-- Date -->
-            <div class="flex items-center justify-between text-sm text-gray-500 mb-5">
-              <!-- Date Section -->
-              <div class="flex items-center">
-                <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M6 4.75C5.59 4.75 5.25 4.41 5.25 4V1C5.25 0.59 5.59 0.25 6 0.25C6.41 0.25 6.75 0.59 6.75 1V4C6.75 4.41 6.41 4.75 6 4.75ZM14 4.75C13.59 4.75 13.25 4.41 13.25 4V1C13.25 0.59 13.59 0.25 14 0.25C14.41 0.25 14.75 0.59 14.75 1V4C14.75 4.41 14.41 4.75 14 4.75ZM6.5 13.5C6.37 13.5 6.24 13.47 6.12 13.42C5.99 13.37 5.89 13.3 5.79 13.21C5.61 13.02 5.5 12.77 5.5 12.5C5.5 12.37 5.53 12.24 5.58 12.12C5.63 12 5.7 11.89 5.79 11.79C5.89 11.7 5.99 11.63 6.12 11.58C6.48 11.43 6.93 11.51 7.21 11.79C7.39 11.98 7.5 12.24 7.5 12.5C7.5 12.56 7.49 12.63 7.48 12.7C7.47 12.76 7.45 12.82 7.42 12.88C7.4 12.94 7.37 13 7.33 13.06C7.3 13.11 7.25 13.16 7.21 13.21C7.02 13.39 6.76 13.5 6.5 13.5ZM10 13.5C9.87 13.5 9.74 13.47 9.62 13.42C9.49 13.37 9.39 13.3 9.29 13.21C9.11 13.02 9 12.77 9 12.5C9 12.37 9.03 12.24 9.08 12.12C9.13 12 9.2 11.89 9.29 11.79C9.39 11.7 9.49 11.63 9.62 11.58C9.98 11.42 10.43 11.51 10.71 11.79C10.89 11.98 11 12.24 11 12.5C11 12.56 10.99 12.63 10.98 12.7C10.97 12.76 10.95 12.82 10.92 12.88C10.9 12.94 10.87 13 10.83 13.06C10.8 13.11 10.75 13.16 10.71 13.21C10.52 13.39 10.26 13.5 10 13.5ZM13.5 13.5C13.37 13.5 13.24 13.47 13.12 13.42C12.99 13.37 12.89 13.3 12.79 13.21L12.67 13.06C12.6321 13.0043 12.6019 12.9437 12.58 12.88C12.5511 12.8233 12.5309 12.7627 12.52 12.7C12.51 12.63 12.5 12.56 12.5 12.5C12.5 12.24 12.61 11.98 12.79 11.79C12.89 11.7 12.99 11.63 13.12 11.58C13.49 11.42 13.93 11.51 14.21 11.79C14.39 11.98 14.5 12.24 14.5 12.5C14.5 12.56 14.49 12.63 14.48 12.7C14.47 12.76 14.45 12.82 14.42 12.88C14.4 12.94 14.37 13 14.33 13.06C14.3 13.11 14.25 13.16 14.21 13.21C14.02 13.39 13.76 13.5 13.5 13.5ZM6.5 17C6.37 17 6.24 16.97 6.12 16.92C6 16.87 5.89 16.8 5.79 16.71C5.61 16.52 5.5 16.26 5.5 16C5.5 15.87 5.53 15.74 5.58 15.62C5.63 15.49 5.7 15.38 5.79 15.29C6.16 14.92 6.84 14.92 7.21 15.29C7.39 15.48 7.5 15.74 7.5 16C7.5 16.26 7.39 16.52 7.21 16.71C7.02 16.89 6.76 17 6.5 17ZM10 17C9.74 17 9.48 16.89 9.29 16.71C9.11 16.52 9 16.26 9 16C9 15.87 9.03 15.74 9.08 15.62C9.13 15.49 9.2 15.38 9.29 15.29C9.66 14.92 10.34 14.92 10.71 15.29C10.8 15.38 10.87 15.49 10.92 15.62C10.97 15.74 11 15.87 11 16C11 16.26 10.89 16.52 10.71 16.71C10.52 16.89 10.26 17 10 17ZM13.5 17C13.24 17 12.98 16.89 12.79 16.71C12.6975 16.6161 12.6259 16.5036 12.58 16.38C12.53 16.26 12.5 16.13 12.5 16C12.5 15.87 12.53 15.74 12.58 15.62C12.63 15.49 12.7 15.38 12.79 15.29C13.02 15.06 13.37 14.95 13.69 15.02C13.76 15.03 13.82 15.05 13.88 15.08C13.94 15.1 14 15.13 14.06 15.17C14.11 15.2 14.16 15.25 14.21 15.29C14.39 15.48 14.5 15.74 14.5 16C14.5 16.26 14.39 16.52 14.21 16.71C14.02 16.89 13.76 17 13.5 17ZM18.5 8.84H1.5C1.09 8.84 0.75 8.5 0.75 8.09C0.75 7.68 1.09 7.34 1.5 7.34H18.5C18.91 7.34 19.25 7.68 19.25 8.09C19.25 8.5 18.91 8.84 18.5 8.84Z"
-                    fill="#274760" />
-                  <path
-                    d="M14 21.75H6C2.35 21.75 0.25 19.65 0.25 16V7.5C0.25 3.85 2.35 1.75 6 1.75H14C17.65 1.75 19.75 3.85 19.75 7.5V16C19.75 19.65 17.65 21.75 14 21.75ZM6 3.25C3.14 3.25 1.75 4.64 1.75 7.5V16C1.75 18.86 3.14 20.25 6 20.25H14C16.86 20.25 18.25 18.86 18.25 16V7.5C18.25 4.64 16.86 3.25 14 3.25H6Z"
-                    fill="#274760" />
-                </svg>
-
-                <span class="text-lg font-semibold f1-color ms-3">May 1, 2023</span>
-              </div>
-
-              <!-- Social Icons -->
-              <div class="flex space-x-4">
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M11.6144 20H9.07141V11.8242H11.6144V20ZM10.3292 10.7305C9.53625 10.7305 8.88 10.0469 8.88 9.22656C8.88 8.43359 9.53625 7.77734 10.3292 7.77734C11.1495 7.77734 11.8058 8.43359 11.8058 9.22656C11.8058 10.0469 11.1495 10.7305 10.3292 10.7305ZM21.1027 20H18.587V16.0352C18.587 15.0781 18.5597 13.875 17.2472 13.875C15.9347 13.875 15.7433 14.8867 15.7433 15.9531V20H13.2003V11.8242H15.6339V12.9453H15.6613C16.0167 12.3164 16.837 11.6328 18.0675 11.6328C20.6378 11.6328 21.13 13.3281 21.13 15.5156V20H21.1027Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M18.2589 15.625H16.2081V21.75H13.4738V15.625H11.2316V13.1094H13.4738V11.168C13.4738 8.98047 14.7863 7.75 16.7823 7.75C17.7394 7.75 18.7511 7.94141 18.7511 7.94141V10.1016H17.63C16.5363 10.1016 16.2081 10.7578 16.2081 11.4688V13.1094H18.6417L18.2589 15.625Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-                <a href="#" class="text-blue-500">
-                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                    <path
-                      d="M20.5508 11.9062C20.5508 12.043 20.5508 12.1523 20.5508 12.2891C20.5508 16.0898 17.6797 20.4375 12.4023 20.4375C10.7617 20.4375 9.25781 19.9727 8 19.1523C8.21875 19.1797 8.4375 19.207 8.68359 19.207C10.0234 19.207 11.2539 18.7422 12.2383 17.9766C10.9805 17.9492 9.91406 17.1289 9.55859 15.9805C9.75 16.0078 9.91406 16.0352 10.1055 16.0352C10.3516 16.0352 10.625 15.9805 10.8438 15.9258C9.53125 15.6523 8.54688 14.5039 8.54688 13.1094V13.082C8.92969 13.3008 9.39453 13.4102 9.85938 13.4375C9.06641 12.918 8.57422 12.043 8.57422 11.0586C8.57422 10.5117 8.71094 10.0195 8.95703 9.60938C10.3789 11.332 12.5117 12.4805 14.8906 12.6172C14.8359 12.3984 14.8086 12.1797 14.8086 11.9609C14.8086 10.375 16.0938 9.08984 17.6797 9.08984C18.5 9.08984 19.2383 9.41797 19.7852 9.99219C20.4141 9.85547 21.043 9.60938 21.5898 9.28125C21.3711 9.96484 20.9336 10.5117 20.332 10.8672C20.9062 10.8125 21.4805 10.6484 21.9727 10.4297C21.5898 11.0039 21.0977 11.4961 20.5508 11.9062Z"
-                      fill="#307BC4" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- Title -->
-            <h3 class="text-xl font-semibold f1-color mb-5">
-              The Benefits of Mindfulness Meditation for Stress and Anxiety
-            </h3>
-            <!-- Read More Button -->
-            <div class="flex ">
-              <a href="#" class="f2-color font-medium text-xl mb-2">
-                Read More
-              </a><span>
-                <svg class="mr-2 mt-2 f2-color" width="40" height="18" viewBox="0 0 18 18" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
-                    fill="#274760" />
-                </svg></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-------------------------------------------------------- Small Screen size in slider -->
-    <div class="md:hidden swiper mySwiper1 p-4 mb-2 relative z-20">
-      <div class="swiper-wrapper">
-        <!--- Card -1 -->
-        <div class="swiper-slide me-10 px-2">
-          <div class="">
-            <div class=" bg-white rounded-3xl shadow-lg">
-              <!-- Image Section -->
-              <div class="bg-white rounded-xl overflow-hidden text-center">
-                <img src="./assets/images/gallery/laptop.png" alt="Description"
-                  class="w-full object-cover rounded-t-xl">
-              </div>
-              <div class="p-4">
-                <!-- Date -->
-                <div class="flex items-center justify-between text-sm text-gray-500 mb-1">
-                  <!-- Date Section -->
-                  <div class="flex items-center">
-                    <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M6 4.75C5.59 4.75 5.25 4.41 5.25 4V1C5.25 0.59 5.59 0.25 6 0.25C6.41 0.25 6.75 0.59 6.75 1V4C6.75 4.41 6.41 4.75 6 4.75ZM14 4.75C13.59 4.75 13.25 4.41 13.25 4V1C13.25 0.59 13.59 0.25 14 0.25C14.41 0.25 14.75 0.59 14.75 1V4C14.75 4.41 14.41 4.75 14 4.75ZM6.5 13.5C6.37 13.5 6.24 13.47 6.12 13.42C5.99 13.37 5.89 13.3 5.79 13.21C5.61 13.02 5.5 12.77 5.5 12.5C5.5 12.37 5.53 12.24 5.58 12.12C5.63 12 5.7 11.89 5.79 11.79C5.89 11.7 5.99 11.63 6.12 11.58C6.48 11.43 6.93 11.51 7.21 11.79C7.39 11.98 7.5 12.24 7.5 12.5C7.5 12.56 7.49 12.63 7.48 12.7C7.47 12.76 7.45 12.82 7.42 12.88C7.4 12.94 7.37 13 7.33 13.06C7.3 13.11 7.25 13.16 7.21 13.21C7.02 13.39 6.76 13.5 6.5 13.5ZM10 13.5C9.87 13.5 9.74 13.47 9.62 13.42C9.49 13.37 9.39 13.3 9.29 13.21C9.11 13.02 9 12.77 9 12.5C9 12.37 9.03 12.24 9.08 12.12C9.13 12 9.2 11.89 9.29 11.79C9.39 11.7 9.49 11.63 9.62 11.58C9.98 11.42 10.43 11.51 10.71 11.79C10.89 11.98 11 12.24 11 12.5C11 12.56 10.99 12.63 10.98 12.7C10.97 12.76 10.95 12.82 10.92 12.88C10.9 12.94 10.87 13 10.83 13.06C10.8 13.11 10.75 13.16 10.71 13.21C10.52 13.39 10.26 13.5 10 13.5ZM13.5 13.5C13.37 13.5 13.24 13.47 13.12 13.42C12.99 13.37 12.89 13.3 12.79 13.21L12.67 13.06C12.6321 13.0043 12.6019 12.9437 12.58 12.88C12.5511 12.8233 12.5309 12.7627 12.52 12.7C12.51 12.63 12.5 12.56 12.5 12.5C12.5 12.24 12.61 11.98 12.79 11.79C12.89 11.7 12.99 11.63 13.12 11.58C13.49 11.42 13.93 11.51 14.21 11.79C14.39 11.98 14.5 12.24 14.5 12.5C14.5 12.56 14.49 12.63 14.48 12.7C14.47 12.76 14.45 12.82 14.42 12.88C14.4 12.94 14.37 13 14.33 13.06C14.3 13.11 14.25 13.16 14.21 13.21C14.02 13.39 13.76 13.5 13.5 13.5ZM6.5 17C6.37 17 6.24 16.97 6.12 16.92C6 16.87 5.89 16.8 5.79 16.71C5.61 16.52 5.5 16.26 5.5 16C5.5 15.87 5.53 15.74 5.58 15.62C5.63 15.49 5.7 15.38 5.79 15.29C6.16 14.92 6.84 14.92 7.21 15.29C7.39 15.48 7.5 15.74 7.5 16C7.5 16.26 7.39 16.52 7.21 16.71C7.02 16.89 6.76 17 6.5 17ZM10 17C9.74 17 9.48 16.89 9.29 16.71C9.11 16.52 9 16.26 9 16C9 15.87 9.03 15.74 9.08 15.62C9.13 15.49 9.2 15.38 9.29 15.29C9.66 14.92 10.34 14.92 10.71 15.29C10.8 15.38 10.87 15.49 10.92 15.62C10.97 15.74 11 15.87 11 16C11 16.26 10.89 16.52 10.71 16.71C10.52 16.89 10.26 17 10 17ZM13.5 17C13.24 17 12.98 16.89 12.79 16.71C12.6975 16.6161 12.6259 16.5036 12.58 16.38C12.53 16.26 12.5 16.13 12.5 16C12.5 15.87 12.53 15.74 12.58 15.62C12.63 15.49 12.7 15.38 12.79 15.29C13.02 15.06 13.37 14.95 13.69 15.02C13.76 15.03 13.82 15.05 13.88 15.08C13.94 15.1 14 15.13 14.06 15.17C14.11 15.2 14.16 15.25 14.21 15.29C14.39 15.48 14.5 15.74 14.5 16C14.5 16.26 14.39 16.52 14.21 16.71C14.02 16.89 13.76 17 13.5 17ZM18.5 8.84H1.5C1.09 8.84 0.75 8.5 0.75 8.09C0.75 7.68 1.09 7.34 1.5 7.34H18.5C18.91 7.34 19.25 7.68 19.25 8.09C19.25 8.5 18.91 8.84 18.5 8.84Z"
-                        fill="#274760" />
-                      <path
-                        d="M14 21.75H6C2.35 21.75 0.25 19.65 0.25 16V7.5C0.25 3.85 2.35 1.75 6 1.75H14C17.65 1.75 19.75 3.85 19.75 7.5V16C19.75 19.65 17.65 21.75 14 21.75ZM6 3.25C3.14 3.25 1.75 4.64 1.75 7.5V16C1.75 18.86 3.14 20.25 6 20.25H14C16.86 20.25 18.25 18.86 18.25 16V7.5C18.25 4.64 16.86 3.25 14 3.25H6Z"
-                        fill="#274760" />
-                    </svg>
-
-                    <span class="text-base font-semibold f1-color ms-3">May 1, 2023</span>
-                  </div>
-
-                  <!-- Social Icons -->
-                  <div class="flex space-x-4">
-                    <a href="#" class="text-blue-500">
-                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                        <path
-                          d="M11.6144 20H9.07141V11.8242H11.6144V20ZM10.3292 10.7305C9.53625 10.7305 8.88 10.0469 8.88 9.22656C8.88 8.43359 9.53625 7.77734 10.3292 7.77734C11.1495 7.77734 11.8058 8.43359 11.8058 9.22656C11.8058 10.0469 11.1495 10.7305 10.3292 10.7305ZM21.1027 20H18.587V16.0352C18.587 15.0781 18.5597 13.875 17.2472 13.875C15.9347 13.875 15.7433 14.8867 15.7433 15.9531V20H13.2003V11.8242H15.6339V12.9453H15.6613C16.0167 12.3164 16.837 11.6328 18.0675 11.6328C20.6378 11.6328 21.13 13.3281 21.13 15.5156V20H21.1027Z"
-                          fill="#307BC4" />
-                      </svg>
-                    </a>
-                    <a href="#" class="text-blue-500">
-                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                        <path
-                          d="M18.2589 15.625H16.2081V21.75H13.4738V15.625H11.2316V13.1094H13.4738V11.168C13.4738 8.98047 14.7863 7.75 16.7823 7.75C17.7394 7.75 18.7511 7.94141 18.7511 7.94141V10.1016H17.63C16.5363 10.1016 16.2081 10.7578 16.2081 11.4688V13.1094H18.6417L18.2589 15.625Z"
-                          fill="#307BC4" />
-                      </svg>
-                    </a>
-                    <a href="#" class="text-blue-500">
-                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                        <path
-                          d="M20.5508 11.9062C20.5508 12.043 20.5508 12.1523 20.5508 12.2891C20.5508 16.0898 17.6797 20.4375 12.4023 20.4375C10.7617 20.4375 9.25781 19.9727 8 19.1523C8.21875 19.1797 8.4375 19.207 8.68359 19.207C10.0234 19.207 11.2539 18.7422 12.2383 17.9766C10.9805 17.9492 9.91406 17.1289 9.55859 15.9805C9.75 16.0078 9.91406 16.0352 10.1055 16.0352C10.3516 16.0352 10.625 15.9805 10.8438 15.9258C9.53125 15.6523 8.54688 14.5039 8.54688 13.1094V13.082C8.92969 13.3008 9.39453 13.4102 9.85938 13.4375C9.06641 12.918 8.57422 12.043 8.57422 11.0586C8.57422 10.5117 8.71094 10.0195 8.95703 9.60938C10.3789 11.332 12.5117 12.4805 14.8906 12.6172C14.8359 12.3984 14.8086 12.1797 14.8086 11.9609C14.8086 10.375 16.0938 9.08984 17.6797 9.08984C18.5 9.08984 19.2383 9.41797 19.7852 9.99219C20.4141 9.85547 21.043 9.60938 21.5898 9.28125C21.3711 9.96484 20.9336 10.5117 20.332 10.8672C20.9062 10.8125 21.4805 10.6484 21.9727 10.4297C21.5898 11.0039 21.0977 11.4961 20.5508 11.9062Z"
-                          fill="#307BC4" />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-
-                <!-- Title -->
-                <h3 class="text-base font-semibold f1-color mb-2">
-                  The Benefits of Mindfulness Meditation for Stress and Anxiety
-                </h3>
-                <!-- Read More Button -->
-                <div class="flex ">
-                  <a href="#" class="f2-color font-medium text-base ">
-                    Read More
-                  </a><span>
-                    <svg class="mr-1 mt-2 f2-color" width="40" height="12" viewBox="0 0 18 18" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
-                        fill="#274760" />
-                    </svg></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--- Card -2 -->
-        <div class="swiper-slide me-10 px-2">
-          <div class="">
-            <div class=" bg-white rounded-3xl shadow-lg">
-              <!-- Image Section -->
-              <div class="bg-white rounded-xl overflow-hidden text-center">
-                <img src="./assets/images/gallery/patient1.png" alt="Description"
-                  class="w-full object-cover rounded-t-xl">
-              </div>
-
-              <!-- Content Section -->
-              <div class="p-4">
-                <!-- Date -->
-                <div class="flex items-center justify-between text-sm text-gray-500 mb-1">
-                  <!-- Date Section -->
-                  <div class="flex items-center">
-                    <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M6 4.75C5.59 4.75 5.25 4.41 5.25 4V1C5.25 0.59 5.59 0.25 6 0.25C6.41 0.25 6.75 0.59 6.75 1V4C6.75 4.41 6.41 4.75 6 4.75ZM14 4.75C13.59 4.75 13.25 4.41 13.25 4V1C13.25 0.59 13.59 0.25 14 0.25C14.41 0.25 14.75 0.59 14.75 1V4C14.75 4.41 14.41 4.75 14 4.75ZM6.5 13.5C6.37 13.5 6.24 13.47 6.12 13.42C5.99 13.37 5.89 13.3 5.79 13.21C5.61 13.02 5.5 12.77 5.5 12.5C5.5 12.37 5.53 12.24 5.58 12.12C5.63 12 5.7 11.89 5.79 11.79C5.89 11.7 5.99 11.63 6.12 11.58C6.48 11.43 6.93 11.51 7.21 11.79C7.39 11.98 7.5 12.24 7.5 12.5C7.5 12.56 7.49 12.63 7.48 12.7C7.47 12.76 7.45 12.82 7.42 12.88C7.4 12.94 7.37 13 7.33 13.06C7.3 13.11 7.25 13.16 7.21 13.21C7.02 13.39 6.76 13.5 6.5 13.5ZM10 13.5C9.87 13.5 9.74 13.47 9.62 13.42C9.49 13.37 9.39 13.3 9.29 13.21C9.11 13.02 9 12.77 9 12.5C9 12.37 9.03 12.24 9.08 12.12C9.13 12 9.2 11.89 9.29 11.79C9.39 11.7 9.49 11.63 9.62 11.58C9.98 11.42 10.43 11.51 10.71 11.79C10.89 11.98 11 12.24 11 12.5C11 12.56 10.99 12.63 10.98 12.7C10.97 12.76 10.95 12.82 10.92 12.88C10.9 12.94 10.87 13 10.83 13.06C10.8 13.11 10.75 13.16 10.71 13.21C10.52 13.39 10.26 13.5 10 13.5ZM13.5 13.5C13.37 13.5 13.24 13.47 13.12 13.42C12.99 13.37 12.89 13.3 12.79 13.21L12.67 13.06C12.6321 13.0043 12.6019 12.9437 12.58 12.88C12.5511 12.8233 12.5309 12.7627 12.52 12.7C12.51 12.63 12.5 12.56 12.5 12.5C12.5 12.24 12.61 11.98 12.79 11.79C12.89 11.7 12.99 11.63 13.12 11.58C13.49 11.42 13.93 11.51 14.21 11.79C14.39 11.98 14.5 12.24 14.5 12.5C14.5 12.56 14.49 12.63 14.48 12.7C14.47 12.76 14.45 12.82 14.42 12.88C14.4 12.94 14.37 13 14.33 13.06C14.3 13.11 14.25 13.16 14.21 13.21C14.02 13.39 13.76 13.5 13.5 13.5ZM6.5 17C6.37 17 6.24 16.97 6.12 16.92C6 16.87 5.89 16.8 5.79 16.71C5.61 16.52 5.5 16.26 5.5 16C5.5 15.87 5.53 15.74 5.58 15.62C5.63 15.49 5.7 15.38 5.79 15.29C6.16 14.92 6.84 14.92 7.21 15.29C7.39 15.48 7.5 15.74 7.5 16C7.5 16.26 7.39 16.52 7.21 16.71C7.02 16.89 6.76 17 6.5 17ZM10 17C9.74 17 9.48 16.89 9.29 16.71C9.11 16.52 9 16.26 9 16C9 15.87 9.03 15.74 9.08 15.62C9.13 15.49 9.2 15.38 9.29 15.29C9.66 14.92 10.34 14.92 10.71 15.29C10.8 15.38 10.87 15.49 10.92 15.62C10.97 15.74 11 15.87 11 16C11 16.26 10.89 16.52 10.71 16.71C10.52 16.89 10.26 17 10 17ZM13.5 17C13.24 17 12.98 16.89 12.79 16.71C12.6975 16.6161 12.6259 16.5036 12.58 16.38C12.53 16.26 12.5 16.13 12.5 16C12.5 15.87 12.53 15.74 12.58 15.62C12.63 15.49 12.7 15.38 12.79 15.29C13.02 15.06 13.37 14.95 13.69 15.02C13.76 15.03 13.82 15.05 13.88 15.08C13.94 15.1 14 15.13 14.06 15.17C14.11 15.2 14.16 15.25 14.21 15.29C14.39 15.48 14.5 15.74 14.5 16C14.5 16.26 14.39 16.52 14.21 16.71C14.02 16.89 13.76 17 13.5 17ZM18.5 8.84H1.5C1.09 8.84 0.75 8.5 0.75 8.09C0.75 7.68 1.09 7.34 1.5 7.34H18.5C18.91 7.34 19.25 7.68 19.25 8.09C19.25 8.5 18.91 8.84 18.5 8.84Z"
-                        fill="#274760" />
-                      <path
-                        d="M14 21.75H6C2.35 21.75 0.25 19.65 0.25 16V7.5C0.25 3.85 2.35 1.75 6 1.75H14C17.65 1.75 19.75 3.85 19.75 7.5V16C19.75 19.65 17.65 21.75 14 21.75ZM6 3.25C3.14 3.25 1.75 4.64 1.75 7.5V16C1.75 18.86 3.14 20.25 6 20.25H14C16.86 20.25 18.25 18.86 18.25 16V7.5C18.25 4.64 16.86 3.25 14 3.25H6Z"
-                        fill="#274760" />
-                    </svg>
-
-                    <span class="text-base font-semibold f1-color ms-3">May 1, 2023</span>
-                  </div>
-
-                  <!-- Social Icons -->
-                  <div class="flex space-x-4">
-                    <a href="#" class="text-blue-500">
-                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                        <path
-                          d="M11.6144 20H9.07141V11.8242H11.6144V20ZM10.3292 10.7305C9.53625 10.7305 8.88 10.0469 8.88 9.22656C8.88 8.43359 9.53625 7.77734 10.3292 7.77734C11.1495 7.77734 11.8058 8.43359 11.8058 9.22656C11.8058 10.0469 11.1495 10.7305 10.3292 10.7305ZM21.1027 20H18.587V16.0352C18.587 15.0781 18.5597 13.875 17.2472 13.875C15.9347 13.875 15.7433 14.8867 15.7433 15.9531V20H13.2003V11.8242H15.6339V12.9453H15.6613C16.0167 12.3164 16.837 11.6328 18.0675 11.6328C20.6378 11.6328 21.13 13.3281 21.13 15.5156V20H21.1027Z"
-                          fill="#307BC4" />
-                      </svg>
-                    </a>
-                    <a href="#" class="text-blue-500">
-                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                        <path
-                          d="M18.2589 15.625H16.2081V21.75H13.4738V15.625H11.2316V13.1094H13.4738V11.168C13.4738 8.98047 14.7863 7.75 16.7823 7.75C17.7394 7.75 18.7511 7.94141 18.7511 7.94141V10.1016H17.63C16.5363 10.1016 16.2081 10.7578 16.2081 11.4688V13.1094H18.6417L18.2589 15.625Z"
-                          fill="#307BC4" />
-                      </svg>
-                    </a>
-                    <a href="#" class="text-blue-500">
-                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                        <path
-                          d="M20.5508 11.9062C20.5508 12.043 20.5508 12.1523 20.5508 12.2891C20.5508 16.0898 17.6797 20.4375 12.4023 20.4375C10.7617 20.4375 9.25781 19.9727 8 19.1523C8.21875 19.1797 8.4375 19.207 8.68359 19.207C10.0234 19.207 11.2539 18.7422 12.2383 17.9766C10.9805 17.9492 9.91406 17.1289 9.55859 15.9805C9.75 16.0078 9.91406 16.0352 10.1055 16.0352C10.3516 16.0352 10.625 15.9805 10.8438 15.9258C9.53125 15.6523 8.54688 14.5039 8.54688 13.1094V13.082C8.92969 13.3008 9.39453 13.4102 9.85938 13.4375C9.06641 12.918 8.57422 12.043 8.57422 11.0586C8.57422 10.5117 8.71094 10.0195 8.95703 9.60938C10.3789 11.332 12.5117 12.4805 14.8906 12.6172C14.8359 12.3984 14.8086 12.1797 14.8086 11.9609C14.8086 10.375 16.0938 9.08984 17.6797 9.08984C18.5 9.08984 19.2383 9.41797 19.7852 9.99219C20.4141 9.85547 21.043 9.60938 21.5898 9.28125C21.3711 9.96484 20.9336 10.5117 20.332 10.8672C20.9062 10.8125 21.4805 10.6484 21.9727 10.4297C21.5898 11.0039 21.0977 11.4961 20.5508 11.9062Z"
-                          fill="#307BC4" />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-
-                <!-- Title -->
-                <h3 class="text-base font-semibold f1-color mb-2">
-                  The Benefits of Mindfulness Meditation for Stress and Anxiety
-                </h3>
-                <!-- Read More Button -->
-                <div class="flex ">
-                  <a href="#" class="f2-color font-medium text-base">
-                    Read More
-                  </a><span>
-                    <svg class="mr-1 mt-2 f2-color" width="40" height="12" viewBox="0 0 18 18" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
-                        fill="#274760" />
-                    </svg></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="swiper-slide me-10 px-2">
-          <div class="">
-            <div class=" bg-white rounded-3xl shadow-lg">
-              <!-- Image Section -->
-              <div class="bg-white rounded-xl overflow-hidden text-center">
-                <img src="./assets/images/gallery/patient2.png" alt="Description"
-                  class="w-full object-cover rounded-t-xl">
-              </div>
-
-              <!-- Content Section -->
-              <div class="p-4">
-                <!-- Date -->
-                <div class="flex items-center justify-between text-sm text-gray-500 mb-1">
-                  <!-- Date Section -->
-                  <div class="flex items-center">
-                    <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M6 4.75C5.59 4.75 5.25 4.41 5.25 4V1C5.25 0.59 5.59 0.25 6 0.25C6.41 0.25 6.75 0.59 6.75 1V4C6.75 4.41 6.41 4.75 6 4.75ZM14 4.75C13.59 4.75 13.25 4.41 13.25 4V1C13.25 0.59 13.59 0.25 14 0.25C14.41 0.25 14.75 0.59 14.75 1V4C14.75 4.41 14.41 4.75 14 4.75ZM6.5 13.5C6.37 13.5 6.24 13.47 6.12 13.42C5.99 13.37 5.89 13.3 5.79 13.21C5.61 13.02 5.5 12.77 5.5 12.5C5.5 12.37 5.53 12.24 5.58 12.12C5.63 12 5.7 11.89 5.79 11.79C5.89 11.7 5.99 11.63 6.12 11.58C6.48 11.43 6.93 11.51 7.21 11.79C7.39 11.98 7.5 12.24 7.5 12.5C7.5 12.56 7.49 12.63 7.48 12.7C7.47 12.76 7.45 12.82 7.42 12.88C7.4 12.94 7.37 13 7.33 13.06C7.3 13.11 7.25 13.16 7.21 13.21C7.02 13.39 6.76 13.5 6.5 13.5ZM10 13.5C9.87 13.5 9.74 13.47 9.62 13.42C9.49 13.37 9.39 13.3 9.29 13.21C9.11 13.02 9 12.77 9 12.5C9 12.37 9.03 12.24 9.08 12.12C9.13 12 9.2 11.89 9.29 11.79C9.39 11.7 9.49 11.63 9.62 11.58C9.98 11.42 10.43 11.51 10.71 11.79C10.89 11.98 11 12.24 11 12.5C11 12.56 10.99 12.63 10.98 12.7C10.97 12.76 10.95 12.82 10.92 12.88C10.9 12.94 10.87 13 10.83 13.06C10.8 13.11 10.75 13.16 10.71 13.21C10.52 13.39 10.26 13.5 10 13.5ZM13.5 13.5C13.37 13.5 13.24 13.47 13.12 13.42C12.99 13.37 12.89 13.3 12.79 13.21L12.67 13.06C12.6321 13.0043 12.6019 12.9437 12.58 12.88C12.5511 12.8233 12.5309 12.7627 12.52 12.7C12.51 12.63 12.5 12.56 12.5 12.5C12.5 12.24 12.61 11.98 12.79 11.79C12.89 11.7 12.99 11.63 13.12 11.58C13.49 11.42 13.93 11.51 14.21 11.79C14.39 11.98 14.5 12.24 14.5 12.5C14.5 12.56 14.49 12.63 14.48 12.7C14.47 12.76 14.45 12.82 14.42 12.88C14.4 12.94 14.37 13 14.33 13.06C14.3 13.11 14.25 13.16 14.21 13.21C14.02 13.39 13.76 13.5 13.5 13.5ZM6.5 17C6.37 17 6.24 16.97 6.12 16.92C6 16.87 5.89 16.8 5.79 16.71C5.61 16.52 5.5 16.26 5.5 16C5.5 15.87 5.53 15.74 5.58 15.62C5.63 15.49 5.7 15.38 5.79 15.29C6.16 14.92 6.84 14.92 7.21 15.29C7.39 15.48 7.5 15.74 7.5 16C7.5 16.26 7.39 16.52 7.21 16.71C7.02 16.89 6.76 17 6.5 17ZM10 17C9.74 17 9.48 16.89 9.29 16.71C9.11 16.52 9 16.26 9 16C9 15.87 9.03 15.74 9.08 15.62C9.13 15.49 9.2 15.38 9.29 15.29C9.66 14.92 10.34 14.92 10.71 15.29C10.8 15.38 10.87 15.49 10.92 15.62C10.97 15.74 11 15.87 11 16C11 16.26 10.89 16.52 10.71 16.71C10.52 16.89 10.26 17 10 17ZM13.5 17C13.24 17 12.98 16.89 12.79 16.71C12.6975 16.6161 12.6259 16.5036 12.58 16.38C12.53 16.26 12.5 16.13 12.5 16C12.5 15.87 12.53 15.74 12.58 15.62C12.63 15.49 12.7 15.38 12.79 15.29C13.02 15.06 13.37 14.95 13.69 15.02C13.76 15.03 13.82 15.05 13.88 15.08C13.94 15.1 14 15.13 14.06 15.17C14.11 15.2 14.16 15.25 14.21 15.29C14.39 15.48 14.5 15.74 14.5 16C14.5 16.26 14.39 16.52 14.21 16.71C14.02 16.89 13.76 17 13.5 17ZM18.5 8.84H1.5C1.09 8.84 0.75 8.5 0.75 8.09C0.75 7.68 1.09 7.34 1.5 7.34H18.5C18.91 7.34 19.25 7.68 19.25 8.09C19.25 8.5 18.91 8.84 18.5 8.84Z"
-                        fill="#274760" />
-                      <path
-                        d="M14 21.75H6C2.35 21.75 0.25 19.65 0.25 16V7.5C0.25 3.85 2.35 1.75 6 1.75H14C17.65 1.75 19.75 3.85 19.75 7.5V16C19.75 19.65 17.65 21.75 14 21.75ZM6 3.25C3.14 3.25 1.75 4.64 1.75 7.5V16C1.75 18.86 3.14 20.25 6 20.25H14C16.86 20.25 18.25 18.86 18.25 16V7.5C18.25 4.64 16.86 3.25 14 3.25H6Z"
-                        fill="#274760" />
-                    </svg>
-
-                    <span class="text-base font-semibold f1-color ms-3">May 1, 2023</span>
-                  </div>
-
-                  <!-- Social Icons -->
-                  <div class="flex space-x-4">
-                    <a href="#" class="text-blue-500">
-                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                        <path
-                          d="M11.6144 20H9.07141V11.8242H11.6144V20ZM10.3292 10.7305C9.53625 10.7305 8.88 10.0469 8.88 9.22656C8.88 8.43359 9.53625 7.77734 10.3292 7.77734C11.1495 7.77734 11.8058 8.43359 11.8058 9.22656C11.8058 10.0469 11.1495 10.7305 10.3292 10.7305ZM21.1027 20H18.587V16.0352C18.587 15.0781 18.5597 13.875 17.2472 13.875C15.9347 13.875 15.7433 14.8867 15.7433 15.9531V20H13.2003V11.8242H15.6339V12.9453H15.6613C16.0167 12.3164 16.837 11.6328 18.0675 11.6328C20.6378 11.6328 21.13 13.3281 21.13 15.5156V20H21.1027Z"
-                          fill="#307BC4" />
-                      </svg>
-                    </a>
-                    <a href="#" class="text-blue-500">
-                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                        <path
-                          d="M18.2589 15.625H16.2081V21.75H13.4738V15.625H11.2316V13.1094H13.4738V11.168C13.4738 8.98047 14.7863 7.75 16.7823 7.75C17.7394 7.75 18.7511 7.94141 18.7511 7.94141V10.1016H17.63C16.5363 10.1016 16.2081 10.7578 16.2081 11.4688V13.1094H18.6417L18.2589 15.625Z"
-                          fill="#307BC4" />
-                      </svg>
-                    </a>
-                    <a href="#" class="text-blue-500">
-                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#307BC4" />
-                        <path
-                          d="M20.5508 11.9062C20.5508 12.043 20.5508 12.1523 20.5508 12.2891C20.5508 16.0898 17.6797 20.4375 12.4023 20.4375C10.7617 20.4375 9.25781 19.9727 8 19.1523C8.21875 19.1797 8.4375 19.207 8.68359 19.207C10.0234 19.207 11.2539 18.7422 12.2383 17.9766C10.9805 17.9492 9.91406 17.1289 9.55859 15.9805C9.75 16.0078 9.91406 16.0352 10.1055 16.0352C10.3516 16.0352 10.625 15.9805 10.8438 15.9258C9.53125 15.6523 8.54688 14.5039 8.54688 13.1094V13.082C8.92969 13.3008 9.39453 13.4102 9.85938 13.4375C9.06641 12.918 8.57422 12.043 8.57422 11.0586C8.57422 10.5117 8.71094 10.0195 8.95703 9.60938C10.3789 11.332 12.5117 12.4805 14.8906 12.6172C14.8359 12.3984 14.8086 12.1797 14.8086 11.9609C14.8086 10.375 16.0938 9.08984 17.6797 9.08984C18.5 9.08984 19.2383 9.41797 19.7852 9.99219C20.4141 9.85547 21.043 9.60938 21.5898 9.28125C21.3711 9.96484 20.9336 10.5117 20.332 10.8672C20.9062 10.8125 21.4805 10.6484 21.9727 10.4297C21.5898 11.0039 21.0977 11.4961 20.5508 11.9062Z"
-                          fill="#307BC4" />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-
-                <!-- Title -->
-                <h3 class="text-base font-semibold f1-color mb-2">
-                  The Benefits of Mindfulness Meditation for Stress and Anxiety
-                </h3>
-                <!-- Read More Button -->
-                <div class="flex ">
-                  <a href="#" class="f2-color font-medium text-base">
-                    Read More
-                  </a><span>
-                    <svg class="mr-1 mt-2 f2-color" width="40" height="12" viewBox="0 0 18 18" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M16.1632 8.42277C16.4812 8.74069 16.4812 9.2596 16.1632 9.57751L9.93594 15.8046C9.61753 16.123 9.09957 16.123 8.78119 15.8046L8.43287 15.4563C8.11418 15.1376 8.11411 14.6199 8.43283 14.3011L13.1568 9.57765C13.4755 9.25896 13.4755 8.74118 13.1568 8.42249L8.43287 3.69897C8.11411 3.38024 8.11414 2.8626 8.4329 2.54387L8.78123 2.19555C9.09915 1.87763 9.61805 1.87763 9.93597 2.19555L16.1632 8.42277ZM3.34027 2.19548C3.02204 1.87721 2.50359 1.87724 2.18536 2.19548L1.83703 2.5438C1.51893 2.8619 1.5189 3.3808 1.83703 3.69893L6.56073 8.42249C6.87945 8.74122 6.87945 9.25893 6.56073 9.57765L1.83699 14.3012C1.51876 14.6194 1.51879 15.1381 1.83699 15.4563L2.18532 15.8046C2.50369 16.123 3.02186 16.123 3.34024 15.8046L9.01439 10.1303C10.6061 11.7204 10.2034 11.3172 9.01555 10.1292L9.56715 9.57751C9.88528 9.25939 9.88524 8.74087 9.56715 8.42274L3.34027 2.19548Z"
-                        fill="#274760" />
-                    </svg></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-button-next absolute -top-[10px] right-10 "> </div>
-      <div class="swiper-button-prev absolute -top-[10px] left-72"></div>
-      <!-- Add pagination -->
-      <div class="swiper-pagination swiper-pagination-vertical"></div>
-    </div>
-    <a href="#"
-      class="ms-10 md:hidden items-center f2-bg text-white md:px-8 px-3 md:py-3 py-2 md:font-semibold font-normal md:text-xl text-sm rounded-md "
-      style="clip-path: polygon(86.98% 0%, 98.29% 48.23%, 87.21% 96.99%, 0.37% 96.99%, 7.24% 48.23%, 0% 0%);">
-      View All
-    </a>
-    <div>
-    </div>
-  </section>
-
-  <!-- ---------------------------------------Testimonials Start ------------------------------------->
-  <section class="bg-testimonial relative md:pt-28 pt-20 f5-bg overflow-hidden">
-    <div class="absolute top-[0] left-[0]  z-0 md:hidden">
-      <img src="./assets/images/gallery/texture.png" alt="High Quality">
-    </div>
-    <div class="container mx-auto relative z-10  ">
-      <div class="flex justify-between items-center  md:ms-2 ms-6 md:mb-16 mb-5">
-        <h2 class="md:text-5xl text-2xl font-bold f2-color flex items-center">
-          Our Testimonials
-          <span class="inline-flex items-center justify-center f2-color text-xl font-bold ms-2">
-            <svg width="36" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
-                fill="#064681" />
+        <!-- Service 2 -->
+        <div class=" p-6 rounded-3xl " style="background-color: #f6f7f8;">
+          <div class="text-blue-500 mb-4 items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 " viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5v14"></path>
             </svg>
-          </span>
-        </h2>
-        <h1
-          class="absolute md:right-[-15%] right-[8%] md:top-[-15%] top-[-10%] md:text-9xl text-3xl font-bold f4-color opacity-10">
-          Testimonials</h1>
-      </div>
-      <!-- Testimonial Section -->
-      <div class="md:m-auto m-6">
-
-        <div class=" grid lg:grid-cols-2 md:gap-12 gap-0">
-          <div class="swiper mySwiper relative" style="height: 500px;">
-            <div class="swiper-wrapper">
-              <!-- Testimonial Content-1 -->
-              <div class="swiper-slide ">
-                <div class="md:me-auto me-16">
-                  <div class="bg-white rounded-xl shadow-lg md:p-10 p-4">
-                    <div class="f1-color md:text-3xl textlg md:mb-4 mb-1">
-                      <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg"
-                        class="md:w-10 w-5 md:h-10 h-10">
-                        <path opacity="0.5"
-                          d="M25.1419 12.5965C26.5507 12.5965 27.7428 13.7885 27.7428 15.1973V22.133C27.7428 23.596 26.5507 24.7339 25.1419 24.7339H18.2062C16.7432 24.7339 15.6053 23.596 15.6053 22.133V9.12862C15.6053 4.36033 19.4524 0.459005 24.2749 0.459005H24.7084C25.4128 0.459005 26.0088 1.05504 26.0088 1.75945V4.36033C26.0088 5.11892 25.4128 5.66077 24.7084 5.66077H24.2749C22.3243 5.66077 20.8071 7.23214 20.8071 9.12862V12.5965H25.1419ZM9.53657 12.5965C10.9454 12.5965 12.1375 13.7885 12.1375 15.1973V22.133C12.1375 23.596 10.9454 24.7339 9.53657 24.7339H2.60088C1.13789 24.7339 0 23.596 0 22.133V9.12862C0 4.36033 3.84714 0.459005 8.66961 0.459005H9.10309C9.8075 0.459005 10.4035 1.05504 10.4035 1.75945V4.36033C10.4035 5.11892 9.8075 5.66077 9.10309 5.66077H8.66961C6.71895 5.66077 5.20177 7.23214 5.20177 9.12862V12.5965H9.53657Z"
-                          fill="#307BC4" />
-                      </svg>
-                    </div>
-                    <p class="f1-color md:text-lg text-xs font-medium">
-                      It is a long established fact that a reader will be distracted by the readable content of a page
-                      when
-                      looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                      distribution of
-                      letters, as opposed to using 'Content here, content here', making it look like readable English.
-                    </p>
-                    <div class="flex items-center md:mt-6 mt-2">
-                      <img src="./assets/images/gallery/mitchel.png" alt="User"
-                        class="md:w-16 w-10 md:h-16 h-10 rounded-full md:mr-4 mr-2">
-                      <div>
-                        <h4 class="f1-color font-semibold md:text-2xl text-base">Michel Clark</h4>
-                        <p class="text-yellow-500 md:text-2xl text-base">
-                          ★★★★★
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Testimonial Content-2 -->
-              <div class="swiper-slide ">
-                <div class="md:me-auto me-16">
-                  <div class="bg-white rounded-xl shadow-lg md:p-10 p-4">
-                    <div class="f1-color md:text-3xl textlg md:mb-4 mb-1">
-                      <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg"
-                        class="md:w-10 w-5 md:h-10 h-10">
-                        <path opacity="0.5"
-                          d="M25.1419 12.5965C26.5507 12.5965 27.7428 13.7885 27.7428 15.1973V22.133C27.7428 23.596 26.5507 24.7339 25.1419 24.7339H18.2062C16.7432 24.7339 15.6053 23.596 15.6053 22.133V9.12862C15.6053 4.36033 19.4524 0.459005 24.2749 0.459005H24.7084C25.4128 0.459005 26.0088 1.05504 26.0088 1.75945V4.36033C26.0088 5.11892 25.4128 5.66077 24.7084 5.66077H24.2749C22.3243 5.66077 20.8071 7.23214 20.8071 9.12862V12.5965H25.1419ZM9.53657 12.5965C10.9454 12.5965 12.1375 13.7885 12.1375 15.1973V22.133C12.1375 23.596 10.9454 24.7339 9.53657 24.7339H2.60088C1.13789 24.7339 0 23.596 0 22.133V9.12862C0 4.36033 3.84714 0.459005 8.66961 0.459005H9.10309C9.8075 0.459005 10.4035 1.05504 10.4035 1.75945V4.36033C10.4035 5.11892 9.8075 5.66077 9.10309 5.66077H8.66961C6.71895 5.66077 5.20177 7.23214 5.20177 9.12862V12.5965H9.53657Z"
-                          fill="#307BC4" />
-                      </svg>
-                    </div>
-                    <p class="f1-color md:text-lg text-xs font-medium">
-                      It is a long established fact that a reader will be distracted by the readable content of a page
-                      when
-                      looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                      distribution of
-                      letters, as opposed to using 'Content here, content here', making it look like readable English.
-                    </p>
-                    <div class="flex items-center md:mt-6 mt-2">
-                      <img src="./assets/images/gallery/mitchel.png" alt="User"
-                        class="md:w-16 w-10 md:h-16 h-10 rounded-full md:mr-4 mr-2">
-                      <div>
-                        <h4 class="f1-color font-semibold md:text-2xl text-base">Michel Clark</h4>
-                        <p class="text-yellow-500 md:text-2xl text-base">
-                          ★★★★★
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Testimonial Content-3 -->
-              <div class="swiper-slide ">
-                <div class="md:me-auto me-16">
-                  <div class="bg-white rounded-xl shadow-lg md:p-10 p-4">
-                    <div class="f1-color md:text-3xl textlg md:mb-4 mb-1">
-                      <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg"
-                        class="md:w-10 w-5 md:h-10 h-10">
-                        <path opacity="0.5"
-                          d="M25.1419 12.5965C26.5507 12.5965 27.7428 13.7885 27.7428 15.1973V22.133C27.7428 23.596 26.5507 24.7339 25.1419 24.7339H18.2062C16.7432 24.7339 15.6053 23.596 15.6053 22.133V9.12862C15.6053 4.36033 19.4524 0.459005 24.2749 0.459005H24.7084C25.4128 0.459005 26.0088 1.05504 26.0088 1.75945V4.36033C26.0088 5.11892 25.4128 5.66077 24.7084 5.66077H24.2749C22.3243 5.66077 20.8071 7.23214 20.8071 9.12862V12.5965H25.1419ZM9.53657 12.5965C10.9454 12.5965 12.1375 13.7885 12.1375 15.1973V22.133C12.1375 23.596 10.9454 24.7339 9.53657 24.7339H2.60088C1.13789 24.7339 0 23.596 0 22.133V9.12862C0 4.36033 3.84714 0.459005 8.66961 0.459005H9.10309C9.8075 0.459005 10.4035 1.05504 10.4035 1.75945V4.36033C10.4035 5.11892 9.8075 5.66077 9.10309 5.66077H8.66961C6.71895 5.66077 5.20177 7.23214 5.20177 9.12862V12.5965H9.53657Z"
-                          fill="#307BC4" />
-                      </svg>
-                    </div>
-                    <p class="f1-color md:text-lg text-xs font-medium">
-                      It is a long established fact that a reader will be distracted by the readable content of a page
-                      when
-                      looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                      distribution of
-                      letters, as opposed to using 'Content here, content here', making it look like readable English.
-                    </p>
-                    <div class="flex items-center md:mt-6 mt-2">
-                      <img src="./assets/images/gallery/mitchel.png" alt="User"
-                        class="md:w-16 w-10 md:h-16 h-10 rounded-full md:mr-4 mr-2">
-                      <div>
-                        <h4 class="f1-color font-semibold md:text-2xl text-base">Michel Clark</h4>
-                        <p class="text-yellow-500 md:text-2xl text-base">
-                          ★★★★★
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-pagination swiper-pagination-vertical"></div>
-
-            <!-- Next and Previous Buttons -->
           </div>
-          <div class="">
-            <div
-              class="absolute swiper-button-prev custom-swiper-button md:top-[40%] top-[28%] md:left-[50%] left-[85%]">
-            </div>
-            <div
-              class="absolute swiper-button-next custom-swiper-button md:top-[62%] top-[40%] md:left-[50%] left-[85%]">
-            </div>
+          <h3 class="font-bold text-lg text-gray-800">PROLASIK</h3>
+          <p class="text-gray-600 mt-2 text-start" style="line-height: 2rem;">Get rid of your glasses with Blade free
+            (All-Laser) procedure.</p>
+        </div>
 
-            <div class="absolute md:top-[18%] top-8 md:right-[48%] right-10 ">
-              <svg width="2" height="80" viewBox="0 0 2 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="1.99988" width="80" height="2" transform="rotate(90 1.99988 0)"
-                  fill="url(#paint0_linear_29_445)" />
-                <defs>
-                  <linearGradient id="paint0_linear_29_445" x1="81.9999" y1="1" x2="1.99988" y2="1"
-                    gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#307BC4" />
-                    <stop offset="1" stop-color="#D9D9D9" stop-opacity="0" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-
-            <div class="absolute md:top-[64%] top-64 md:right-[48%] right-10">
-              <svg width="2" height="80" viewBox="0 0 2 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="85" height="2" transform="matrix(0 -1 -1 0 2 80)" fill="url(#paint0_linear_29_446)" />
-                <defs>
-                  <linearGradient id="paint0_linear_29_446" x1="80" y1="1" x2="0" y2="1" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#307BC4" />
-                    <stop offset="1" stop-color="#D9D9D9" stop-opacity="0" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
+        <!-- Service 3 -->
+        <div class=" p-6 rounded-3xl " style="background-color: #f6f7f8;">
+          <div class="text-blue-500 mb-4 items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 " viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 9a3 3 0 110 6 3 3 0 010-6z"></path>
+            </svg>
           </div>
+          <h3 class="font-bold text-lg text-gray-800">GLAUCOMA</h3>
+          <p class="text-gray-600 mt-2 text-start" style="line-height: 2rem;">Glaucoma is one of the commonest causes
+            for irreversible vision loss.</p>
         </div>
 
-
-        <!-- Right Section -->
-        <div class="lg:col-span-1 flex justify-center items-center ">
-          <img src="./assets/images/gallery/doctor-2.png" alt="Doctors"
-            class="absolute md:w-auto w-[14rem] md:h-auto h-[14rem]  md:right-[0%] right-50 md:top-11 top-80 z-10" />
-        </div>
-        <div class="absolute md:top-48 top-[388px] md:right-[-5%] right-[18%]  z-0">
-          <img src="./assets/images/gallery/shape-3.png" alt="High Quality"
-            class="md:w-auto w-[100%] md:h-auto h-[156px] ">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ----------------------------------Contact Page start ------------------------------->
-  <section class="relative md:py-32 py-10 md:mx-auto mx-5  bg-gray-50">
-    <!-- Container -->
-    <div class="container mx-auto ">
-      <!-- Content Wrapper -->
-      <div class="grid gap-12 items-center">
-        <!-- Left Section: Form -->
-        <div class="contact-bg md:shadow-lg shadow-none rounded-3xl lg:p-12 relative ">
-          <div class="md:py-16 py-8 pb-96 md:px-5 px-5">
-            <!-- Header -->
-            <h2 class="md:text-5xl text-xl font-bold f2-color md:mb-16 mb-5 md:ms-auto ms-2 flex items-center ">
-              Book A Free Consultation
-              <span class="md:ml-4 ml-4 md:w-16 w-12">
-                <svg width="" height="" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
-                    fill="#064681" />
-                </svg>
-              </span>
-            </h2>
-
-            <!-- Form -->
-            <div class="relative grid lg:grid-cols-2 ">
-              <form action="#" method="POST" class="md:space-y-6 space-y-2 z-10">
-                <!-- Row 1 -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:gap-6 gap-2">
-                  <div class="relative">
-                    <input type="text" name="first_name" id="first_name" placeholder="First Name" class="w-full md:text-lg text-base font-normal rounded-full border border-gray-300 bg-white p-6 text-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none peer
-               backdrop-blur-sm flex items-center md:py-6 py-3 md:px-6 px-6 space-x-4 border-t border-s"
-                      style="min-width: 260px; background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.749));" />
-                    <label for="first_name"
-                      class="absolute left-4 top-4 text-gray-500 text-sm transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-base peer-focus:top-2 peer-focus:text-blue-500 peer-focus:text-sm">
-
-                    </label>
-                  </div>
-
-                  <div class="relative">
-                    <input type="text" name="last_name" id="last_name" placeholder="Last Name" class="w-full md:text-lg text-base font-normal rounded-full border border-gray-300 bg-white p-6 text-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none peer
-               backdrop-blur-sm flex items-center md:py-6 py-3 md:px-6 px-6 space-x-4 border-t border-s"
-                      style="min-width: 260px; background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.749));" />
-                    <label for="last_name"
-                      class="absolute left-4 top-4 text-gray-500 text-sm transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-base peer-focus:top-2 peer-focus:text-blue-500 peer-focus:text-sm">
-                    </label>
-                  </div>
-
-                </div>
-
-                <!-- Row 2 -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:gap-6 gap-2">
-
-                  <div class="relative">
-                    <input type="email" name="email" id="email" placeholder="Email ID" class="w-full md:text-lg text-base font-normal rounded-full border border-gray-300 bg-white p-6 text-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none peer
-              backdrop-blur-sm flex items-center md:py-6 py-3 md:px-6 px-6 space-x-4 border-t border-s"
-                      style="min-width: 260px; background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.749));" />
-                  </div>
-                  <div class="relative">
-                    <input type="tel" name="mobile_number" id="mobile_number" placeholder="Mobile number" class="w-full md:text-lg text-base font-normal rounded-full border border-gray-300 bg-white p-6 text-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none peer
-               backdrop-blur-sm flex items-center  md:py-6 py-3 md:px-6 px-6 space-x-4 border-t border-s"
-                      style="min-width: 260px; background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.749));" />
-                  </div>
-
-                </div>
-
-                <!-- Row 3 -->
-                <div>
-                  <input type="text" name="country" id="country" placeholder="Country" class="w-full md:text-lg text-base font-normal rounded-full border border-gray-300 bg-white p-6 text-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none peer
-               backdrop-blur-sm flex items-center md:py-6 py-3 md:px-6 px-6 space-x-4 border-t border-s"
-                    style="min-width: 260px; background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.749));" />
-                </div>
-
-                <!-- Row 4 -->
-                <div>
-                  <label for="message" class="block text-sm font-medium text-gray-700 mb-2"></label>
-                  <textarea name="message" id="message" rows="4" placeholder="Message" class="w-full rounded-3xl md:text-lg text-base font-normal border border-gray-300 bg-white p-7 text-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none peer
-               backdrop-blur-sm flex items-center md:py-6 py-3 md:px-6 px-6 space-x-4 border-t border-s"
-                    style="min-width: 260px; background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.749));"></textarea>
-
-                </div>
-
-                <!-- Submit Button -->
-                <div>
-                  <button type="submit"
-                    class="flex items-center f2-bg text-white  md:px-12 px-5 md:py-3 py-1 md:font-semibold font-normal rounded-md shadow-lg"
-                    style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);">
-                    Submit
-                  </button>
-                </div>
-              </form>
-              <div class=" absolute md:top-[-40%] top-[95%] md:right-[0%] flex justify-center lg:justify-end z-0">
-                <img src="./assets/images/gallery/contact-dr.png" alt="Doctor pointing"
-                  class="max-w-full h-auto rounded-lg" />
-              </div>
-            </div>
-            <!-- Right Section: Image -->
+        <!-- Service 4 -->
+        <div class=" p-6 py-10 rounded-3xl " style="background-color: #f6f7f8;">
+          <div class="text-blue-500 mb-4 items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 " viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M16 8l-8 8M8 8l8 8"></path>
+            </svg>
           </div>
+          <h3 class="font-bold text-lg text-gray-800">RETINA</h3>
+          <p class="text-gray-600 mt-2 text-start" style="line-height: 2rem;">Diabetes, heart conditions, etc. may cause
+            retinal <br> disorders.</p>
         </div>
       </div>
-  </section>
+    </section>
+  </div>
 
-  <!-- Footer Start --------------------------------->
-  <footer class="bg-blue-100 text-gray-700 pt-14 hidden md:block" style="
-        background-image: url('./assets/images/gallery/footer-bg.png');
-        background-size: cover;
-        background-position: center;
-      ">
-    <div class="container mx-auto md:p-a grid grid-cols-1 md:grid-cols-5 gap-8 px-5 mb-28">
-      <div class="space-y-6 ">
-        <div class="flex items-center space-x-4">
-          <img src="./assets/images/logo.png" alt="Gabani Kidney Hospital Logo" class="h-16" />
-        </div>
-        <div class="text-sm space-y-4">
-          <!-- Phone Icon with Circle -->
-          <div class="flex items-center space-x-4">
-            <span class="inline-flex items-center justify-center w-9 h-9  rounded-full border border-[#064681]">
-              <svg width="15" height="15" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
-                <path
-                  d="M15.5645 11.7424L13.3317 9.50954C12.5342 8.71209 11.1786 9.0311 10.8596 10.0677C10.6204 10.7855 9.82291 11.1842 9.10521 11.0247C7.51032 10.626 5.35722 8.5526 4.95849 6.87797C4.71926 6.16024 5.19773 5.36279 5.91543 5.12359C6.95211 4.80461 7.27109 3.44895 6.47364 2.65151L4.24079 0.418659C3.60284 -0.139553 2.6459 -0.139553 2.08769 0.418659L0.572542 1.93381C-0.942605 3.5287 0.732031 7.75516 4.48003 11.5032C8.22802 15.2511 12.4545 17.0056 14.0494 15.4106L15.5645 13.8955C16.1228 13.2575 16.1228 12.3006 15.5645 11.7424Z"
-                  fill="#064681" />
-              </svg>
-            </span>
-            <span class="font-lato f1-color font-semibold">+91 261 2537270, 2531174</span>
-          </div>
-
-          <!-- Email Icon with Circle -->
-          <div class="flex items-center space-x-4">
-            <span class="inline-flex items-center justify-center w-9 h-9  rounded-full border border-[#064681]">
-              <svg width="15" height="15" viewBox="0 0 16 12" xmlns="http://www.w3.org/2000/svg" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M1.96282 1.0728L6.28532 5.39718C7.22807 6.33812 8.76913 6.33893 9.71266 5.39718L14.0352 1.0728C14.0454 1.06264 14.0532 1.05036 14.0582 1.03682C14.0631 1.02328 14.065 1.00882 14.0638 0.994466C14.0625 0.98011 14.0581 0.966209 14.0508 0.953749C14.0436 0.941289 14.0337 0.930575 14.0218 0.922367C13.581 0.614899 13.0446 0.432617 12.4668 0.432617H3.53126C2.95341 0.432617 2.41701 0.61493 1.97613 0.922367C1.96429 0.930575 1.95439 0.941289 1.94715 0.953749C1.9399 0.966209 1.93549 0.98011 1.93422 0.994466C1.93295 1.00882 1.93485 1.02328 1.9398 1.03682C1.94474 1.05036 1.9526 1.06264 1.96282 1.0728ZM0.807694 3.15615C0.807342 2.71677 0.914124 2.28392 1.11879 1.89512C1.12593 1.88141 1.13621 1.86958 1.14879 1.86059C1.16136 1.85161 1.17588 1.84571 1.19116 1.84339C1.20645 1.84107 1.22206 1.84239 1.23674 1.84724C1.25142 1.85209 1.26474 1.86034 1.27563 1.8713L5.54341 6.13909C6.89488 7.49252 9.10232 7.4933 10.4546 6.13909L14.7224 1.8713C14.7333 1.86034 14.7466 1.85209 14.7613 1.84724C14.776 1.84239 14.7916 1.84107 14.8068 1.84339C14.8221 1.84571 14.8366 1.85161 14.8492 1.86059C14.8618 1.86958 14.8721 1.88141 14.8792 1.89512C15.0839 2.28393 15.1907 2.71677 15.1903 3.15615V8.84168C15.1903 10.3446 13.9678 11.5652 12.4668 11.5652H3.53126C2.03026 11.5652 0.807694 10.3446 0.807694 8.84168V3.15615Z"
-                  fill="#064681" />
-              </svg>
-            </span>
-            <span class="font-lato f1-color font-semibold">+91 261 2537270, 2531174</span>
-          </div>
-        </div>
-
-        <div>
-          <h4 class="font-semibold text-2xl mb-6 relative inline-block f2-color ">
-            Followers
-            <span class="absolute left-0 -bottom-1 w-full h-0.5 f2-bg"></span>
-          </h4>
-
-          <div class="flex space-x-4">
-            <!-- Facebook Icon -->
-            <a href="https://www.facebook.com/"
-              class="inline-flex items-center justify-center w-9 h-9   border border-[#064681] rounded-full">
-              <svg width="18" height="18" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg" fill="none">
-                <path
-                  d="M2.888 10.1442H0.709999C0.357999 10.1442 0.247999 10.0122 0.247999 9.68217V7.02017C0.247999 6.66817 0.379999 6.55817 0.709999 6.55817H2.888V4.62217C2.888 3.74217 3.042 2.90617 3.482 2.13617C3.944 1.34417 4.604 0.816168 5.44 0.508168C5.99 0.310168 6.54 0.222168 7.134 0.222168H9.29C9.598 0.222168 9.73 0.354168 9.73 0.662168V3.17017C9.73 3.47817 9.598 3.61017 9.29 3.61017C8.696 3.61017 8.102 3.61017 7.508 3.63217C6.914 3.63217 6.606 3.91817 6.606 4.53417C6.584 5.19417 6.606 5.83217 6.606 6.51417H9.158C9.51 6.51417 9.642 6.64617 9.642 6.99817V9.66017C9.642 10.0122 9.532 10.1222 9.158 10.1222H6.606V17.2942C6.606 17.6682 6.496 17.8002 6.1 17.8002H3.35C3.02 17.8002 2.888 17.6682 2.888 17.3382V10.1442Z"
-                  fill="#064681" />
-              </svg>
-            </a>
-            <!-- WhatsApp Icon -->
-            <a href="https://www.whatsapp.com/"
-              class="inline-flex items-center justify-center w-9 h-9   border border-[#064681] rounded-full ">
-              <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="none">
-                <path
-                  d="M9 0.129883C4.138 0.129883 0.200001 4.06788 0.200001 8.92988C0.200001 10.8659 0.816001 12.6479 1.872 14.0999L0.662001 17.2899L4.16 16.2779C5.546 17.2019 7.218 17.7299 9 17.7299C13.862 17.7299 17.8 13.7919 17.8 8.92988C17.8 4.06788 13.862 0.129883 9 0.129883ZM13.686 12.5819L12.74 13.5059C11.75 14.4959 9.132 13.4179 6.822 11.0859C4.512 8.77588 3.478 6.15788 4.402 5.18988L5.348 4.24388C5.7 3.89188 6.294 3.89188 6.668 4.24388L8.054 5.62988C8.538 6.11388 8.34 6.94988 7.702 7.14788C7.262 7.30188 6.954 7.78588 7.108 8.22588C7.35 9.25988 8.692 10.5359 9.682 10.7779C10.122 10.8879 10.628 10.6239 10.76 10.1839C10.958 9.54588 11.794 9.34788 12.278 9.83188L13.664 11.2179C14.016 11.5919 14.016 12.1859 13.686 12.5819Z"
-                  fill="#064681" />
-              </svg>
-            </a>
-            <!-- LinkedIn Icon -->
-            <a href="https://www.linkedin.com/"
-              class="inline-flex items-center justify-center w-9 h-9   border border-[#064681] rounded-full ">
-              <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="none">
-                <path
-                  d="M17.7956 17.8002V17.7995H17.8V11.3447C17.8 8.18708 17.1202 5.75454 13.4286 5.75454C11.6539 5.75454 10.463 6.72847 9.9768 7.65159H9.92554V6.04934H6.42534V17.7995H10.0701V11.9812C10.0701 10.4493 10.3605 8.96785 12.2575 8.96785C14.1269 8.96785 14.1546 10.7162 14.1546 12.0793V17.8002H17.7956ZM0.490397 6.04999H4.13954V17.8002H0.490397V6.04999ZM2.31354 0.200195C1.14666 0.200195 0.199997 1.14686 0.199997 2.31374C0.199997 3.48062 1.14666 4.44708 2.31354 4.44708C3.48042 4.44708 4.42708 3.48062 4.42708 2.31374C4.4262 1.14686 3.47954 0.200195 2.31354 0.200195Z"
-                  fill="#064681" />
-              </svg>
-            </a>
-            <!-- Twitter Icon -->
-            <a href="https://twitter.com/"
-              class="inline-flex items-center justify-center w-9 h-9    border border-[#064681] rounded-full ">
-              <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="none">
-                <path
-                  d="M0 0 C1.0725 0.2475 2.145 0.495 3.25 0.75 C2.33232796 5.33836019 0.59726259 9.72910611 -2 13.625 C-4.82549284 15.44138825 -7.44164838 15.57587623 -10.75 15.75 C-13.1875 14.8125 -13.1875 14.8125 -14.75 13.75 C-13.76 13.09 -12.77 12.43 -11.75 11.75 C-12.265625 10.863125 -12.78125 9.97625 -13.3125 9.0625 C-14.8368937 5.54976669 -14.89947895 4.30293493 -13.75 0.75 C-11.77 1.74 -9.79 2.73 -7.75 3.75 C-7.234375 3.069375 -6.71875 2.38875 -6.1875 1.6875 C-3.75 -0.25 -3.75 -0.25 0 0 Z"
-                  fill="#064681" transform="translate(14.75,0.25)" />
-              </svg>
-            </a>
-          </div>
+  <!-- About Section Start ------------------------------------>
+  <div class="container mx-auto p-6 py-16 relative ">
+    <!-- Who We Are Section -->
+    <section class=" p-8 flex flex-col lg:flex-row items-center lg:items-start space-y-8 lg:space-y-0 lg:space-x-5">
+      <!-- Left Image with Circle Overlay -->
+      <h2 class="absolute text-8xl font-jost font-extrabold top-8 right-64 z-0"
+        style="background: linear-gradient(52deg, #eec8b5a9, #e5f1ec); background-clip: text; -webkit-text-fill-color: transparent">
+        Who We Are?</h2>
+      <div class="w-1/2 relative flex-shrink-0">
+        <img src="assets/images/About/who_we_are.png" alt="Doctor working"
+          class="rounded-full w-96 h-96 object-cover shadow-md">
+        <div
+          class="absolute -bottom-20 left-72 text-white  text-center  font-semibold shadow-xl p-12 py-16 space-y-2 w-60"
+          style="background-color: #0078bf; border-radius: 5rem;">
+          <h3 class="text-5xl font-bold">12</h3>
+          <p class="text-xl">Years of Experience in This Field</p>
         </div>
       </div>
 
-
-      <!-- Column 1: Useful Links -->
-      <div class="">
-        <h4 class="relative font-bold text-2xl f2-color font-lato mb-4">
-          Useful Links
-          <span class="absolute left-0 bottom-0 w-16 h-0.5 f2-bg mt-1"></span>
-        </h4>
-        <ul class="space-y-2 text-base list-disc pl-5">
-          <li><a href="index.html" class="hover:underline font-lato f1-color text-base font-semibold">Home</a></li>
-          <li><a href="about.html" class="hover:underline font-lato f1-color text-base font-semibold">About Us</a></li>
-          <li><a href="specialty.html" class="hover:underline font-lato f1-color text-base font-semibold">Specialty</a>
-          </li>
-          <li><a href="facility.html" class="hover:underline font-lato f1-color text-base font-semibold">Facility</a>
-          </li>
-          <li><a href="gallery.html" class="hover:underline font-lato f1-color text-base font-semibold">Gallery</a></li>
-          <li><a href="cashless.html" class="hover:underline font-lato f1-color text-base font-semibold">Cashless</a>
-          </li>
-          <li><a href="blog.html" class="hover:underline font-lato f1-color text-base font-semibold">Blogs</a></li>
-          <li><a href="contact.html" class="hover:underline font-lato f1-color text-base font-semibold">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-      <!-- Column 2: Specialty 1 -->
-      <div>
-        <h4 class="relative font-bold text-2xl f2-color font-lato mb-4">
-          Specialty
-          <span class="absolute left-0 bottom-0 w-12 h-0.5 f2-bg mt-1"></span>
-        </h4>
-        <ul class="space-y-2 text-base list-disc pl-5">
-          <li class="font-lato f1-color text-base font-semibold">RIRS</li>
-          <li class="font-lato f1-color text-base font-semibold">HoLEP</li>
-          <li class="font-lato f1-color text-base font-semibold">PCNL</li>
-          <li class="font-lato f1-color text-base font-semibold">Ureteroscopy</li>
-          <li class="font-lato f1-color text-base font-semibold">TURP</li>
-          <li class="font-lato f1-color text-base font-semibold">Cystolithotripsy</li>
-          <li class="font-lato f1-color text-base font-semibold">Stricture Urethra</li>
-          <li class="font-lato f1-color text-base font-semibold">Infertility</li>
-        </ul>
-      </div>
-
-
-      <!-- Column 3: Specialty 2 -->
-      <div>
-        <h4 class="relative font-bold text-2xl f2-color font-lato mb-4">
-          Specialty
-          <span class="absolute left-0 bottom-0 w-12 h-0.5 f2-bg mt-1"></span>
-        </h4>
-        <ul class="space-y-2 text-base list-disc pl-5">
-          <li class="font-lato f1-color text-base font-semibold">Female Urogynecology</li>
-          <li class="font-lato f1-color text-base font-semibold">Erectile Dysfunction</li>
-          <li class="font-lato f1-color text-base font-semibold">Stones</li>
-          <li class="font-lato f1-color text-base font-semibold">Prostate BPH</li>
-          <li class="font-lato f1-color text-base font-semibold">Prostate Cancer</li>
-          <li class="font-lato f1-color text-base font-semibold">Lithotripsy</li>
-          <li class="font-lato f1-color text-base font-semibold">Laparoscopy</li>
-          <li class="font-lato f1-color text-base font-semibold">Cancer Treatment</li>
-        </ul>
-      </div>
-
-      <!-- Column 4: Address -->
-      <div>
-        <h4 class="relative font-bold text-2xl f2-color font-lato mb-4">
-          Address
-          <span class="absolute left-0 bottom-0 w-12 h-0.5 f2-bg mt-1"></span>
-        </h4>
-
-        <p class="text-base font-lato f1-color font-semibold">
-          Dhan-Laxmi Complex, Nr. Ayurved College, Station-Lal Darwaja Road, Surat-395 003.
-          Gujarat (India)
+      <!-- Right Content -->
+      <div class="w-1/2 flex-1 z-10">
+        <h2 class="text-4xl font-bold text-gray-800 z-20">Vision Eye Hospital</h2>
+        <p class="text-gray-600 mt-4">
+          Vision Eye Hospital was established in 2011 by Dr. Shailesh Agrawal, with the mission of providing specialized
+          tertiary eye care services at affordable prices across the city. Vision Eye Hospital is situated in the heart
+          of the city-parle point, and our other clinic is at Parvat Patia.
         </p>
-      </div>
-
-    </div>
-    <!-- Bottom Footer -->
-    <div class="border-t border-white p-5 ">
-      <div class="container mx-auto flex justify-between items-center ">
-        <p class="f3-color font-lato f1-color md:text-lg text-base font-semibold">&copy; 2022 Gabani Kidney Hospital.
-          All rights reserved.</p>
-        <p class="f3-color font-lato f1-color text-base font-semibold">Designed by: Devotion Hub</p>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Responsive footer -->
-  <footer class="bg-blue-100 text-gray-700 pt-14 md:hidden " style="
-  background-image: url('./assets/images/gallery/footer-bg.png');
-  background-size: cover;
-  background-position: center;
-  ">
-    <div class="container mx-auto md:p-a grid grid-cols-1 md:grid-cols-5 gap-8 px-5">
-      <div class="space-y-6 ">
-        <div class="flex items-center space-x-4">
-          <img src="./assets/images/logo.png" alt="Hospital Logo" class="md:h-16 h-10" />
-        </div>
-        <div class="text-sm space-y-4">
-          <!-- Phone Icon with Circle -->
-          <div class="flex items-center space-x-4">
-            <span
-              class="inline-flex items-center justify-center md:w-10 w-8 md:h-10 h-8  rounded-full border border-[#064681]">
-              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" class="md:w-5 w-4" fill="none">
-                <path
-                  d="M15.5645 11.7424L13.3317 9.50954C12.5342 8.71209 11.1786 9.0311 10.8596 10.0677C10.6204 10.7855 9.82291 11.1842 9.10521 11.0247C7.51032 10.626 5.35722 8.5526 4.95849 6.87797C4.71926 6.16024 5.19773 5.36279 5.91543 5.12359C6.95211 4.80461 7.27109 3.44895 6.47364 2.65151L4.24079 0.418659C3.60284 -0.139553 2.6459 -0.139553 2.08769 0.418659L0.572542 1.93381C-0.942605 3.5287 0.732031 7.75516 4.48003 11.5032C8.22802 15.2511 12.4545 17.0056 14.0494 15.4106L15.5645 13.8955C16.1228 13.2575 16.1228 12.3006 15.5645 11.7424Z"
-                  fill="#064681" />
-              </svg>
-            </span>
-            <span class="font-lato f1-color font-semibold">+91 261 2537270, 2531174</span>
+        <p class="text-gray-600 mt-2">
+          Every single individual working in Vision Eye Hospital – from doctors to nurses and the management – is united
+          in the endeavor to deliver top-quality eye care to all. We have access to the best diagnosis and latest
+          surgical technology.
+        </p>
+        <p class="text-gray-600 mt-2">
+          We strongly believe in giving patient satisfaction according to their lifestyle and individual needs.
+        </p>
+        <!-- Mission and Vision -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          <div>
+            <h3 class="text-xl font-bold text-gray-800">Our Mission</h3>
+            <ul class="mt-4 space-y-2 text-gray-600">
+              <li>✔ High-quality work</li>
+              <li>✔ Straightforward pricing</li>
+              <li>✔ Rapid response times</li>
+            </ul>
           </div>
-
-          <!-- Email Icon with Circle -->
-          <div class="flex items-center space-x-4">
-            <span class="inline-flex items-center justify-center w-8 md:h-10 h-8  rounded-full border border-[#064681]">
-              <svg viewBox="0 0 16 12" xmlns="http://www.w3.org/2000/svg" class="md:w-5 w-4" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M1.96282 1.0728L6.28532 5.39718C7.22807 6.33812 8.76913 6.33893 9.71266 5.39718L14.0352 1.0728C14.0454 1.06264 14.0532 1.05036 14.0582 1.03682C14.0631 1.02328 14.065 1.00882 14.0638 0.994466C14.0625 0.98011 14.0581 0.966209 14.0508 0.953749C14.0436 0.941289 14.0337 0.930575 14.0218 0.922367C13.581 0.614899 13.0446 0.432617 12.4668 0.432617H3.53126C2.95341 0.432617 2.41701 0.61493 1.97613 0.922367C1.96429 0.930575 1.95439 0.941289 1.94715 0.953749C1.9399 0.966209 1.93549 0.98011 1.93422 0.994466C1.93295 1.00882 1.93485 1.02328 1.9398 1.03682C1.94474 1.05036 1.9526 1.06264 1.96282 1.0728ZM0.807694 3.15615C0.807342 2.71677 0.914124 2.28392 1.11879 1.89512C1.12593 1.88141 1.13621 1.86958 1.14879 1.86059C1.16136 1.85161 1.17588 1.84571 1.19116 1.84339C1.20645 1.84107 1.22206 1.84239 1.23674 1.84724C1.25142 1.85209 1.26474 1.86034 1.27563 1.8713L5.54341 6.13909C6.89488 7.49252 9.10232 7.4933 10.4546 6.13909L14.7224 1.8713C14.7333 1.86034 14.7466 1.85209 14.7613 1.84724C14.776 1.84239 14.7916 1.84107 14.8068 1.84339C14.8221 1.84571 14.8366 1.85161 14.8492 1.86059C14.8618 1.86958 14.8721 1.88141 14.8792 1.89512C15.0839 2.28393 15.1907 2.71677 15.1903 3.15615V8.84168C15.1903 10.3446 13.9678 11.5652 12.4668 11.5652H3.53126C2.03026 11.5652 0.807694 10.3446 0.807694 8.84168V3.15615Z"
-                  fill="#064681" />
-              </svg>
-            </span>
-            <span class="font-lato f1-color font-semibold">+91 261 2537270, 2531174</span>
-          </div>
-        </div>
-
-        <div>
-          <h4 class="font-semibold md:text-2xl text-xl mb-6 relative inline-block f2-color ">
-            Followers
-            <span class="absolute left-0 -bottom-1 w-full h-0.5 f2-bg"></span>
-          </h4>
-
-          <div class="flex space-x-4">
-            <!-- Facebook Icon -->
-            <a href="https://www.facebook.com/"
-              class="inline-flex items-center justify-center md:w-10 w-8 md:h-10 h-8   border border-[#064681] rounded-full">
-              <svg width="18" height="18" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg" fill="none">
-                <path
-                  d="M2.888 10.1442H0.709999C0.357999 10.1442 0.247999 10.0122 0.247999 9.68217V7.02017C0.247999 6.66817 0.379999 6.55817 0.709999 6.55817H2.888V4.62217C2.888 3.74217 3.042 2.90617 3.482 2.13617C3.944 1.34417 4.604 0.816168 5.44 0.508168C5.99 0.310168 6.54 0.222168 7.134 0.222168H9.29C9.598 0.222168 9.73 0.354168 9.73 0.662168V3.17017C9.73 3.47817 9.598 3.61017 9.29 3.61017C8.696 3.61017 8.102 3.61017 7.508 3.63217C6.914 3.63217 6.606 3.91817 6.606 4.53417C6.584 5.19417 6.606 5.83217 6.606 6.51417H9.158C9.51 6.51417 9.642 6.64617 9.642 6.99817V9.66017C9.642 10.0122 9.532 10.1222 9.158 10.1222H6.606V17.2942C6.606 17.6682 6.496 17.8002 6.1 17.8002H3.35C3.02 17.8002 2.888 17.6682 2.888 17.3382V10.1442Z"
-                  fill="#064681" />
-              </svg>
-            </a>
-            <!-- WhatsApp Icon -->
-            <a href="https://www.whatsapp.com/"
-              class="inline-flex items-center justify-center w-8 md:h-10 h-8   border border-[#064681] rounded-full ">
-              <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" class="md:w-5 w-4" fill="none">
-                <path
-                  d="M9 0.129883C4.138 0.129883 0.200001 4.06788 0.200001 8.92988C0.200001 10.8659 0.816001 12.6479 1.872 14.0999L0.662001 17.2899L4.16 16.2779C5.546 17.2019 7.218 17.7299 9 17.7299C13.862 17.7299 17.8 13.7919 17.8 8.92988C17.8 4.06788 13.862 0.129883 9 0.129883ZM13.686 12.5819L12.74 13.5059C11.75 14.4959 9.132 13.4179 6.822 11.0859C4.512 8.77588 3.478 6.15788 4.402 5.18988L5.348 4.24388C5.7 3.89188 6.294 3.89188 6.668 4.24388L8.054 5.62988C8.538 6.11388 8.34 6.94988 7.702 7.14788C7.262 7.30188 6.954 7.78588 7.108 8.22588C7.35 9.25988 8.692 10.5359 9.682 10.7779C10.122 10.8879 10.628 10.6239 10.76 10.1839C10.958 9.54588 11.794 9.34788 12.278 9.83188L13.664 11.2179C14.016 11.5919 14.016 12.1859 13.686 12.5819Z"
-                  fill="#064681" />
-              </svg>
-            </a>
-            <!-- LinkedIn Icon -->
-            <a href="https://www.linkedin.com/"
-              class="inline-flex items-center justify-center w-8 md:h-10 h-8   border border-[#064681] rounded-full ">
-              <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" class="md:w-5 w-4" fill="none">
-                <path
-                  d="M17.7956 17.8002V17.7995H17.8V11.3447C17.8 8.18708 17.1202 5.75454 13.4286 5.75454C11.6539 5.75454 10.463 6.72847 9.9768 7.65159H9.92554V6.04934H6.42534V17.7995H10.0701V11.9812C10.0701 10.4493 10.3605 8.96785 12.2575 8.96785C14.1269 8.96785 14.1546 10.7162 14.1546 12.0793V17.8002H17.7956ZM0.490397 6.04999H4.13954V17.8002H0.490397V6.04999ZM2.31354 0.200195C1.14666 0.200195 0.199997 1.14686 0.199997 2.31374C0.199997 3.48062 1.14666 4.44708 2.31354 4.44708C3.48042 4.44708 4.42708 3.48062 4.42708 2.31374C4.4262 1.14686 3.47954 0.200195 2.31354 0.200195Z"
-                  fill="#064681" />
-              </svg>
-            </a>
-            <!-- Twitter Icon -->
-            <a href="https://twitter.com/"
-              class="inline-flex items-center justify-center w-8 md:h-10 h-8    border border-[#064681] rounded-full ">
-              <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" class="md:w-5 w-4" fill="none">
-                <path
-                  d="M0 0 C1.0725 0.2475 2.145 0.495 3.25 0.75 C2.33232796 5.33836019 0.59726259 9.72910611 -2 13.625 C-4.82549284 15.44138825 -7.44164838 15.57587623 -10.75 15.75 C-13.1875 14.8125 -13.1875 14.8125 -14.75 13.75 C-13.76 13.09 -12.77 12.43 -11.75 11.75 C-12.265625 10.863125 -12.78125 9.97625 -13.3125 9.0625 C-14.8368937 5.54976669 -14.89947895 4.30293493 -13.75 0.75 C-11.77 1.74 -9.79 2.73 -7.75 3.75 C-7.234375 3.069375 -6.71875 2.38875 -6.1875 1.6875 C-3.75 -0.25 -3.75 -0.25 0 0 Z"
-                  fill="#064681" transform="translate(14.75,0.25)" />
-              </svg>
-            </a>
+          <div>
+            <h3 class="text-xl font-bold text-gray-800">Our Vision</h3>
+            <ul class="mt-4 space-y-2 text-gray-600">
+              <li>✔ Personalized Service</li>
+              <li>✔ Expert Guidance</li>
+              <li>✔ Embrace a Healthy Lifestyle</li>
+            </ul>
           </div>
         </div>
       </div>
+    </section>
+  </div>
 
-      <div class="flex space-x-10">
-        <!-- Column 1: Useful Links -->
-        <div class="">
-          <h4 class="relative font-bold md:text-2xl text-lg f2-color font-lato mb-4">
-            Useful Links
-            <span class="absolute left-0 bottom-0 w-16 h-0.5 f2-bg mt-1"></span>
-          </h4>
-          <ul class="space-y-2 text-base list-disc pl-5">
-            <li><a href="index.html" class="hover:underline font-lato f1-color text-sm font-semibold">Home</a></li>
-            <li><a href="about.html" class="hover:underline font-lato f1-color text-sm font-semibold">About Us</a></li>
-            <li><a href="specialty.html" class="hover:underline font-lato f1-color text-sm font-semibold">Specialty</a>
-            </li>
-            <li><a href="facility.html" class="hover:underline font-lato f1-color text-sm font-semibold">Facility</a>
-            </li>
-            <li><a href="gallery.html" class="hover:underline font-lato f1-color text-sm font-semibold">Gallery</a></li>
-            <li><a href="cashless.html" class="hover:underline font-lato f1-color text-sm font-semibold">Cashless</a>
-            </li>
-            <li><a href="blog.html" class="hover:underline font-lato f1-color text-sm font-semibold">Blogs</a></li>
-            <li><a href="contact.html" class="hover:underline font-lato f1-color text-sm font-semibold">Contact Us</a>
-            </li>
-          </ul>
+  <!-- Doctor TeamCard Section Start --------------------------->
+  <div class="container mx-auto p-6 py-16">
+    <!-- Our Team Section -->
+    <section class="text-center"
+      style="background-image: url('./assets/images/Dr-Card/footer-bg-min-1.png'); background-size: cover; background-position: center;">
+      <h2 class="text-4xl font-bold text-gray-800">Our Team Of Doctors</h2>
+      <p class="text-gray-600 mt-4">Meet the experts who care for your vision.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
+        <!-- Doctor Card 1-->
+        <div
+          class="relative bg-gradient-to-r from-[#dff4f1] to-[#faeae1] rounded-lg overflow-hidden max-w-xs shadow-md hover:shadow-lg transition-shadow duration-300">
+          <!-- Image Section -->
+          <div class="relative overflow-hidden clip-path-polygon"
+            style=" clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%, 0% 0%);">
+            <img src="assets/images/Dr-Card/Dr.-Shailesh-Agrawal.jpg" alt="Dr. Shailesh Agrawal"
+              class="w-full h-96 object-cover">
+          </div>
+
+          <!-- Card Content -->
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-gray-800">Dr. Shailesh Agrawal</h3>
+            <p class="text-gray-600 text-sm">M.S (Ophthalmology) Gold Medalist</p>
+          </div>
+
+          <!-- Share Box -->
+          <div class="absolute bottom-24 right-5">
+            <div
+              class="bg-white w-12 h-12 rounded-full flex items-center justify-center shadow-md hover:shadow-lg transition-shadow duration-300">
+              <svg class="h-6 w-6 text-black" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <circle cx="6" cy="12" r="3" />
+                <circle cx="18" cy="6" r="3" />
+                <circle cx="18" cy="18" r="3" />
+                <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+              </svg>
+            </div>
+            <!-- Share Links -->
+            <ul
+              class="absolute right-0 bottom-12 hidden flex-col space-y-2 bg-white rounded-lg shadow-md p-4 transform scale-y-0 opacity-0 transition-transform duration-500 ease-in-out origin-bottom group-hover:scale-y-100 group-hover:opacity-100">
+              <li><a href="https://www.facebook.com" class="text-blue-600" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.twitter.com" class="text-blue-400" target="_blank"><i
+                    class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com" class="text-blue-800" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://www.instagram.com" class="text-pink-500" target="_blank"><i
+                    class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
         </div>
-        <div></div>
-        <!-- Column 2: Specialty 1 -->
-        <div>
-          <h4 class="relative font-bold md:text-2xl text-lg f2-color font-lato mb-4">
-            Specialty
-            <span class="absolute left-0 bottom-0 w-12 h-0.5 f2-bg mt-1"></span>
-          </h4>
-          <ul class="space-y-2 text-base list-disc pl-5">
-            <li class="font-lato f1-color text-sm font-semibold">RIRS</li>
-            <li class="font-lato f1-color text-sm font-semibold">HoLEP</li>
-            <li class="font-lato f1-color text-sm font-semibold">PCNL</li>
-            <li class="font-lato f1-color text-sm font-semibold">Ureteroscopy</li>
-            <li class="font-lato f1-color text-sm font-semibold">TURP</li>
-            <li class="font-lato f1-color text-sm font-semibold">Cystolithotripsy</li>
-            <li class="font-lato f1-color text-sm font-semibold">Stricture Urethra</li>
-            <li class="font-lato f1-color text-sm font-semibold">Infertility</li>
-          </ul>
+        <!-- Doctor Card 2 -->
+        <div
+          class="relative bg-gradient-to-r from-[#dff4f1] to-[#faeae1] rounded-lg overflow-hidden max-w-xs shadow-md hover:shadow-lg transition-shadow duration-300">
+          <!-- Image Section -->
+          <div class="relative overflow-hidden clip-path-polygon"
+            style=" clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%, 0% 0%);">
+            <img src="assets/images/Dr-Card/Dr.-Saurin-Gandhi.jpeg" alt="Dr.-Saurin-Gandhi"
+              class="w-full h-96 object-cover">
+          </div>
+
+          <!-- Card Content -->
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-gray-800">Dr. Saurin Gandhi</h3>
+            <p class="text-gray-600 text-sm">DNB - Ophthalmology, </p>
+          </div>
+
+          <!-- Share Box -->
+          <div class="absolute bottom-24 right-5">
+            <div
+              class="bg-white w-12 h-12 rounded-full flex items-center justify-center shadow-md hover:shadow-lg transition-shadow duration-300">
+              <svg class="h-6 w-6 text-black" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" />
+              <circle cx="6" cy="12" r="3" />
+              <circle cx="18" cy="6" r="3" />
+              <circle cx="18" cy="18" r="3" />
+              <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+              <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+            </svg>
+            </div>
+            <!-- Share Links -->
+            <ul
+              class="absolute right-0 bottom-12 hidden flex-col space-y-2 bg-white rounded-lg shadow-md p-4 transform scale-y-0 opacity-0 transition-transform duration-500 ease-in-out origin-bottom group-hover:scale-y-100 group-hover:opacity-100">
+              <li><a href="https://www.facebook.com" class="text-blue-600" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.twitter.com" class="text-blue-400" target="_blank"><i
+                    class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com" class="text-blue-800" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://www.instagram.com" class="text-pink-500" target="_blank"><i
+                    class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Doctor Card 3 -->
+        <div
+          class="relative bg-gradient-to-r from-[#dff4f1] to-[#faeae1] rounded-lg overflow-hidden max-w-xs shadow-md hover:shadow-lg transition-shadow duration-300">
+          <!-- Image Section -->
+          <div class="relative overflow-hidden clip-path-polygon"
+            style=" clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%, 0% 0%);">
+            <img src="assets/images/Dr-Card/Dr.-Nitin-Jain-scaled-e1728740211953.jpeg" alt="Dr.-Nitin-Jain"
+              class="w-full h-96 object-cover">
+          </div>
+
+          <!-- Card Content -->
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-gray-800 text-start">Dr. Nitin Jain</h3>
+            <p class="text-gray-600 text-sm text-start">MS,FAEH  <br>  (Opthalmology)</p>
+          </div>
+
+          <!-- Share Box -->
+          <div class="absolute bottom-24 right-5">
+            <div
+              class="bg-white w-12 h-12 rounded-full flex items-center justify-center shadow-md hover:shadow-lg transition-shadow duration-300">
+              <svg class="h-6 w-6 text-black" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" />
+              <circle cx="6" cy="12" r="3" />
+              <circle cx="18" cy="6" r="3" />
+              <circle cx="18" cy="18" r="3" />
+              <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+              <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+            </svg>
+            </div>
+            <!-- Share Links -->
+            <ul
+              class="absolute right-0 bottom-12 hidden flex-col space-y-2 bg-white rounded-lg shadow-md p-4 transform scale-y-0 opacity-0 transition-transform duration-500 ease-in-out origin-bottom group-hover:scale-y-100 group-hover:opacity-100">
+              <li><a href="https://www.facebook.com" class="text-blue-600" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.twitter.com" class="text-blue-400" target="_blank"><i
+                    class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com" class="text-blue-800" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://www.instagram.com" class="text-pink-500" target="_blank"><i
+                    class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Doctor Card 4 -->
+        <div
+          class="relative bg-gradient-to-r from-[#dff4f1] to-[#faeae1] rounded-lg overflow-hidden max-w-xs shadow-md hover:shadow-lg transition-shadow duration-300">
+          <!-- Image Section -->
+          <div class="relative overflow-hidden clip-path-polygon"
+            style=" clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%, 0% 0%);">
+            <img src="assets/images/Dr-Card/Dr.khushboo.png" alt="Dr.khushboo" class="w-full h-96 object-cover">
+          </div>
+
+          <!-- Card Content -->
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-gray-800">Dr. Shailesh Agrawal</h3>
+            <p class="text-gray-600 text-sm">M.S (Ophthalmology) Gold Medalist</p>
+          </div>
+
+          <!-- Share Box -->
+          <div class="relative">
+            <div class="absolute -top-12 right-8 bg-transparent w-full h-4"></div>
+
+            <!-- Share Icon -->
+            <div class="absolute bottom-24 right-5">
+              <div
+                class="bg-white w-12 h-12 rounded-full flex items-center justify-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                <svg class="h-6 w-6 text-black" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <circle cx="6" cy="12" r="3" />
+                <circle cx="18" cy="6" r="3" />
+                <circle cx="18" cy="18" r="3" />
+                <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+              </svg>
+              </div>
+
+              <!-- Share Links -->
+              <ul
+                class="absolute right-0 bottom-14 flex-col space-y-2 bg-white rounded-lg shadow-md p-4 transform scale-y-0 opacity-0 transition-transform duration-500 ease-in-out origin-bottom hover:scale-y-100 hover:opacity-100">
+                <li><a href="https://www.facebook.com" class="text-blue-600 flex items-center" target="_blank"><i
+                      class="fab fa-facebook-f mr-2"></i>Facebook</a></li>
+                <li><a href="https://www.twitter.com" class="text-blue-400 flex items-center" target="_blank"><i
+                      class="fab fa-twitter mr-2"></i>Twitter</a></li>
+                <li><a href="https://www.linkedin.com" class="text-blue-800 flex items-center" target="_blank"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a></li>
+                <li><a href="https://www.instagram.com" class="text-pink-500 flex items-center" target="_blank"><i
+                      class="fab fa-instagram mr-2"></i>Instagram</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="flex space-x-10">
-        <!-- Column 3: Specialty 2 -->
-        <div>
-          <h4 class="relative font-bold md:text-2xl text-lg f2-color font-lato mb-4">
-            Specialty
-            <span class="absolute left-0 bottom-0 w-12 h-0.5 f2-bg mt-1"></span>
-          </h4>
-          <ul class="space-y-2 text-base list-disc pl-5">
-            <li class="font-lato f1-color text-sm font-semibold">Female Urogynecology</li>
-            <li class="font-lato f1-color text-sm font-semibold">Erectile Dysfunction</li>
-            <li class="font-lato f1-color text-sm font-semibold">Stones</li>
-            <li class="font-lato f1-color text-sm font-semibold">Prostate BPH</li>
-            <li class="font-lato f1-color text-sm font-semibold">Prostate Cancer</li>
-            <li class="font-lato f1-color text-sm font-semibold">Lithotripsy</li>
-            <li class="font-lato f1-color text-sm font-semibold">Laparoscopy</li>
-            <li class="font-lato f1-color text-sm font-semibold">Cancer Treatment</li>
-          </ul>
-        </div>
-
-        <!-- Column 4: Address -->
-        <div>
-          <h4 class="relative font-bold md:text-2xl text-lg f2-color font-lato mb-4">
-            Address
-            <span class="absolute left-0 bottom-0 w-12 h-0.5 f2-bg mt-1"></span>
-          </h4>
-
-          <p class="text-sm font-lato f1-color font-semibold">
-            Dhan-Laxmi Complex, <br> Nr. Ayurved College, <br> Station-Lal Darwaja <br> Road, Surat-395 003.
-            <br>
-            Gujarat (India)
-          </p>
-        </div>
-      </div>
-
-      <!-- Bottom Footer -->
-      <div class="border-t border-white p-5 ">
-        <div class="container mx-auto flex-nowrap  justify-between items-center ">
-          <p class="f3-color font-lato f1-color md:text-base text-sm font-semibold">&copy; 2022 Gabani Kidney Hospital.
-            All rights reserved.</p>
-          <p class="f3-color font-lato f1-color md:text-base text-sm text-center font-semibold">Designed by: Devotion
-            Hub</p>
-        </div>
-      </div>
-  </footer>
+    </section>
+  </div>
 
 
   <script>
@@ -2074,61 +611,23 @@
   </script>
 
   <script>
-    // Function to animate counters
-    function animateCounter(id, target, duration) {
-      const element = document.getElementById(id);
-      const increment = target / (duration / 16); // Calculate increment for ~60fps
-      let current = 0;
-
-      function updateCounter() {
-        current += increment;
-        if (current >= target) {
-          element.textContent = target; // Set final value
-        } else {
-          element.textContent = Math.floor(current);
-          requestAnimationFrame(updateCounter); // Continue animation
-        }
-      }
-
-      updateCounter();
-    }
-
-    // Initialize counters when DOM content is loaded
-    document.addEventListener("DOMContentLoaded", () => {
-      animateCounter("experience-counter", 23, 2000); // 23 years experience
-      animateCounter("surgeries-counter", 25822, 2000); // 25822 surgeries
-      animateCounter("patients-counter", 74781, 2000); // 74781 happy patients
-      animateCounter("companies-counter", 50, 2000); // 50 cashless companies
+    document.addEventListener('DOMContentLoaded', function () {
+      new Swiper('.swiper', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
     });
   </script>
 
 
-<!-- ---Patient Recover Counter ---- -->
-<script>
-  // Counter Animation Function
-  function animateCounter(id, target, duration) {
-    const element = document.getElementById(id);
-    const increment = target / (duration / 16); // Calculate increment for ~60fps
-    let currentValue = 0;
 
-    function updateCounter() {
-      currentValue += increment;
-      if (currentValue >= target) {
-        element.textContent = `${Math.floor(target)}k +`; // Final value
-      } else {
-        element.textContent = `${Math.floor(currentValue)}k +`; // Incrementing value
-        requestAnimationFrame(updateCounter);
-      }
-    }
-
-    updateCounter();
-  }
-
-  // Start counter when the DOM is fully loaded
-  document.addEventListener("DOMContentLoaded", () => {
-    animateCounter("patient-counter", 150, 2000); // 150k is the target number, 2000ms is the duration
-  });
-</script>
 
   <script>
     // Counter Animation Function
