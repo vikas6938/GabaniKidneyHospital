@@ -45,11 +45,11 @@
     <div class="container mx-auto flex items-center justify-between py-2">
       <!-- Left Section: Logo -->
       <div class="flex items-center space-x-4">
-        <img src="./assets/images/logo.png" alt="Hospital Logo" class="md:h-16 h-10" />
+        <img src="./assets/images/logo.png" alt="Hospital Logo" class="lg:h-16 h-10" />
       </div>
 
       <!-- Middle Section: Navigation Links -->
-      <nav class=" space-x-6 f1-color hidden md:flex">
+      <nav class=" space-x-6 f1-color hidden lg:flex">
         <a href="index.html" class="f2-color font-semibold list-none text-xl">
           Home
           <span class="block h-1 w-2 f2-bg rounded-full mt-1 mx-auto"></span>
@@ -63,7 +63,7 @@
       </nav>
 
       <!-- Right Section: Contact Us Button -->
-      <div class="relative md:inline-block hidden">
+      <div class="relative lg:inline-block hidden">
         <a href="contact.html" class="flex items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg"
           style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);">
           Contact Us
@@ -71,7 +71,7 @@
       </div>
 
       <!-- Hamburger Menu Button (Visible on small screens) -->
-      <button class="md:hidden flex items-center space-x-2" id="hamburger-btn">
+      <button class="lg:hidden flex items-center space-x-2" id="hamburger-btn">
         <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_138_1296)">
             <path
@@ -95,10 +95,10 @@
 
     <!-- Off-Canvas Menu (Hidden by default) -->
     <div id="off-canvas-menu"
-      class="fixed inset-0 backdrop-blur-sm  f2-bg z-50 transform translate-x-full md:hidden transition-transform duration-300 max-h-[35em]">
+      class="fixed inset-0 backdrop-blur-sm  f2-bg z-50 transform translate-x-full lg:hidden transition-transform duration-300 max-h-[35em]">
       <div class="container mx-auto flex items-center justify-between p-5 bg-white">
         <div class="flex items-center space-x-4">
-          <img src="./assets/images/logo.png" alt="Hospital Logo" class="md:h-16 h-10" />
+          <img src="./assets/images/logo.png" alt="Hospital Logo" class="lg:h-16 h-10" />
         </div>
 
         <button class=" text-2xl p-2 f2-bg rounded-full text-white" id="close-menu">&times;</button>
@@ -120,40 +120,40 @@
 
   <!-- Main Content --------------------------------->
   <!-- Hero Section -->
-  <section class="relative bg-blue-50 md:h-auto h-[80vh]"
+  <section class="relative bg-blue-50 lg:h-auto h-[80vh]  "
     style="background-image: url('./assets/images/banner.jpg'); background-size: cover; background-position: center;">
     <div class="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-b from-blue-200 to-transparent opacity-20 ">
-      <h1 class="text-9xl. text-white font-bold -rotate-90 absolute -left-[48%] top-[37%] transform translate-y-1/2">
+      <h1 class="lg:text-9xl text-white font-bold -rotate-90 absolute -left-[48%] top-[37%] transform translate-y-1/2">
         GABANI GABANI
       </h1>
     </div>
     <!-- Heading -->
-    <div class="absolute md:left-56 md:top-40 top-5 md:px-0 px-4">
-      <h1 class=" lg:text-7xl text-2xl font-bold f2-color md:mb-8">
+    <div class="absolute lg:left-56 lg:top-40 top-5 lg:px-0 px-4">
+      <h1 class=" lg:text-7xl text-2xl font-bold f2-color lg:mb-8">
         Complete Urology Gabani
       </h1>
       <span class=" lg:text-7xl text-2xl font-bold f2-color">Hospital Surat</span>
     </div>
-    <div class="container mx-auto   flex flex-col lg:flex-row md:items-center md:py-80 py-16 md:px-0 px-4 relative">
+    <div class="container mx-auto  flex flex-col lg:flex-row lg:items-center lg:py-80 py-16 lg:px-0 px-4 relative">
       <!-- Text Content Section -->
-      <div class="lg:w-1/2 mdtext-center lg:text-left md:space-y-16 space-y-4 ">
+      <div class="lg:w-1/2 mdtext-center lg:text-left lg:space-y-16 space-y-4 ">
 
         <!-- Description -->
-        <p class=" md:lg:text-xl text-base f1-color  md:mt-10 mt-10 md:font-semibold font-medium">
+        <p class=" lg:text-xl text-base f1-color  lg:mt-10 mt-10 lg:font-semibold font-medium">
           We are committed to providing you with the best medical and healthcare
           services to help you live healthier and happier.
         </p>
         <!-- Call-to-Action Buttons -->
-        <div class="flex lg:justify-start items-center space-x-6 ">
+        <div class="flex lg:justify-start items-center space-x-6">
           <!-- Button: Book Appointment -->
           <a href="contact.html"
-            class="flex items-center f2-bg text-white md:px-12 px-4 py-3 md:text-lg text-xs font-semibold rounded-md shadow-lg "
+            class="flex items-center f2-bg text-white lg:px-12 px-4 py-3 lg:text-lg text-xs font-semibold rounded-md shadow-lg "
             style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);">
             Book Appointment
           </a>
           <!-- Link: See How We Work -->
-          <a href="#" class="flex items-center f2-color md:text-lg text-base font-medium hover:underline space-x-2">
-            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="md:w-12 w-8 md:h-20 h-10">
+          <a href="#" class="flex items-center f2-color lg:text-lg text-base font-medium hover:underline space-x-2">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="lg:w-12 w-8 lg:h-20 h-10">
               <g clip-path="url(#clip0_11_785)">
                 <path
                   d="M34.1912 5.80871C26.315 -1.99037 13.6078 -1.92795 5.8087 5.94821C-1.93623 13.7697 -1.93623 26.3698 5.8087 34.1914C13.6849 41.9904 26.3922 41.928 34.1912 34.0518C41.9361 26.2304 41.9361 13.6302 34.1912 5.80871ZM20 38.457C9.82264 38.457 1.54294 30.1774 1.54294 20C1.54294 9.82256 9.82256 1.54304 20 1.54304C30.1774 1.54304 38.457 9.82272 38.457 20.0001C38.457 30.1774 30.1773 38.457 20 38.457Z"
@@ -177,110 +177,108 @@
       <div class="lg:w-1/2 mt-8 lg:mt-0 flex justify-center relative">
         <!-- Doctor Image -->
         <img src="./assets/images/gallery/doctor.png" alt="Doctors"
-          class="absolute md:-top-72 -bottom-480 md:-right-20" />
+          class="absolute lg:-top-72 -bottom-480 lg:-right-20" />
 
         <!-- Doctor Count Section -->
         <div
-          class="absolute md:-right-28 right-0 md:top-0 top-32 backdrop-blur-sm from-blue-100 to-white shadow-xl rounded-lg flex flex-col items-center justify-center md:w-[200px] w-[110px] md:h-[225px] h-[135px]"
+          class="absolute lg:-right-28 right-0 lg:top-0 top-32 backdrop-blur-sm from-blue-100 to-white shadow-xl rounded-lg flex flex-col items-center justify-center lg:w-[200px] w-[110px] lg:h-[225px] h-[135px]"
           style="
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.034), rgba(255, 255, 255, 0.4));
 ">
           <!-- Profile Images -->
-          <div class="flex -space-x-3 md:mb-4 mb-0">
+          <div class="flex -space-x-3 lg:mb-4 mb-0">
             <img src="./assets/images/gallery/Ellipse 12.png" alt="Doctor 1"
-              class="md:w-10 w-6 md:h-10 h-6 rounded-full border-2 border-white" />
+              class="lg:w-10 w-6 lg:h-10 h-6 rounded-full border-2 border-white" />
             <img src="./assets/images/gallery/Ellipse 11.png" alt="Doctor 2"
-              class="md:w-10 w-6 md:h-10 h-6 rounded-full border-2 border-white" />
+              class="lg:w-10 w-6 lg:h-10 h-6 rounded-full border-2 border-white" />
             <img src="./assets/images/gallery/Ellipse 8.png" alt="Doctor 3"
-              class="md:w-14 w-8 md:h-14 h-8 z-20 rounded-full border-2 border-white" />
+              class="lg:w-14 w-8 lg:h-14 h-8 z-20 rounded-full border-2 border-white" />
             <img src="./assets/images/gallery/Ellipse 9.png" alt="Doctor 4"
-              class="md:w-10 w-6 md:h-10 h-6 z-10 rounded-full border-2 border-white" />
+              class="lg:w-10 w-6 lg:h-10 h-6 z-10 rounded-full border-2 border-white" />
             <img src="./assets/images/gallery/Ellipse 10.png" alt="Doctor 5"
-              class="md:w-10 w-6 md:h-10 h-6 rounded-full border-2 border-white" />
+              class="lg:w-10 w-6 lg:h-10 h-6 rounded-full border-2 border-white" />
           </div>
 
           <!-- Doctor Count -->
-          <span id="doctor-count" class="block md:text-3xl text-xl font-bold f1-color">0</span>
+          <span id="doctor-count" class="block lg:text-3xl text-xl font-bold f1-color">0</span>
           <span class="text-sm f1-color">Doctors</span>
         </div>
 
         <!-- -------Patient recover counter -->
         <div
-          class="absolute md:top-28 top-72 left-0 backdrop-blur-sm flex justify-center items-center shadow-lg rounded-full md:py-3 md:px-6 px-2 space-x-4 border-t border-s md:w-[280px] w-[190px]"
+          class="absolute lg:top-28 top-72 left-0 backdrop-blur-sm flex justify-center items-center shadow-lg rounded-full lg:py-3 lg:px-6 px-2 space-x-4 border-t border-s lg:w-[280px] w-[190px]"
           style=" background: linear-gradient(90deg, rgba(255, 255, 255, 0.034), rgba(255, 255, 255, 0.4));">
           <!-- Profile Images -->
-          <div class="flex md:-space-x-7 -space-x-4">
+          <div class="flex lg:-space-x-7 -space-x-4">
             <img src="./assets/images/gallery/Ellipse 14.png" alt="Profile 1"
-              class="md:w-14 w-8 md:h-14 h-8 rounded-full border-1 border-white" />
+              class="lg:w-14 w-8 lg:h-14 h-8 rounded-full border-1 border-white" />
             <img src="./assets/images/gallery/Ellipse 15.png" alt="Profile 2"
-              class="md:w-14 w-8 md:h-14 h-8 rounded-full border-1 border-white" />
+              class="lg:w-14 w-8 lg:h-14 h-8 rounded-full border-1 border-white" />
             <img src="./assets/images/gallery/Ellipse 16.png" alt="Profile 3"
-              class="md:w-14 w-8 md:h-14 h-8 rounded-full border-1 border-white" />
+              class="lg:w-14 w-8 lg:h-14 h-8 rounded-full border-1 border-white" />
           </div>
 
           <!-- Text Section -->
           <div class="flex flex-col text-left">
-            <span id="patient-counter" class="md:text-xl font-semibold text-white md:py-2">0</span>
-            <span class="md:text-sm text-xs text-white">Patient Recover</span>
+            <span id="patient-counter" class="md:text-xl font-semibold text-white lg:py-2">0</span>
+            <span class="lg:text-sm text-xs text-white">Patient Recover</span>
           </div>
         </div>
-
-
       </div>
   </section>
   <!-- ------------------------------ Main Banner End ---------------------------------------------->
 
   <!-- Stats Section -->
-  <section class="md:mx-auto mx-5">
-    <div class="bg-white md:py-10 py-4 shadow-md rounded-xl md:-mt-20 -mt-[60px] container mx-auto relative z-10 ">
+  <section class="lg:mx-auto mx-5">
+    <div class="bg-white lg:py-10 py-4 shadow-md rounded-xl lg:-mt-20 -mt-[60px] container mx-auto relative z-10 ">
       <div
-        class="container mx-auto grid md:grid-cols-1 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 md:gap-8 gap-6 text-center ">
+        class="container mx-auto grid lg:grid-cols-1 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-6 text-center ">
         <!-- Years Experience -->
-        <div class="flex justify-center items-center md:border-r-2 border-none">
-          <div class="md:w-16 w-10 md:h-16 h-10 rounded-full  flex items-center justify-center"
+        <div class="flex justify-center items-center lg:border-r-2 border-none">
+          <div class="lg:w-16 w-10 lg:h-16 h-10 rounded-full  flex items-center justify-center"
             style="background: linear-gradient(180deg, #dee4e9 0%, rgba(189, 209, 228, 0) 87.21%);">
-            <img src="./assets/images/experience.png" alt="Years Experience Icon" class="md:w-8 w-6 md:h-8 h-6">
+            <img src="./assets/images/experience.png" alt="Years Experience Icon" class="lg:w-8 w-6 lg:h-8 h-6">
           </div>
-          <div class="md:px-5 px-2">
-            <div id="experience-counter" class="md:text-4xl text-lg font-bold f1-color text-start">0</div>
-            <div class="f4-color md:text-lg text-xs">Years Experience</div>
+          <div class="lg:px-5 px-2">
+            <div id="experience-counter" class="lg:text-4xl text-lg font-bold f1-color text-start">0</div>
+            <div class="f4-color lg:text-lg text-xs">Years Experience</div>
           </div>
         </div>
 
         <!-- Surgeries Done -->
-        <div class="flex justify-center items-center md:border-r-2 border-none">
-          <div class="md:w-16 w-10 md:h-16 h-10 rounded-full  flex items-center justify-center"
+        <div class="flex justify-center items-center lg:border-r-2 border-none">
+          <div class="lg:w-16 w-10 lg:h-16 h-10 rounded-full  flex items-center justify-center"
             style="background: linear-gradient(180deg, #dee4e9 0%, rgba(189, 209, 228, 0) 87.21%);">
-            <img src="./assets/images/happy.png" alt="Surgeries Done Icon" class="md:w-8 w-6 md:h-8 h-6">
+            <img src="./assets/images/happy.png" alt="Surgeries Done Icon" class="lg:w-8 w-6 lg:h-8 h-6">
           </div>
-          <div class="md:px-5 px-2">
-            <div id="surgeries-counter" class="md:text-4xl text-lg font-bold f1-color text-start">0</div>
-            <div class="f4-color md:text-lg text-xs">Surgeries Done</div>
+          <div class="lg:px-5 px-2">
+            <div id="surgeries-counter" class="lg:text-4xl text-lg font-bold f1-color text-start">0</div>
+            <div class="f4-color lg:text-lg text-xs">Surgeries Done</div>
           </div>
         </div>
 
         <!-- Happy Patients -->
-        <div class="flex justify-center items-center md:border-r-2 border-none">
-          <div class="md:w-16 w-10 md:h-16 h-10 rounded-full  flex items-center justify-center"
+        <div class="flex justify-center items-center lg:border-r-2 border-none">
+          <div class="lg:w-16 w-10 lg:h-16 h-10 rounded-full  flex items-center justify-center"
             style="background: linear-gradient(180deg, #dee4e9 0%, rgba(189, 209, 228, 0) 87.21%);">
-            <img src="./assets/images/happy.png" alt="Happy Patients Icon" class="md:w-8 w-6 md:h-8 h-6">
+            <img src="./assets/images/happy.png" alt="Happy Patients Icon" class="lg:w-8 w-6 lg:h-8 h-6">
           </div>
-          <div class="md:px-5 px-2">
-            <div id="patients-counter" class="md:text-4xl text-lg font-bold f1-color text-start">0</div>
-            <div class="f4-color md:text-lg text-xs">Happy Patients</div>
+          <div class="lg:px-5 px-2">
+            <div id="patients-counter" class="lg:text-4xl text-lg font-bold f1-color text-start">0</div>
+            <div class="f4-color lg:text-lg text-xs">Happy Patients</div>
           </div>
         </div>
 
         <!-- Cashless Companies -->
         <div class="flex justify-center items-center">
-          <div class="md:w-16 w-10 md:h-16 h-10 rounded-full  flex items-center justify-center"
+          <div class="lg:w-16 w-10 lg:h-16 h-10 rounded-full  flex items-center justify-center"
             style="background: linear-gradient(180deg, #dee4e9 0%, rgba(189, 209, 228, 0) 87.21%);">
-            <img src="./assets/images/compony.png" alt="Cashless Companies Icon" class="md:w-8 w-6 md:h-8 h-6">
+            <img src="./assets/images/compony.png" alt="Cashless Companies Icon" class="lg:w-8 w-6 lg:h-8 h-6">
           </div>
-          <div class="md:px-5 px-2">
-            <div id="companies-counter" class="md:text-4xl text-lg font-bold f1-color text-start">0</div>
-            <div class="f4-color md:text-lg text-xs">Cashless Companies</div>
+          <div class="lg:px-5 px-2">
+            <div id="companies-counter" class="lg:text-4xl text-lg font-bold f1-color text-start">0</div>
+            <div class="f4-color lg:text-lg text-xs">Cashless Companies</div>
           </div>
         </div>
       </div>
@@ -289,40 +287,40 @@
 
 
   <!-- ----------------------------About Section Start ------------------ -->
-  <section class="md:py-36 m-5 bg-white">
+  <section class="lg:py-36 m-5 bg-white">
     <div class="container mx-auto flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 relative">
       <!-- Left Image Section -->
       <div class="lg:w-1/2 flex justify-center relative">
         <!-- Main Image -->
-        <div class="absolute md:top-[-290px] top-[-150px] md:right-[-80%] z-20 shadow-lg rounded-xl">
+        <div class="absolute lg:top-[-290px] top-[-150px] lg:right-[-80%] z-20 shadow-lg rounded-xl">
           <img src="./assets/images/gallery/patient-care.png" alt="Patient Care" class="  ">
         </div>
         <!-- Overlay Image -->
         <img src="./assets/images/gallery/smile-doctor.png" alt="Doctor Smiling"
-          class="absolute top-[50px] md:right-[-280px]  z-20">
+          class="absolute top-[50px] lg:right-[-280px]  z-20">
         <!-- Badge -->
-        <div class="absolute bottom-[150px] md:right-[-350px]  z-30 ">
+        <div class="absolute bottom-[150px] lg:right-[-350px]  z-30 ">
           <img src="./assets/images/gallery/quality.png" alt="High Quality">
         </div>
-        <div class="absolute top-[50px] md:left-[-150px]  z-0">
+        <div class="absolute top-[50px] lg:left-[-150px]  z-0">
           <img src="./assets/images/gallery/shadow.png" alt="High Quality">
         </div>
       </div>
 
       <!-- Right Text Section -->
-      <div class="lg:w-3/3 f5-bg rounded-3xl shadow-md md:pb-36 pb-10 pt-10 md:pl-96 pl-10 pr-10 relative  ">
+      <div class="lg:w-3/3 f5-bg rounded-3xl shadow-md lg:pb-36 pb-10 pt-10 lg:pl-96 pl-10 pr-10 relative  ">
 
         <!-- Background Title -->
-        <div class="absolute right-10 md:top-10 top-8 opacity-5">
-          <h3 class="font-bold md:text-9xl text-3xl f1-color">About US</h3>
+        <div class="absolute right-10 lg:top-10 top-8 opacity-5">
+          <h3 class="font-bold lg:text-9xl text-3xl f1-color">About US</h3>
         </div>
 
         <!-- Main Content -->
         <div class="relative z-20 ">
           <!-- Section Title -->
-          <div class="flex items-center space-x-4 md:mt-44 mt-15">
-            <span class="font-lato f2-color md:text-5xl text-2xl font-extrabold ">About US</span>
-            <span class="inline-flex items-center justify-center  f2-color md:text-5xl w-10 md:w-auto font-extrabold ">
+          <div class="flex items-center space-x-4 lg:mt-44 mt-15">
+            <span class="font-lato f2-color lg:text-5xl text-2xl font-extrabold ">About US</span>
+            <span class="inline-flex items-center justify-center  f2-color lg:text-5xl w-10 lg:w-auto font-extrabold ">
               <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
@@ -331,28 +329,28 @@
             </span>
           </div>
           <!-- Description -->
-          <p class="md:text-2xl text-lg f2-color font-semibold md:mt-10 mt-5">
+          <p class="lg:text-2xl text-lg f2-color font-semibold lg:mt-10 mt-5">
             Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. Ashvin Gabani.
           </p>
-          <div class="lg:w-1/2 flex justify-center relative md:hidden">
+          <div class="lg:w-1/2 flex justify-center relative lg:hidden">
             <!-- Main Image -->
-            <div class="absolute  md:top-[-290px] top-[20px] md:right-[-80%] left-[-0%] z-20 shadow-lg rounded-xl">
-              <img src="./assets/images/gallery/patient-care.png" alt="Patient Care" class=" md:h-auto h-80 md:w-auto ">
+            <div class="absolute  lg:top-[-290px] top-[20px] lg:right-[-80%] left-[-0%] z-20 shadow-lg rounded-xl">
+              <img src="./assets/images/gallery/patient-care.png" alt="Patient Care" class=" lg:h-auto h-80 lg:w-auto ">
             </div>
             <!-- Overlay Image -->
             <img src="./assets/images/gallery/smile-doctor.png" alt="Doctor Smiling"
-              class="absolute md:h-auto h-52 md:w-auto md:top-[50px] top-[180px] md:right-[-280px] right-[-10px] z-20">
+              class="absolute lg:h-auto h-52 lg:w-auto lg:top-[50px] top-[180px] lg:right-[-280px] right-[-10px] z-20">
             <!-- Badge -->
-            <div class="absolute md:bottom-[150px] bottom-[-80px] md:right-[-350px] right-[-15px]  z-30 ">
-              <img src="./assets/images/gallery/quality.png" alt="High Quality" class="md:h-auto h-24 md:w-auto">
+            <div class="absolute lg:bottom-[150px] bottom-[-80px] lg:right-[-350px] right-[-15px]  z-30 ">
+              <img src="./assets/images/gallery/quality.png" alt="High Quality" class="lg:h-auto h-24 lg:w-auto">
             </div>
-            <div class="absolute top-[50px] md:left-[-150px]  z-0">
+            <div class="absolute top-[50px] lg:left-[-150px]  z-0">
               <img src="./assets/images/gallery/shadow.png" alt="High Quality">
             </div>
           </div>
           <!-- Bullet Points -->
-          <ul class="md:mt-6 space-y-5 f1-color mt-[25rem]">
-            <li class="flex items-start md:text-lg text-base  font-semibold">
+          <ul class="lg:mt-6 space-y-5 f1-color mt-[25rem]">
+            <li class="flex items-start lg:text-lg text-base  font-semibold">
               <svg class="mr-2 mt-1" width="18" height="18" viewBox="0 0 18 18" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -361,7 +359,7 @@
               </svg>
               Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. Ashvin Gabani.
             </li>
-            <li class="flex items-start md:text-lg text-base font-semibold">
+            <li class="flex items-start lg:text-lg text-base font-semibold">
               <svg class="mr-2 mt-1" width="40" height="18" viewBox="0 0 18 18" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -374,9 +372,9 @@
           </ul>
 
           <!-- Button -->
-          <div class="relative inline-block md:mt-8 mt-5">
+          <div class="relative inline-block lg:mt-8 mt-5">
             <a href="about.html"
-              class="flex items-center f2-bg text-white md:text-lg text-xs md:px-12 px-6 md:py-3 py-2 font-semibold rounded-md shadow-lg "
+              class="flex items-center f2-bg text-white lg:text-lg text-xs lg:px-12 px-6 lg:py-3 py-2 font-semibold rounded-md shadow-lg "
               style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
   ">
               Read More
@@ -388,10 +386,10 @@
   </section>
 
   <!-- -----------------------------Our Specialty Page Start ----------------->
-  <section class="relative md:py-20 p-7  bg-gradient-to-r from-blue-400 via-blue-200 to-blue-100">
+  <section class="relative lg:py-20 p-7  bg-gradient-to-r from-blue-400 via-blue-200 to-blue-100">
     <!-- Background Element -->
     <div
-      class="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-b from-blue-200 to-transparent opacity-20 md:block hidden">
+      class="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-b from-blue-200 to-transparent opacity-20 lg:block hidden">
       <h1 class="text-9xl text-white font-bold -rotate-90 absolute -left-80 top-1/3 transform translate-y-1/2 ">
         Specialty Our
       </h1>
@@ -407,12 +405,11 @@
       <!-- Header Section Specialty-->
       <div class=" flex justify-between items-center ">
         <div>
-
           <div class="flex ">
-            <h2 class="md:text-5xl text-xl font-bold text-white me-5 md:mb-5 mb-2 "
+            <h2 class=" lg:text-5xl text-3xl  font-bold text-white me-5 lg:mb-5 mb-2 "
               style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);">Our Specialty</h2>
             <span
-              class="inline-flex items-center justify-center  text-white font-extrabold md:text-5xl w-10 md:w-auto ">
+              class="inline-flex items-center justify-center  text-white font-extrabold lg:text-5xl w-10 lg:w-auto ">
               <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
@@ -420,28 +417,28 @@
               </svg>
             </span>
           </div>
-          <p class="md:text-lg text-white mt-2">
+          <p class="lg:text-lg text-white mt-2">
             Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. </br> Ashvin Gabani.
           </p>
         </div>
 
         <a href="specialty.html"
-          class="md:flex hidden items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg " style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
+          class="lg:flex hidden items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg " style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
 ">
           View All
         </a>
       </div>
 
       <!-- Specialty Cards Section -->
-      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 md:gap-6 gap-2 md:mt-10 mt-5">
+      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 lg:gap-6 gap-2 lg:mt-10 mt-5">
         <!-- Image Card 1 -->
         <div class="relative">
           <img src="./assets/images/gallery/get-started.png" alt="Lithotripsy"
-            class="w-45 h-45 object-cover md:mb-8 mb-3">
+            class="w-45 h-45 object-cover lg:mb-8 mb-3">
           <div class="absolute inset-0 flex justify-center items-center text-white font-bold text-xl">
           </div>
-          <div class="card-bg rounded-2xl shadow-md border-white border-s-2 border-t-2 md:p-4 p-2">
-            <h3 class="md:text-xl text-lg font-bold f2-color">Lithotripsy</h3>
+          <div class="card-bg rounded-2xl shadow-md border-white border-s-2 border-t-2 lg:p-4 p-2">
+            <h3 class="lg:text-xl text-lg font-bold f2-color">Lithotripsy</h3>
             <p class="f1-color mt-2 text-sm">
               We have extracorporeal shock wave Lithotripsy unit on which we have successfully performed ESWL of more
               than 5000.
@@ -451,8 +448,8 @@
 
         <!-- Image Card 2 -->
         <div class="relative ">
-          <div class="card-bg rounded-2xl shadow-md border-white border-s-2 border-t-2 md:p-4 p-2 md:mb-8 mb-4">
-            <h3 class="md:text-xl font-bold f2-color">Cystolitholapaxy</h3>
+          <div class="card-bg rounded-2xl shadow-md border-white border-s-2 border-t-2 lg:p-4 p-2 lg:mb-8 mb-4">
+            <h3 class="lg:text-xl font-bold f2-color">Cystolitholapaxy</h3>
             <p class="f1-color mt-2 text-sm">
               Any big bladder stone can be treated by per urethral cystoscopy fragmentation of stone by Laser
               Lithotripsy & removal.
@@ -492,78 +489,74 @@
     </div>
     <div class="mt-8">
       <a href="specialty.html"
-        class=" md:hidden items-center f2-bg border-white text-white md:px-12 px-5 md:py-2 py-2 font-normal rounded-md shadow-lg "
+        class=" lg:hidden items-center f2-bg border-white text-white lg:text-lg text-xs lg:px-12 px-6 lg:py-3 py-2 font-semibold rounded-md shadow-lg "
         style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
 ">
         Read More
       </a>
+     
     </div>
   </section>
 
   <!-- ------Our Facilities Section Start -------------------------------- -->
-  <section class="md:py-28  py-10 bg-white relative">
-    <section class="container-1 relative bg-gray-100 md:py-10 py-6 rounded-r-3xl ">
+  <section class="lg:py-28  py-10 bg-white relative">
+    <div class="container-1 relative bg-gray-100 lg:py-10 py-6 rounded-r-3xl ">
       <!-- Background Text -->
       <div
-        class="absolute inset-y-0 md:left-[67%] left-[190px] md:top-[-30px] top-[-45px] opacity-5 flex justify-end items-center md:mb-16 mb-0 ">
-        <h1 class="md:text-9xl text-3xl font-bold f1-color"> Facilities</h1>
+        class="absolute inset-y-0 lg:left-[67%] left-[190px] lg:top-[-30px] top-[-45px] opacity-5 flex justify-end items-center lg:mb-16 mb-0 ">
+        <h1 class="lg:text-9xl text-3xl font-bold f1-color"> Facilities</h1>
       </div>
 
       <!-- Main Content -->
       <div class="container mx-auto relative z-10 ">
-        <div class="flex justify-between items-center md:mt-28 mt-6">
+        <div class="flex justify-between items-center lg:mt-28 mt-6 ">
           <!-- Left Section -->
           <div>
             <div class="flex items-center ">
-              <h2 class="md:text-5xl text-xl font-bold f2-color md:ms-40 ms-10 me-2 ">Our Facilities</h2>
-              <span class="inline-flex items-center justify-center f2-color text-xl font-bold w-10 md:w-auto">
+              <h2 class="lg:text-5xl text-3xl font-bold f2-color lg:ms-40 ms-10 me-2 ">Our Facilities</h2>
+              <span class="inline-flex items-center justify-center f2-color text-xl font-bold w-10 lg:w-auto">
                 <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
                     fill="#064681" />
                 </svg>
               </span>
-
             </div>
-
           </div>
-
           <!-- Right Section -->
           <a href="specialty.html"
-            class="md:flex hidden items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg " style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
+            class="md:flex hidden items-center f2-bg text-white lg:text-lg text-xs lg:px-12 px-6 lg:py-3 py-2 font-semibold rounded-md shadow-lg" style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
 ">
             View All
           </a>
         </div>
-
       </div>
-
-    </section>
+    </div>
 
     <!-- Header Section Our Facilities-->
 
-    <div class="container mx-auto  relative z-10">
+    <div class="container mx-auto relative z-10">
       <!-- Facilities Cards -->
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 md:gap-8 gap-3 md:mt-12 mt-5 md:m-auto m-5">
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 md:gap-8 gap-3 md:mt-12 mt-5 lg:m-auto m-5">
         <!-- Card 1 -->
         <div class="p-4 bg-white rounded-3xl shadow-lg">
           <div class="bg-white rounded-xl  overflow-hidden text-center">
             <img src="./assets/images/gallery/Endoscopy.png" alt="Endoscopy Unit"
               class="w-full  object-cover rounded-xl">
-            <div class="md:p-4 p-0 ">
-              <h3 class="md:text-2xl text-lg font-semibold f1-color">Endoscopy Unit</h3>
+            <div class="lg:p-4 p-0 ">
+              <h3 class="lg:text-2xl text-lg font-semibold f1-color">Endoscopy Unit</h3>
             </div>
           </div>
         </div>
 
         <!-- Card 2 -->
         <div class="p-4 bg-white rounded-3xl shadow-lg">
-          <div class="bg-white rounded-xl  overflow-hidden text-center">
+          <div class="bg-white rounded-xl overflow-hidden text-center">
             <img src="./assets/images/gallery/Enaestiesia.png" alt="Endoscopy Unit"
               class="w-full  object-cover rounded-xl">
-            <div class="md:p-4 p-0">
-              <h3 class="md:text-2xl text-lg font-semibold f1-color">Enaesthesia Machine</h3>
+            <div class="lg:p-4 p-0">
+              <h3 class="lg:text-2xl text-lg font-semibold f1-color">Enaesthesia Machine</h3>
             </div>
           </div>
         </div>
@@ -572,19 +565,19 @@
         <div class="p-4 bg-white rounded-3xl shadow-lg">
           <div class="bg-white rounded-xl  overflow-hidden text-center">
             <img src="./assets/images/gallery/Holmium.png" alt="Endoscopy Unit" class="w-full  object-cover rounded-xl">
-            <div class="md:p-4 p-0">
-              <h3 class="md:text-2xl text-lg font-semibold f1-color">35 Watt Holminum Laser</h3>
+            <div class="lg:p-4 p-0">
+              <h3 class="lg:text-2xl text-lg font-semibold f1-color">35 Watt Holminum Laser</h3>
             </div>
           </div>
         </div>
 
         <!-- Card 4 -->
-        <div class="md:block hidden p-4 bg-white rounded-3xl shadow-lg ">
+        <div class="lg:inline-block md:block hidden p-4 bg-white rounded-3xl shadow-lg ">
           <div class="bg-white rounded-xl  overflow-hidden text-center">
             <img src="./assets/images/gallery/sonography.png" alt="Endoscopy Unit"
               class="w-full  object-cover rounded-xl">
-            <div class="md:p-4 p-0">
-              <h3 class="md:text-2xl text-lg font-semibold f1-color">Sonography Machine</h3>
+            <div class="lg:p-4 p-0">
+              <h3 class="lg:text-2xl text-lg font-semibold f1-color">Sonography Machine</h3>
             </div>
           </div>
         </div>
@@ -593,8 +586,8 @@
         <div class="md:block hidden p-4 bg-white rounded-3xl shadow-lg">
           <div class="bg-white rounded-xl  overflow-hidden text-center">
             <img src="./assets/images/gallery/iitv.png" alt="Endoscopy Unit" class="w-full  object-cover rounded-xl">
-            <div class="md:p-4 p-0">
-              <h3 class="md:text-2xl text-lg font-semibold f1-color">C-Arm IITV</h3>
+            <div class="lg:p-4 p-0">
+              <h3 class="lg:text-2xl text-lg font-semibold f1-color">C-Arm IITV</h3>
             </div>
           </div>
         </div>
@@ -604,15 +597,15 @@
           <div class="bg-white rounded-xl  overflow-hidden text-center">
             <img src="./assets/images/gallery/operation.png" alt="Endoscopy Unit"
               class="w-full  object-cover rounded-xl">
-            <div class="md:p-4 p-0">
-              <h3 class="md:text-2xl text-lg font-semibold f1-color">Operation Theater</h3>
+            <div class="lg:p-4 p-0">
+              <h3 class="lg:text-2xl text-lg font-semibold f1-color">Operation Theater</h3>
             </div>
           </div>
         </div>
       </div>
       <div class="mt-8 md:ms-5 ms-10">
         <a href="facility.html"
-          class=" md:hidden items-center f2-bg border-white text-white md:px-12 px-6 md:py-3 py-2 font-semibold rounded-md shadow-lg "
+          class=" md:hidden items-center f2-bg border-white text-white lg:text-lg text-xs lg:px-12 px-6 lg:py-3 py-2 font-semibold rounded-md shadow-lg "
           style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
     ">
           Read More
@@ -622,7 +615,7 @@
   </section>
 
   <!-- ---------------------Our Gallery Section start -->
-  <section class="relative md:py-16 py-6 md:px-auto px-6 bg-gradient-to-t from-white via-blue-200 to-blue-400">
+  <section class="relative lg:py-16 py-6 lg:px-auto px-6 bg-gradient-to-t from-white via-blue-200 to-blue-400">
     <!-- Background Element -->
 
     <div class="absolute top-[0px] left-[0px]  z-0">
@@ -638,31 +631,31 @@
         <div>
 
           <div class="flex ">
-            <h2 class="md:text-5xl text-xl font-bold text-white me-5 md:mb-5 mb-0">Our Gallery</h2>
-            <span
-              class="inline-flex items-center justify-center  text-white text-5xl font-extrabold w-10 md:w-auto me-20">
-              <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
-                  fill="#ffffff" />
-              </svg>
-            </span>
+            <div class="flex ">
+              <h2 class="lg:text-5xl text-3xl font-bold text-white ">Our Facilities</h2>
+              <span class="inline-flex items-center justify-center f2-color text-xl font-bold w-10 lg:w-auto">
+                <svg width="65" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M49 8C49 12.4183 52.5817 16 57 16C61.4183 16 65 12.4183 65 8C65 3.58172 61.4183 0 57 0C52.5817 0 49 3.58172 49 8ZM0 9.5H57V6.5H0V9.5Z"
+                    fill="#ffffff" />
+                </svg>
+              </span>
+            </div>
             <div class="">
               <a href="gallery.html"
-                class=" md:hidden items-center f2-bg border-white text-white md:px-12 px-5 md:py-3 py-2 font-semibold rounded-md shadow-lg"
+                class=" lg:hidden items-center f2-bg border-white text-white lg:text-lg text-xs lg:px-12 px-6 lg:py-3 py-2 font-semibold rounded-md shadow-lg"
                 style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
         ">
                 View All
               </a>
             </div>
           </div>
-          <p class="md:text-lg text-base text-white md:mt-2 mt-4">
+          <p class="lg:text-lg text-base text-white lg:mt-2 mt-4">
             Gabani Kidney Hospital at Surat is the realization of the cherished dream of Dr. Ashvin Gabani.
           </p>
         </div>
-
         <a href="specialty.html"
-          class="md:flex hidden items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg " style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
+          class="lg:flex hidden items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg " style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
 ">
           View All
         </a>
@@ -670,10 +663,10 @@
       </div>
 
       <!-- Specialty Cards Section -->
-      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 md:gap-6 gap-2 mt-10">
+      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 lg:gap-6 gap-2 mt-10">
         <!-- Image Card 1 -->
         <div class="relative ">
-          <div class="card-bg rounded-2xl md:mb-8 mb-3">
+          <div class=" rounded-2xl lg:mb-8 mb-3">
             <img src="./assets/images/gallery/p1.png" alt="" class="w-45 h-45 object-cover">
           </div>
           <img src="./assets/images/gallery/p2.png" alt="" class="w-45 h-45 object-cover">
@@ -681,23 +674,23 @@
 
         <!-- Image Card 2 -->
         <div class="relative mt-16">
-          <div class="card-bg rounded-2xl md:mb-8 mb-3">
+          <div class=" rounded-2xl lg:mb-8 mb-3">
             <img src="./assets/images/gallery/p3.png" alt="" class="w-45 h-45 object-cover">
           </div>
           <img src="./assets/images/gallery/p4.png" alt="" class="w-45 h-45 object-cover">
         </div>
 
         <!-- Image Card 3 -->
-        <div class="md:block hidden relative ">
-          <div class="card-bg rounded-2xl mb-8">
+        <div class="lg:block hidden relative ">
+          <div class=" rounded-2xl mb-8">
             <img src="./assets/images/gallery/p5.png" alt="" class="w-45 h-45 object-cover">
           </div>
           <img src="./assets/images/gallery/p6.png" alt="" class="w-45 h-45 object-cover">
         </div>
 
         <!-- Image Card 4 -->
-        <div class="md:block hidden relative mt-16">
-          <div class="card-bg rounded-2xl mb-8">
+        <div class="lg:block hidden relative mt-16">
+          <div class=" rounded-2xl mb-8">
             <img src="./assets/images/gallery/p7.png" alt="" class="w-45 h-45 object-cover">
           </div>
           <img src="./assets/images/gallery/p8.png" alt="" class="w-45 h-45 object-cover">
@@ -707,20 +700,20 @@
   </section>
 
   <!-- ----------------Our Blogs Start --------------- -->
-  <section class="md:py-28 py-5 bg-white relative">
-    <section class="container-2 md:ms-auto ms-5 relative bg-gray-100 md:py-16 py-5 rounded-s-3xl ">
+  <section class="lg:py-28 py-5 bg-white relative">
+    <section class="container-2 lg:ms-auto ms-5 relative bg-gray-100 lg:py-16 py-5 rounded-s-3xl ">
       <!-- Background Text -->
-      <div class="absolute inset-y-0 right-0 opacity-5 flex justify-end items-center md:mb-32 mb-16 md:pr-72 pr-10">
-        <h1 class="md:text-9xl text-4xl font-bold f1-color">Blogs</h1>
+      <div class="absolute inset-y-0 right-0 opacity-5 flex justify-end items-center lg:mb-32 mb-16 lg:pr-72 pr-10">
+        <h1 class="lg:text-9xl text-4xl font-bold f1-color">Blogs</h1>
       </div>
 
       <!-- Main Content -->
       <div class="container mx-auto  relative z-0 ">
-        <div class="flex justify-between items-center md:mt-28 mt-10 m-0 md:me-52 me-10">
+        <div class="flex justify-between items-center lg:mt-28 mt-10 m-0 lg:me-52 me-10">
           <!-- Left Section -->
           <div>
-            <div class="flex items-center md:-ms-16 ms-4 ">
-              <h2 class="md:text-5xl text-2xl font-bold f2-color me-3">Our Blogs</h2>
+            <div class="flex items-center lg:-ms-16 ms-4 ">
+              <h2 class="lg:text-5xl text-2xl font-bold f2-color me-3">Our Blogs</h2>
               <span class="inline-flex items-center justify-center f2-color text-xl font-bold ">
                 <svg width="36" height="16" viewBox="0 0 65 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -732,25 +725,22 @@
           </div>
 
           <!-- Right Section -->
-
           <a href="specialty.html"
-            class=" md:flex hidden items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg " style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
+            class=" lg:flex hidden items-center f2-bg text-white px-12 py-3 font-semibold rounded-md shadow-lg " style="clip-path: polygon(87.2% 0%, 98.54% 48.35%, 88.19% 100%, 0% 100%, 7.26% 48.35%, 0% 0%);
 ">
             View All
           </a>
         </div>
-
       </div>
-
     </section>
 
     <!-- Header Section Our Facilities-->
     <div class="container mx-auto relative z-0 md:p-auto ">
       <!-- Facilities Cards -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 md:mt-12 mt-2">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 lg:mt-12 mt-2">
 
         <!-- Card 1 -->
-        <div class="md:block hidden bg-white rounded-3xl shadow-lg">
+        <div class="lg:block hidden bg-white rounded-3xl shadow-lg">
           <!-- Image Section -->
           <div class="bg-white rounded-xl overflow-hidden text-center">
             <img src="./assets/images/gallery/laptop.png" alt="Description" class="w-full object-cover rounded-t-xl">
@@ -824,7 +814,7 @@
         </div>
 
         <!--- Card -2 -->
-        <div class="md:block hidden bg-white rounded-3xl shadow-lg">
+        <div class="lg:block hidden bg-white rounded-3xl shadow-lg">
           <!-- Image Section -->
           <div class="bg-white rounded-xl overflow-hidden text-center">
             <img src="./assets/images/gallery/patient1.png" alt="Description" class="w-full object-cover rounded-t-xl">
@@ -897,7 +887,7 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="md:block hidden bg-white rounded-3xl shadow-lg">
+        <div class="lg:block hidden bg-white rounded-3xl shadow-lg">
           <!-- Image Section -->
           <div class="bg-white rounded-xl overflow-hidden text-center">
             <img src="./assets/images/gallery/patient2.png" alt="Description" class="w-full object-cover rounded-t-xl">
@@ -970,7 +960,7 @@
         </div>
 
         <!-- Card 4 -->
-        <div class="md:block hidden bg-white rounded-3xl shadow-lg">
+        <div class="lg:block hidden bg-white rounded-3xl shadow-lg">
           <!-- Image Section -->
           <div class="bg-white rounded-xl overflow-hidden text-center">
             <img src="./assets/images/gallery/baby.png" alt="Description" class="w-full object-cover rounded-t-xl">
@@ -1043,7 +1033,7 @@
         </div>
 
         <!-- Card 5 -->
-        <div class="md:block hidden bg-white rounded-3xl shadow-lg">
+        <div class="lg:block hidden bg-white rounded-3xl shadow-lg">
           <!-- Image Section -->
           <div class="bg-white rounded-xl overflow-hidden text-center">
             <img src="./assets/images/gallery/toy.png" alt="Description" class="w-full object-cover rounded-t-xl">
@@ -1116,7 +1106,7 @@
         </div>
 
         <!-- Card 6 -->
-        <div class="md:block hidden bg-white rounded-3xl shadow-lg">
+        <div class="lg:block hidden bg-white rounded-3xl shadow-lg">
           <!-- Image Section -->
           <div class="bg-white rounded-xl overflow-hidden text-center">
             <img src="./assets/images/gallery/employee.png" alt="Description" class="w-full object-cover rounded-t-xl">
@@ -1191,7 +1181,7 @@
     </div>
 
     <!-------------------------------------------------------- Small Screen size in slider -->
-    <div class="md:hidden swiper mySwiper1 p-4 mb-2 relative z-20">
+    <div class="lg:hidden swiper mySwiper1 p-4 mb-2 relative z-20">
       <div class="swiper-wrapper">
         <!--- Card -1 -->
         <div class="swiper-slide me-10 px-2">
