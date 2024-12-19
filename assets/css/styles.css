@@ -42,28 +42,6 @@ text-decoration-skip-ink: none;
   transform: translateX(0); /* Visible */
 }
 
-/* ----------Swiper 1 --------- */
-/* Custom styles for Next and Previous buttons */
-.custom-swiper-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: #e4e4e4;
-  padding: 25px;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 10;
-}
-
-
-.swiper-button-next, .swiper-button-prev {
-  display: none; /* Hide default buttons */
-}
-
-.swiper-button-prev:hover, .swiper-button-next:hover {
-  background-color: #918d8d; /* Darker on hover */
-}
-.swiper-button-prev{font-size: 50px;}
 
 
 /* ---------Swiper2 ----------- */
